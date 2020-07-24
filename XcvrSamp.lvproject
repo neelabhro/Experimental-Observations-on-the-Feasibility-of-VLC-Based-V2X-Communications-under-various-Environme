@@ -1,0 +1,1074 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="CD3FA16DCCB6FB6C87C5636A43C7A9EE" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="5.3.2.52480" FeatureSetName="Data" Name="http://www.ni.com/Data" OldestCompatibleVersion="4.5.0.0" Version="4.5.0.49153" />
+		<ParsableNamespace AssemblyFileVersion="5.3.2.52480" FeatureSetName="GComponentFeatureSet" Name="http://www.ni.com/GComponent.xsd" OldestCompatibleVersion="5.2.0.0" Version="5.2.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="5.3.2.52480" FeatureSetName="Common language components" Name="http://www.ni.com/MocCommon" OldestCompatibleVersion="5.2.0.0" Version="5.2.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="5.3.2.52480" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="5.2.0.49153" Version="5.2.0.49153" />
+		<ParsableNamespace AssemblyFileVersion="5.3.2.52480" FeatureSetName="Desktop SystemDesigner Plugin" Name="http://www.ni.com/SystemDesigner/Desktop/SystemModel" OldestCompatibleVersion="5.1.0.0" Version="5.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="5.3.2.52480" FeatureSetName="SystemDesigner" Name="http://www.ni.com/SystemDesigner/EnvoyManagement" OldestCompatibleVersion="5.0.0.0" Version="5.0.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="5.3.2.52480" FeatureSetName="SystemDesigner" Name="http://www.ni.com/SystemDesigner/MetaDiagram" OldestCompatibleVersion="5.0.0.0" Version="5.0.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="5.3.2.52480" FeatureSetName="SystemDesigner" Name="http://www.ni.com/SystemDesigner/SystemDiagram" OldestCompatibleVersion="5.1.0.0" Version="5.1.0.49153" />
+		<ParsableNamespace AssemblyFileVersion="5.3.2.52480" FeatureSetName="SystemDesigner" Name="http://www.ni.com/SystemDesigner/SystemModel" OldestCompatibleVersion="5.0.0.0" Version="5.0.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="5.3.2.52480" FeatureSetName="SystemDesigner" Name="http://www.ni.com/SystemDesigner/SystemModelCore" OldestCompatibleVersion="5.1.0.5" Version="5.2.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="5.3.2.52480" FeatureSetName="VI SystemDesigner Plugin" Name="http://www.ni.com/SystemDesigner/Vi" OldestCompatibleVersion="4.5.0.0" Version="4.5.0.49152" />
+		<ApplicationVersionInfo Build="5.3.2.52480" Name="LabVIEW NXG" Version="2.1.0" />
+	</SourceModelFeatureSet>
+	<Project xmlns="http://www.ni.com/PlatformFramework">
+		<ProjectSettings Id="1" ModelDefinitionType="ProjectSettings" Name="ZProjectSettings" />
+		<EmbeddedDefinitionReference Id="2" ModelDefinitionType="NationalInstruments.ProjectExplorer.Modeling.ProjectDataManager" Name="ProjectExplorer">
+			<ProjectExplorer />
+		</EmbeddedDefinitionReference>
+		<EmbeddedDefinitionReference Id="3" ModelDefinitionType="NationalInstruments.SystemDesigner.SystemDiagram.SystemDiagramDefinition" Name="SystemDiagram">
+			<SystemDiagram Id="4" SystemDiagramVersion="75" xmlns="http://www.ni.com/SystemDesigner/SystemDiagram">
+				<EnvoySuperimpositionContainer Id="5" xmlns="http://www.ni.com/SystemDesigner/EnvoyManagement">
+					<MappingManager Id="6" xmlns="http://www.ni.com/SystemDesigner/SystemModelCore">
+						<Instance Id="4838" Source="{http://www.ni.com/SystemDesigner/Desktop/SystemModel}DevSystem">
+							<Symbols p8:Path="[{http://www.ni.com/SystemDesigner/Desktop/SystemModel}DevSystem]DevSystem" p9:Process.AssociatedIdentifier="4839" xmlns:p9="http://www.ni.com/SystemDesigner/SystemModel" xmlns:p8="http://www.ni.com/Core/Proxy" />
+						</Instance>
+						<Instance Id="1394" Source="{http://www.ni.com/SystemDesigner/Vi}Process.Vi">
+							<Symbols p8:Path="[{http://www.ni.com/SystemDesigner/Vi}Process.Vi]Process.Vi" p9:ShowInDiagram="False" p10:Process.AliasName="Pack.gvi" p10:Process.AssociatedIdentifier="1392" xmlns:p10="http://www.ni.com/SystemDesigner/SystemModel" xmlns:p9="http://www.ni.com/SystemDesigner/MetaDiagram" xmlns:p8="http://www.ni.com/Core/Proxy" />
+						</Instance>
+						<Instance Id="1406" Source="{http://www.ni.com/SystemDesigner/Vi}Process.Vi">
+							<Symbols p8:Path="[{http://www.ni.com/SystemDesigner/Vi}Process.Vi]Process.Vi" p9:ShowInDiagram="False" p10:Process.AliasName="Packet Tx and Rx.gvi" p10:Process.AssociatedIdentifier="1398" xmlns:p10="http://www.ni.com/SystemDesigner/SystemModel" xmlns:p9="http://www.ni.com/SystemDesigner/MetaDiagram" xmlns:p8="http://www.ni.com/Core/Proxy" />
+						</Instance>
+						<Instance Id="1410" Source="{http://www.ni.com/SystemDesigner/Vi}Process.Vi">
+							<Symbols p8:Path="[{http://www.ni.com/SystemDesigner/Vi}Process.Vi]Process.Vi" p9:ShowInDiagram="False" p10:Process.AliasName="Rx Streaming (Host).gvi" p10:Process.AssociatedIdentifier="1400" xmlns:p10="http://www.ni.com/SystemDesigner/SystemModel" xmlns:p9="http://www.ni.com/SystemDesigner/MetaDiagram" xmlns:p8="http://www.ni.com/Core/Proxy" />
+						</Instance>
+						<Instance Id="1414" Source="{http://www.ni.com/SystemDesigner/Vi}Process.Vi">
+							<Symbols p8:Path="[{http://www.ni.com/SystemDesigner/Vi}Process.Vi]Process.Vi" p9:ShowInDiagram="False" p10:Process.AliasName="Tx Streaming (Host).gvi" p10:Process.AssociatedIdentifier="1402" xmlns:p10="http://www.ni.com/SystemDesigner/SystemModel" xmlns:p9="http://www.ni.com/SystemDesigner/MetaDiagram" xmlns:p8="http://www.ni.com/Core/Proxy" />
+						</Instance>
+						<Instance Id="1418" Source="{http://www.ni.com/SystemDesigner/Vi}Process.Vi">
+							<Symbols p8:Path="[{http://www.ni.com/SystemDesigner/Vi}Process.Vi]Process.Vi" p9:ShowInDiagram="False" p10:Process.AliasName="Tx and Rx Streaming (Host).gvi" p10:Process.AssociatedIdentifier="1404" xmlns:p10="http://www.ni.com/SystemDesigner/SystemModel" xmlns:p9="http://www.ni.com/SystemDesigner/MetaDiagram" xmlns:p8="http://www.ni.com/Core/Proxy" />
+						</Instance>
+						<Instance Id="1574" Source="{http://www.ni.com/SystemDesigner/Vi}Process.Vi">
+							<Symbols p8:Path="[{http://www.ni.com/SystemDesigner/Vi}Process.Vi]Process.Vi" p9:ShowInDiagram="False" p10:Process.AliasName="Configure Bitfile.gvi" p10:Process.AssociatedIdentifier="1440" xmlns:p10="http://www.ni.com/SystemDesigner/SystemModel" xmlns:p9="http://www.ni.com/SystemDesigner/MetaDiagram" xmlns:p8="http://www.ni.com/Core/Proxy" />
+						</Instance>
+						<Instance Id="1578" Source="{http://www.ni.com/SystemDesigner/Vi}Process.Vi">
+							<Symbols p8:Path="[{http://www.ni.com/SystemDesigner/Vi}Process.Vi]Process.Vi" p9:ShowInDiagram="False" p10:Process.AliasName="Configure Clocks.gvi" p10:Process.AssociatedIdentifier="1442" xmlns:p10="http://www.ni.com/SystemDesigner/SystemModel" xmlns:p9="http://www.ni.com/SystemDesigner/MetaDiagram" xmlns:p8="http://www.ni.com/Core/Proxy" />
+						</Instance>
+						<Instance Id="1582" Source="{http://www.ni.com/SystemDesigner/Vi}Process.Vi">
+							<Symbols p8:Path="[{http://www.ni.com/SystemDesigner/Vi}Process.Vi]Process.Vi" p9:ShowInDiagram="False" p10:Process.AliasName="Configure Frequency Shift.gvi" p10:Process.AssociatedIdentifier="1444" xmlns:p10="http://www.ni.com/SystemDesigner/SystemModel" xmlns:p9="http://www.ni.com/SystemDesigner/MetaDiagram" xmlns:p8="http://www.ni.com/Core/Proxy" />
+						</Instance>
+						<Instance Id="1586" Source="{http://www.ni.com/SystemDesigner/Vi}Process.Vi">
+							<Symbols p8:Path="[{http://www.ni.com/SystemDesigner/Vi}Process.Vi]Process.Vi" p9:ShowInDiagram="False" p10:Process.AliasName="Configure Frequency.gvi" p10:Process.AssociatedIdentifier="1446" xmlns:p10="http://www.ni.com/SystemDesigner/SystemModel" xmlns:p9="http://www.ni.com/SystemDesigner/MetaDiagram" xmlns:p8="http://www.ni.com/Core/Proxy" />
+						</Instance>
+						<Instance Id="1590" Source="{http://www.ni.com/SystemDesigner/Vi}Process.Vi">
+							<Symbols p8:Path="[{http://www.ni.com/SystemDesigner/Vi}Process.Vi]Process.Vi" p9:ShowInDiagram="False" p10:Process.AliasName="Configure Rx.gvi" p10:Process.AssociatedIdentifier="1448" xmlns:p10="http://www.ni.com/SystemDesigner/SystemModel" xmlns:p9="http://www.ni.com/SystemDesigner/MetaDiagram" xmlns:p8="http://www.ni.com/Core/Proxy" />
+						</Instance>
+						<Instance Id="1594" Source="{http://www.ni.com/SystemDesigner/Vi}Process.Vi">
+							<Symbols p8:Path="[{http://www.ni.com/SystemDesigner/Vi}Process.Vi]Process.Vi" p9:ShowInDiagram="False" p10:Process.AliasName="Configure Signal (Common).gvi" p10:Process.AssociatedIdentifier="1450" xmlns:p10="http://www.ni.com/SystemDesigner/SystemModel" xmlns:p9="http://www.ni.com/SystemDesigner/MetaDiagram" xmlns:p8="http://www.ni.com/Core/Proxy" />
+						</Instance>
+						<Instance Id="1598" Source="{http://www.ni.com/SystemDesigner/Vi}Process.Vi">
+							<Symbols p8:Path="[{http://www.ni.com/SystemDesigner/Vi}Process.Vi]Process.Vi" p9:ShowInDiagram="False" p10:Process.AliasName="Configure Signal (Gain).gvi" p10:Process.AssociatedIdentifier="1452" xmlns:p10="http://www.ni.com/SystemDesigner/SystemModel" xmlns:p9="http://www.ni.com/SystemDesigner/MetaDiagram" xmlns:p8="http://www.ni.com/Core/Proxy" />
+						</Instance>
+						<Instance Id="1602" Source="{http://www.ni.com/SystemDesigner/Vi}Process.Vi">
+							<Symbols p8:Path="[{http://www.ni.com/SystemDesigner/Vi}Process.Vi]Process.Vi" p9:ShowInDiagram="False" p10:Process.AliasName="Configure Signal (Level).gvi" p10:Process.AssociatedIdentifier="1454" xmlns:p10="http://www.ni.com/SystemDesigner/SystemModel" xmlns:p9="http://www.ni.com/SystemDesigner/MetaDiagram" xmlns:p8="http://www.ni.com/Core/Proxy" />
+						</Instance>
+						<Instance Id="1606" Source="{http://www.ni.com/SystemDesigner/Vi}Process.Vi">
+							<Symbols p8:Path="[{http://www.ni.com/SystemDesigner/Vi}Process.Vi]Process.Vi" p9:ShowInDiagram="False" p10:Process.AliasName="Configure Start Trigger.gvi" p10:Process.AssociatedIdentifier="1460" xmlns:p10="http://www.ni.com/SystemDesigner/SystemModel" xmlns:p9="http://www.ni.com/SystemDesigner/MetaDiagram" xmlns:p8="http://www.ni.com/Core/Proxy" />
+						</Instance>
+						<Instance Id="1610" Source="{http://www.ni.com/SystemDesigner/Vi}Process.Vi">
+							<Symbols p8:Path="[{http://www.ni.com/SystemDesigner/Vi}Process.Vi]Process.Vi" p9:ShowInDiagram="False" p10:Process.AliasName="Configure Stream.gvi" p10:Process.AssociatedIdentifier="1462" xmlns:p10="http://www.ni.com/SystemDesigner/SystemModel" xmlns:p9="http://www.ni.com/SystemDesigner/MetaDiagram" xmlns:p8="http://www.ni.com/Core/Proxy" />
+						</Instance>
+						<Instance Id="1614" Source="{http://www.ni.com/SystemDesigner/Vi}Process.Vi">
+							<Symbols p8:Path="[{http://www.ni.com/SystemDesigner/Vi}Process.Vi]Process.Vi" p9:ShowInDiagram="False" p10:Process.AliasName="Configure Synchronization.gvi" p10:Process.AssociatedIdentifier="1464" xmlns:p10="http://www.ni.com/SystemDesigner/SystemModel" xmlns:p9="http://www.ni.com/SystemDesigner/MetaDiagram" xmlns:p8="http://www.ni.com/Core/Proxy" />
+						</Instance>
+						<Instance Id="1618" Source="{http://www.ni.com/SystemDesigner/Vi}Process.Vi">
+							<Symbols p8:Path="[{http://www.ni.com/SystemDesigner/Vi}Process.Vi]Process.Vi" p9:ShowInDiagram="False" p10:Process.AliasName="Configure Time (Multi).gvi" p10:Process.AssociatedIdentifier="1466" xmlns:p10="http://www.ni.com/SystemDesigner/SystemModel" xmlns:p9="http://www.ni.com/SystemDesigner/MetaDiagram" xmlns:p8="http://www.ni.com/Core/Proxy" />
+						</Instance>
+						<Instance Id="1622" Source="{http://www.ni.com/SystemDesigner/Vi}Process.Vi">
+							<Symbols p8:Path="[{http://www.ni.com/SystemDesigner/Vi}Process.Vi]Process.Vi" p9:ShowInDiagram="False" p10:Process.AliasName="Configure Time (Single).gvi" p10:Process.AssociatedIdentifier="1468" xmlns:p10="http://www.ni.com/SystemDesigner/SystemModel" xmlns:p9="http://www.ni.com/SystemDesigner/MetaDiagram" xmlns:p8="http://www.ni.com/Core/Proxy" />
+						</Instance>
+						<Instance Id="1626" Source="{http://www.ni.com/SystemDesigner/Vi}Process.Vi">
+							<Symbols p8:Path="[{http://www.ni.com/SystemDesigner/Vi}Process.Vi]Process.Vi" p9:ShowInDiagram="False" p10:Process.AliasName="Configure Trigger Synchronization.gvi" p10:Process.AssociatedIdentifier="1470" xmlns:p10="http://www.ni.com/SystemDesigner/SystemModel" xmlns:p9="http://www.ni.com/SystemDesigner/MetaDiagram" xmlns:p8="http://www.ni.com/Core/Proxy" />
+						</Instance>
+						<Instance Id="1630" Source="{http://www.ni.com/SystemDesigner/Vi}Process.Vi">
+							<Symbols p8:Path="[{http://www.ni.com/SystemDesigner/Vi}Process.Vi]Process.Vi" p9:ShowInDiagram="False" p10:Process.AliasName="Configure Tx.gvi" p10:Process.AssociatedIdentifier="1472" xmlns:p10="http://www.ni.com/SystemDesigner/SystemModel" xmlns:p9="http://www.ni.com/SystemDesigner/MetaDiagram" xmlns:p8="http://www.ni.com/Core/Proxy" />
+						</Instance>
+						<Instance Id="1634" Source="{http://www.ni.com/SystemDesigner/Vi}Process.Vi">
+							<Symbols p8:Path="[{http://www.ni.com/SystemDesigner/Vi}Process.Vi]Process.Vi" p9:ShowInDiagram="False" p10:Process.AliasName="Construct Channels.gvi" p10:Process.AssociatedIdentifier="1474" xmlns:p10="http://www.ni.com/SystemDesigner/SystemModel" xmlns:p9="http://www.ni.com/SystemDesigner/MetaDiagram" xmlns:p8="http://www.ni.com/Core/Proxy" />
+						</Instance>
+						<Instance Id="1638" Source="{http://www.ni.com/SystemDesigner/Vi}Process.Vi">
+							<Symbols p8:Path="[{http://www.ni.com/SystemDesigner/Vi}Process.Vi]Process.Vi" p9:ShowInDiagram="False" p10:Process.AliasName="Fetch Rx Data (CDB WDT).gvi" p10:Process.AssociatedIdentifier="1476" xmlns:p10="http://www.ni.com/SystemDesigner/SystemModel" xmlns:p9="http://www.ni.com/SystemDesigner/MetaDiagram" xmlns:p8="http://www.ni.com/Core/Proxy" />
+						</Instance>
+						<Instance Id="1642" Source="{http://www.ni.com/SystemDesigner/Vi}Process.Vi">
+							<Symbols p8:Path="[{http://www.ni.com/SystemDesigner/Vi}Process.Vi]Process.Vi" p9:ShowInDiagram="False" p10:Process.AliasName="Fetch Rx Data (CDB).gvi" p10:Process.AssociatedIdentifier="1478" xmlns:p10="http://www.ni.com/SystemDesigner/SystemModel" xmlns:p9="http://www.ni.com/SystemDesigner/MetaDiagram" xmlns:p8="http://www.ni.com/Core/Proxy" />
+						</Instance>
+						<Instance Id="1646" Source="{http://www.ni.com/SystemDesigner/Vi}Process.Vi">
+							<Symbols p8:Path="[{http://www.ni.com/SystemDesigner/Vi}Process.Vi]Process.Vi" p9:ShowInDiagram="False" p10:Process.AliasName="Fetch Rx Data (I16 multi).gvi" p10:Process.AssociatedIdentifier="1480" xmlns:p10="http://www.ni.com/SystemDesigner/SystemModel" xmlns:p9="http://www.ni.com/SystemDesigner/MetaDiagram" xmlns:p8="http://www.ni.com/Core/Proxy" />
+						</Instance>
+						<Instance Id="1650" Source="{http://www.ni.com/SystemDesigner/Vi}Process.Vi">
+							<Symbols p8:Path="[{http://www.ni.com/SystemDesigner/Vi}Process.Vi]Process.Vi" p9:ShowInDiagram="False" p10:Process.AliasName="Fetch Rx Data (I16).gvi" p10:Process.AssociatedIdentifier="1482" xmlns:p10="http://www.ni.com/SystemDesigner/SystemModel" xmlns:p9="http://www.ni.com/SystemDesigner/MetaDiagram" xmlns:p8="http://www.ni.com/Core/Proxy" />
+						</Instance>
+						<Instance Id="1654" Source="{http://www.ni.com/SystemDesigner/Vi}Process.Vi">
+							<Symbols p8:Path="[{http://www.ni.com/SystemDesigner/Vi}Process.Vi]Process.Vi" p9:ShowInDiagram="False" p10:Process.AliasName="Fetch Rx Data (U32).gvi" p10:Process.AssociatedIdentifier="1484" xmlns:p10="http://www.ni.com/SystemDesigner/SystemModel" xmlns:p9="http://www.ni.com/SystemDesigner/MetaDiagram" xmlns:p8="http://www.ni.com/Core/Proxy" />
+						</Instance>
+						<Instance Id="1658" Source="{http://www.ni.com/SystemDesigner/Vi}Process.Vi">
+							<Symbols p8:Path="[{http://www.ni.com/SystemDesigner/Vi}Process.Vi]Process.Vi" p9:ShowInDiagram="False" p10:Process.AliasName="Generate Waveform (Interleaved).gvi" p10:Process.AssociatedIdentifier="1486" xmlns:p10="http://www.ni.com/SystemDesigner/SystemModel" xmlns:p9="http://www.ni.com/SystemDesigner/MetaDiagram" xmlns:p8="http://www.ni.com/Core/Proxy" />
+						</Instance>
+						<Instance Id="1662" Source="{http://www.ni.com/SystemDesigner/Vi}Process.Vi">
+							<Symbols p8:Path="[{http://www.ni.com/SystemDesigner/Vi}Process.Vi]Process.Vi" p9:ShowInDiagram="False" p10:Process.AliasName="Generate Waveform (Multi-Array).gvi" p10:Process.AssociatedIdentifier="1488" xmlns:p10="http://www.ni.com/SystemDesigner/SystemModel" xmlns:p9="http://www.ni.com/SystemDesigner/MetaDiagram" xmlns:p8="http://www.ni.com/Core/Proxy" />
+						</Instance>
+						<Instance Id="1666" Source="{http://www.ni.com/SystemDesigner/Vi}Process.Vi">
+							<Symbols p8:Path="[{http://www.ni.com/SystemDesigner/Vi}Process.Vi]Process.Vi" p9:ShowInDiagram="False" p10:Process.AliasName="Initiate Stream.gvi" p10:Process.AssociatedIdentifier="1490" xmlns:p10="http://www.ni.com/SystemDesigner/SystemModel" xmlns:p9="http://www.ni.com/SystemDesigner/MetaDiagram" xmlns:p8="http://www.ni.com/Core/Proxy" />
+						</Instance>
+						<Instance Id="1670" Source="{http://www.ni.com/SystemDesigner/Vi}Process.Vi">
+							<Symbols p8:Path="[{http://www.ni.com/SystemDesigner/Vi}Process.Vi]Process.Vi" p9:ShowInDiagram="False" p10:Process.AliasName="Initiate and Fetch (Multi).gvi" p10:Process.AssociatedIdentifier="1492" xmlns:p10="http://www.ni.com/SystemDesigner/SystemModel" xmlns:p9="http://www.ni.com/SystemDesigner/MetaDiagram" xmlns:p8="http://www.ni.com/Core/Proxy" />
+						</Instance>
+						<Instance Id="1674" Source="{http://www.ni.com/SystemDesigner/Vi}Process.Vi">
+							<Symbols p8:Path="[{http://www.ni.com/SystemDesigner/Vi}Process.Vi]Process.Vi" p9:ShowInDiagram="False" p10:Process.AliasName="Initiate and Fetch (Single).gvi" p10:Process.AssociatedIdentifier="1494" xmlns:p10="http://www.ni.com/SystemDesigner/SystemModel" xmlns:p9="http://www.ni.com/SystemDesigner/MetaDiagram" xmlns:p8="http://www.ni.com/Core/Proxy" />
+						</Instance>
+						<Instance Id="1678" Source="{http://www.ni.com/SystemDesigner/Vi}Process.Vi">
+							<Symbols p8:Path="[{http://www.ni.com/SystemDesigner/Vi}Process.Vi]Process.Vi" p9:ShowInDiagram="False" p10:Process.AliasName="Initiate and Fetch Time (Multi).gvi" p10:Process.AssociatedIdentifier="1496" xmlns:p10="http://www.ni.com/SystemDesigner/SystemModel" xmlns:p9="http://www.ni.com/SystemDesigner/MetaDiagram" xmlns:p8="http://www.ni.com/Core/Proxy" />
+						</Instance>
+						<Instance Id="1682" Source="{http://www.ni.com/SystemDesigner/Vi}Process.Vi">
+							<Symbols p8:Path="[{http://www.ni.com/SystemDesigner/Vi}Process.Vi]Process.Vi" p9:ShowInDiagram="False" p10:Process.AliasName="Initiate and Fetch Time (Single).gvi" p10:Process.AssociatedIdentifier="1498" xmlns:p10="http://www.ni.com/SystemDesigner/SystemModel" xmlns:p9="http://www.ni.com/SystemDesigner/MetaDiagram" xmlns:p8="http://www.ni.com/Core/Proxy" />
+						</Instance>
+						<Instance Id="1686" Source="{http://www.ni.com/SystemDesigner/Vi}Process.Vi">
+							<Symbols p8:Path="[{http://www.ni.com/SystemDesigner/Vi}Process.Vi]Process.Vi" p9:ShowInDiagram="False" p10:Process.AliasName="Initiate and Generate (Multi).gvi" p10:Process.AssociatedIdentifier="1500" xmlns:p10="http://www.ni.com/SystemDesigner/SystemModel" xmlns:p9="http://www.ni.com/SystemDesigner/MetaDiagram" xmlns:p8="http://www.ni.com/Core/Proxy" />
+						</Instance>
+						<Instance Id="1690" Source="{http://www.ni.com/SystemDesigner/Vi}Process.Vi">
+							<Symbols p8:Path="[{http://www.ni.com/SystemDesigner/Vi}Process.Vi]Process.Vi" p9:ShowInDiagram="False" p10:Process.AliasName="Initiate and Generate (Single).gvi" p10:Process.AssociatedIdentifier="1502" xmlns:p10="http://www.ni.com/SystemDesigner/SystemModel" xmlns:p9="http://www.ni.com/SystemDesigner/MetaDiagram" xmlns:p8="http://www.ni.com/Core/Proxy" />
+						</Instance>
+						<Instance Id="1694" Source="{http://www.ni.com/SystemDesigner/Vi}Process.Vi">
+							<Symbols p8:Path="[{http://www.ni.com/SystemDesigner/Vi}Process.Vi]Process.Vi" p9:ShowInDiagram="False" p10:Process.AliasName="Initiate and Generate Time (Multi).gvi" p10:Process.AssociatedIdentifier="1504" xmlns:p10="http://www.ni.com/SystemDesigner/SystemModel" xmlns:p9="http://www.ni.com/SystemDesigner/MetaDiagram" xmlns:p8="http://www.ni.com/Core/Proxy" />
+						</Instance>
+						<Instance Id="1698" Source="{http://www.ni.com/SystemDesigner/Vi}Process.Vi">
+							<Symbols p8:Path="[{http://www.ni.com/SystemDesigner/Vi}Process.Vi]Process.Vi" p9:ShowInDiagram="False" p10:Process.AliasName="Initiate and Generate Time (Single).gvi" p10:Process.AssociatedIdentifier="1506" xmlns:p10="http://www.ni.com/SystemDesigner/SystemModel" xmlns:p9="http://www.ni.com/SystemDesigner/MetaDiagram" xmlns:p8="http://www.ni.com/Core/Proxy" />
+						</Instance>
+						<Instance Id="1702" Source="{http://www.ni.com/SystemDesigner/Vi}Process.Vi">
+							<Symbols p8:Path="[{http://www.ni.com/SystemDesigner/Vi}Process.Vi]Process.Vi" p9:ShowInDiagram="False" p10:Process.AliasName="Initiate and Trigger.gvi" p10:Process.AssociatedIdentifier="1508" xmlns:p10="http://www.ni.com/SystemDesigner/SystemModel" xmlns:p9="http://www.ni.com/SystemDesigner/MetaDiagram" xmlns:p8="http://www.ni.com/Core/Proxy" />
+						</Instance>
+						<Instance Id="1706" Source="{http://www.ni.com/SystemDesigner/Vi}Process.Vi">
+							<Symbols p8:Path="[{http://www.ni.com/SystemDesigner/Vi}Process.Vi]Process.Vi" p9:ShowInDiagram="False" p10:Process.AliasName="Lock to GPS.gvi" p10:Process.AssociatedIdentifier="1510" xmlns:p10="http://www.ni.com/SystemDesigner/SystemModel" xmlns:p9="http://www.ni.com/SystemDesigner/MetaDiagram" xmlns:p8="http://www.ni.com/Core/Proxy" />
+						</Instance>
+						<Instance Id="1710" Source="{http://www.ni.com/SystemDesigner/Vi}Process.Vi">
+							<Symbols p8:Path="[{http://www.ni.com/SystemDesigner/Vi}Process.Vi]Process.Vi" p9:ShowInDiagram="False" p10:Process.AliasName="Open Device.gvi" p10:Process.AssociatedIdentifier="1512" xmlns:p10="http://www.ni.com/SystemDesigner/SystemModel" xmlns:p9="http://www.ni.com/SystemDesigner/MetaDiagram" xmlns:p8="http://www.ni.com/Core/Proxy" />
+						</Instance>
+						<Instance Id="1714" Source="{http://www.ni.com/SystemDesigner/Vi}Process.Vi">
+							<Symbols p8:Path="[{http://www.ni.com/SystemDesigner/Vi}Process.Vi]Process.Vi" p9:ShowInDiagram="False" p10:Process.AliasName="Open and Configure Device.gvi" p10:Process.AssociatedIdentifier="1514" xmlns:p10="http://www.ni.com/SystemDesigner/SystemModel" xmlns:p9="http://www.ni.com/SystemDesigner/MetaDiagram" xmlns:p8="http://www.ni.com/Core/Proxy" />
+						</Instance>
+						<Instance Id="1718" Source="{http://www.ni.com/SystemDesigner/Vi}Process.Vi">
+							<Symbols p8:Path="[{http://www.ni.com/SystemDesigner/Vi}Process.Vi]Process.Vi" p9:ShowInDiagram="False" p10:Process.AliasName="Restore Rx IQ Offset Correction Data from File.gvi" p10:Process.AssociatedIdentifier="1516" xmlns:p10="http://www.ni.com/SystemDesigner/SystemModel" xmlns:p9="http://www.ni.com/SystemDesigner/MetaDiagram" xmlns:p8="http://www.ni.com/Core/Proxy" />
+						</Instance>
+						<Instance Id="1722" Source="{http://www.ni.com/SystemDesigner/Vi}Process.Vi">
+							<Symbols p8:Path="[{http://www.ni.com/SystemDesigner/Vi}Process.Vi]Process.Vi" p9:ShowInDiagram="False" p10:Process.AliasName="Scale IQ Data.gvi" p10:Process.AssociatedIdentifier="1518" xmlns:p10="http://www.ni.com/SystemDesigner/SystemModel" xmlns:p9="http://www.ni.com/SystemDesigner/MetaDiagram" xmlns:p8="http://www.ni.com/Core/Proxy" />
+						</Instance>
+						<Instance Id="1726" Source="{http://www.ni.com/SystemDesigner/Vi}Process.Vi">
+							<Symbols p8:Path="[{http://www.ni.com/SystemDesigner/Vi}Process.Vi]Process.Vi" p9:ShowInDiagram="False" p10:Process.AliasName="Self Correct Rx IQ Offset.gvi" p10:Process.AssociatedIdentifier="1520" xmlns:p10="http://www.ni.com/SystemDesigner/SystemModel" xmlns:p9="http://www.ni.com/SystemDesigner/MetaDiagram" xmlns:p8="http://www.ni.com/Core/Proxy" />
+						</Instance>
+						<Instance Id="1730" Source="{http://www.ni.com/SystemDesigner/Vi}Process.Vi">
+							<Symbols p8:Path="[{http://www.ni.com/SystemDesigner/Vi}Process.Vi]Process.Vi" p9:ShowInDiagram="False" p10:Process.AliasName="Self Measure Rx IQ Offset.gvi" p10:Process.AssociatedIdentifier="1522" xmlns:p10="http://www.ni.com/SystemDesigner/SystemModel" xmlns:p9="http://www.ni.com/SystemDesigner/MetaDiagram" xmlns:p8="http://www.ni.com/Core/Proxy" />
+						</Instance>
+						<Instance Id="1734" Source="{http://www.ni.com/SystemDesigner/Vi}Process.Vi">
+							<Symbols p8:Path="[{http://www.ni.com/SystemDesigner/Vi}Process.Vi]Process.Vi" p9:ShowInDiagram="False" p10:Process.AliasName="Send Software Start Trigger.gvi" p10:Process.AssociatedIdentifier="1524" xmlns:p10="http://www.ni.com/SystemDesigner/SystemModel" xmlns:p9="http://www.ni.com/SystemDesigner/MetaDiagram" xmlns:p8="http://www.ni.com/Core/Proxy" />
+						</Instance>
+						<Instance Id="1738" Source="{http://www.ni.com/SystemDesigner/Vi}Process.Vi">
+							<Symbols p8:Path="[{http://www.ni.com/SystemDesigner/Vi}Process.Vi]Process.Vi" p9:ShowInDiagram="False" p10:Process.AliasName="Trigger Time.gvi" p10:Process.AssociatedIdentifier="1530" xmlns:p10="http://www.ni.com/SystemDesigner/SystemModel" xmlns:p9="http://www.ni.com/SystemDesigner/MetaDiagram" xmlns:p8="http://www.ni.com/Core/Proxy" />
+						</Instance>
+						<Instance Id="1742" Source="{http://www.ni.com/SystemDesigner/Vi}Process.Vi">
+							<Symbols p8:Path="[{http://www.ni.com/SystemDesigner/Vi}Process.Vi]Process.Vi" p9:ShowInDiagram="False" p10:Process.AliasName="Write Tx Data (CDB WDT).gvi" p10:Process.AssociatedIdentifier="1532" xmlns:p10="http://www.ni.com/SystemDesigner/SystemModel" xmlns:p9="http://www.ni.com/SystemDesigner/MetaDiagram" xmlns:p8="http://www.ni.com/Core/Proxy" />
+						</Instance>
+						<Instance Id="1746" Source="{http://www.ni.com/SystemDesigner/Vi}Process.Vi">
+							<Symbols p8:Path="[{http://www.ni.com/SystemDesigner/Vi}Process.Vi]Process.Vi" p9:ShowInDiagram="False" p10:Process.AliasName="Write Tx Data (CDB).gvi" p10:Process.AssociatedIdentifier="1534" xmlns:p10="http://www.ni.com/SystemDesigner/SystemModel" xmlns:p9="http://www.ni.com/SystemDesigner/MetaDiagram" xmlns:p8="http://www.ni.com/Core/Proxy" />
+						</Instance>
+						<Instance Id="1750" Source="{http://www.ni.com/SystemDesigner/Vi}Process.Vi">
+							<Symbols p8:Path="[{http://www.ni.com/SystemDesigner/Vi}Process.Vi]Process.Vi" p9:ShowInDiagram="False" p10:Process.AliasName="Write Tx Data (I16 multi).gvi" p10:Process.AssociatedIdentifier="1536" xmlns:p10="http://www.ni.com/SystemDesigner/SystemModel" xmlns:p9="http://www.ni.com/SystemDesigner/MetaDiagram" xmlns:p8="http://www.ni.com/Core/Proxy" />
+						</Instance>
+						<Instance Id="1754" Source="{http://www.ni.com/SystemDesigner/Vi}Process.Vi">
+							<Symbols p8:Path="[{http://www.ni.com/SystemDesigner/Vi}Process.Vi]Process.Vi" p9:ShowInDiagram="False" p10:Process.AliasName="Write Tx Data (I16).gvi" p10:Process.AssociatedIdentifier="1538" xmlns:p10="http://www.ni.com/SystemDesigner/SystemModel" xmlns:p9="http://www.ni.com/SystemDesigner/MetaDiagram" xmlns:p8="http://www.ni.com/Core/Proxy" />
+						</Instance>
+						<Instance Id="1758" Source="{http://www.ni.com/SystemDesigner/Vi}Process.Vi">
+							<Symbols p8:Path="[{http://www.ni.com/SystemDesigner/Vi}Process.Vi]Process.Vi" p9:ShowInDiagram="False" p10:Process.AliasName="Write Tx Data (U32).gvi" p10:Process.AssociatedIdentifier="1540" xmlns:p10="http://www.ni.com/SystemDesigner/SystemModel" xmlns:p9="http://www.ni.com/SystemDesigner/MetaDiagram" xmlns:p8="http://www.ni.com/Core/Proxy" />
+						</Instance>
+						<Instance Id="1764" Source="{http://www.ni.com/SystemDesigner/Vi}Process.Vi">
+							<Symbols p8:Path="[{http://www.ni.com/SystemDesigner/Vi}Process.Vi]Process.Vi" p9:ShowInDiagram="False" p10:Process.AliasName="Xcvr Sim.gvi" p10:Process.AssociatedIdentifier="1762" xmlns:p10="http://www.ni.com/SystemDesigner/SystemModel" xmlns:p9="http://www.ni.com/SystemDesigner/MetaDiagram" xmlns:p8="http://www.ni.com/Core/Proxy" />
+						</Instance>
+						<Instance Id="1780" Source="{http://www.ni.com/SystemDesigner/Vi}Process.Vi">
+							<Symbols p8:Path="[{http://www.ni.com/SystemDesigner/Vi}Process.Vi]Process.Vi" p9:ShowInDiagram="False" p10:Process.AliasName="Bits To Packets.gvi" p10:Process.AssociatedIdentifier="1768" xmlns:p10="http://www.ni.com/SystemDesigner/SystemModel" xmlns:p9="http://www.ni.com/SystemDesigner/MetaDiagram" xmlns:p8="http://www.ni.com/Core/Proxy" />
+						</Instance>
+						<Instance Id="1784" Source="{http://www.ni.com/SystemDesigner/Vi}Process.Vi">
+							<Symbols p8:Path="[{http://www.ni.com/SystemDesigner/Vi}Process.Vi]Process.Vi" p9:ShowInDiagram="False" p10:Process.AliasName="Frame Sync.gvi" p10:Process.AssociatedIdentifier="1770" xmlns:p10="http://www.ni.com/SystemDesigner/SystemModel" xmlns:p9="http://www.ni.com/SystemDesigner/MetaDiagram" xmlns:p8="http://www.ni.com/Core/Proxy" />
+						</Instance>
+						<Instance Id="1788" Source="{http://www.ni.com/SystemDesigner/Vi}Process.Vi">
+							<Symbols p8:Path="[{http://www.ni.com/SystemDesigner/Vi}Process.Vi]Process.Vi" p9:ShowInDiagram="False" p10:Process.AliasName="Pulse Shaping.gvi" p10:Process.AssociatedIdentifier="1772" xmlns:p10="http://www.ni.com/SystemDesigner/SystemModel" xmlns:p9="http://www.ni.com/SystemDesigner/MetaDiagram" xmlns:p8="http://www.ni.com/Core/Proxy" />
+						</Instance>
+						<Instance Id="1792" Source="{http://www.ni.com/SystemDesigner/Vi}Process.Vi">
+							<Symbols p8:Path="[{http://www.ni.com/SystemDesigner/Vi}Process.Vi]Process.Vi" p9:ShowInDiagram="False" p10:Process.AliasName="String to bits.gvi" p10:Process.AssociatedIdentifier="1774" xmlns:p10="http://www.ni.com/SystemDesigner/SystemModel" xmlns:p9="http://www.ni.com/SystemDesigner/MetaDiagram" xmlns:p8="http://www.ni.com/Core/Proxy" />
+						</Instance>
+						<Instance Id="1796" Source="{http://www.ni.com/SystemDesigner/Vi}Process.Vi">
+							<Symbols p8:Path="[{http://www.ni.com/SystemDesigner/Vi}Process.Vi]Process.Vi" p9:ShowInDiagram="False" p10:Process.AliasName="Symbol Mapping.gvi" p10:Process.AssociatedIdentifier="1776" xmlns:p10="http://www.ni.com/SystemDesigner/SystemModel" xmlns:p9="http://www.ni.com/SystemDesigner/MetaDiagram" xmlns:p8="http://www.ni.com/Core/Proxy" />
+						</Instance>
+						<Instance Id="1800" Source="{http://www.ni.com/SystemDesigner/Vi}Process.Vi">
+							<Symbols p8:Path="[{http://www.ni.com/SystemDesigner/Vi}Process.Vi]Process.Vi" p9:ShowInDiagram="False" p10:Process.AliasName="Symbol Offset.gvi" p10:Process.AssociatedIdentifier="1778" xmlns:p10="http://www.ni.com/SystemDesigner/SystemModel" xmlns:p9="http://www.ni.com/SystemDesigner/MetaDiagram" xmlns:p8="http://www.ni.com/Core/Proxy" />
+						</Instance>
+						<Instance Id="1820" Source="{http://www.ni.com/SystemDesigner/Vi}Process.Vi">
+							<Symbols p8:Path="[{http://www.ni.com/SystemDesigner/Vi}Process.Vi]Process.Vi" p9:ShowInDiagram="False" p10:Process.AliasName="Bits to String.gvi" p10:Process.AssociatedIdentifier="1804" xmlns:p10="http://www.ni.com/SystemDesigner/SystemModel" xmlns:p9="http://www.ni.com/SystemDesigner/MetaDiagram" xmlns:p8="http://www.ni.com/Core/Proxy" />
+						</Instance>
+						<Instance Id="1824" Source="{http://www.ni.com/SystemDesigner/Vi}Process.Vi">
+							<Symbols p8:Path="[{http://www.ni.com/SystemDesigner/Vi}Process.Vi]Process.Vi" p9:ShowInDiagram="False" p10:Process.AliasName="Equalizer.gvi" p10:Process.AssociatedIdentifier="1806" xmlns:p10="http://www.ni.com/SystemDesigner/SystemModel" xmlns:p9="http://www.ni.com/SystemDesigner/MetaDiagram" xmlns:p8="http://www.ni.com/Core/Proxy" />
+						</Instance>
+						<Instance Id="1828" Source="{http://www.ni.com/SystemDesigner/Vi}Process.Vi">
+							<Symbols p8:Path="[{http://www.ni.com/SystemDesigner/Vi}Process.Vi]Process.Vi" p9:ShowInDiagram="False" p10:Process.AliasName="Extract First Frame Indices.gvi" p10:Process.AssociatedIdentifier="1808" xmlns:p10="http://www.ni.com/SystemDesigner/SystemModel" xmlns:p9="http://www.ni.com/SystemDesigner/MetaDiagram" xmlns:p8="http://www.ni.com/Core/Proxy" />
+						</Instance>
+						<Instance Id="1832" Source="{http://www.ni.com/SystemDesigner/Vi}Process.Vi">
+							<Symbols p8:Path="[{http://www.ni.com/SystemDesigner/Vi}Process.Vi]Process.Vi" p9:ShowInDiagram="False" p10:Process.AliasName="Generate Scaled IQ Data.gvi" p10:Process.AssociatedIdentifier="1810" xmlns:p10="http://www.ni.com/SystemDesigner/SystemModel" xmlns:p9="http://www.ni.com/SystemDesigner/MetaDiagram" xmlns:p8="http://www.ni.com/Core/Proxy" />
+						</Instance>
+						<Instance Id="1836" Source="{http://www.ni.com/SystemDesigner/Vi}Process.Vi">
+							<Symbols p8:Path="[{http://www.ni.com/SystemDesigner/Vi}Process.Vi]Process.Vi" p9:ShowInDiagram="False" p10:Process.AliasName="Generate Sync Bits.gvi" p10:Process.AssociatedIdentifier="1812" xmlns:p10="http://www.ni.com/SystemDesigner/SystemModel" xmlns:p9="http://www.ni.com/SystemDesigner/MetaDiagram" xmlns:p8="http://www.ni.com/Core/Proxy" />
+						</Instance>
+						<Instance Id="1840" Source="{http://www.ni.com/SystemDesigner/Vi}Process.Vi">
+							<Symbols p8:Path="[{http://www.ni.com/SystemDesigner/Vi}Process.Vi]Process.Vi" p9:ShowInDiagram="False" p10:Process.AliasName="IQ Extract Frame.gvi" p10:Process.AssociatedIdentifier="1814" xmlns:p10="http://www.ni.com/SystemDesigner/SystemModel" xmlns:p9="http://www.ni.com/SystemDesigner/MetaDiagram" xmlns:p8="http://www.ni.com/Core/Proxy" />
+						</Instance>
+						<Instance Id="1844" Source="{http://www.ni.com/SystemDesigner/Vi}Process.Vi">
+							<Symbols p8:Path="[{http://www.ni.com/SystemDesigner/Vi}Process.Vi]Process.Vi" p9:ShowInDiagram="False" p10:Process.AliasName="Inter Packet Gap.gvi" p10:Process.AssociatedIdentifier="1816" xmlns:p10="http://www.ni.com/SystemDesigner/SystemModel" xmlns:p9="http://www.ni.com/SystemDesigner/MetaDiagram" xmlns:p8="http://www.ni.com/Core/Proxy" />
+						</Instance>
+						<Instance Id="1848" Source="{http://www.ni.com/SystemDesigner/Vi}Process.Vi">
+							<Symbols p8:Path="[{http://www.ni.com/SystemDesigner/Vi}Process.Vi]Process.Vi" p9:ShowInDiagram="False" p10:Process.AliasName="Matched Filter.gvi" p10:Process.AssociatedIdentifier="1818" xmlns:p10="http://www.ni.com/SystemDesigner/SystemModel" xmlns:p9="http://www.ni.com/SystemDesigner/MetaDiagram" xmlns:p8="http://www.ni.com/Core/Proxy" />
+						</Instance>
+						<Instance Id="1542" Source="{http://www.ni.com/SystemDesigner/Vi}Process.Vi">
+							<Symbols p8:Path="[{http://www.ni.com/SystemDesigner/Vi}Process.Vi]Process.Vi" p9:ShowInDiagram="False" p10:Process.AliasName="Abort Stream.gvi" p10:Process.AssociatedIdentifier="1424" xmlns:p10="http://www.ni.com/SystemDesigner/SystemModel" xmlns:p9="http://www.ni.com/SystemDesigner/MetaDiagram" xmlns:p8="http://www.ni.com/Core/Proxy" />
+						</Instance>
+						<Instance Id="1546" Source="{http://www.ni.com/SystemDesigner/Vi}Process.Vi">
+							<Symbols p8:Path="[{http://www.ni.com/SystemDesigner/Vi}Process.Vi]Process.Vi" p9:ShowInDiagram="False" p10:Process.AliasName="Backup and Self Correct Rx Offset.gvi" p10:Process.AssociatedIdentifier="1426" xmlns:p10="http://www.ni.com/SystemDesigner/SystemModel" xmlns:p9="http://www.ni.com/SystemDesigner/MetaDiagram" xmlns:p8="http://www.ni.com/Core/Proxy" />
+						</Instance>
+						<Instance Id="1550" Source="{http://www.ni.com/SystemDesigner/Vi}Process.Vi">
+							<Symbols p8:Path="[{http://www.ni.com/SystemDesigner/Vi}Process.Vi]Process.Vi" p9:ShowInDiagram="False" p10:Process.AliasName="Calculate IQ Power Level.gvi" p10:Process.AssociatedIdentifier="1428" xmlns:p10="http://www.ni.com/SystemDesigner/SystemModel" xmlns:p9="http://www.ni.com/SystemDesigner/MetaDiagram" xmlns:p8="http://www.ni.com/Core/Proxy" />
+						</Instance>
+						<Instance Id="1554" Source="{http://www.ni.com/SystemDesigner/Vi}Process.Vi">
+							<Symbols p8:Path="[{http://www.ni.com/SystemDesigner/Vi}Process.Vi]Process.Vi" p9:ShowInDiagram="False" p10:Process.AliasName="Calculate Power Spectrum.gvi" p10:Process.AssociatedIdentifier="1430" xmlns:p10="http://www.ni.com/SystemDesigner/SystemModel" xmlns:p9="http://www.ni.com/SystemDesigner/MetaDiagram" xmlns:p8="http://www.ni.com/Core/Proxy" />
+						</Instance>
+						<Instance Id="1558" Source="{http://www.ni.com/SystemDesigner/Vi}Process.Vi">
+							<Symbols p8:Path="[{http://www.ni.com/SystemDesigner/Vi}Process.Vi]Process.Vi" p9:ShowInDiagram="False" p10:Process.AliasName="Calculate Power.gvi" p10:Process.AssociatedIdentifier="1432" xmlns:p10="http://www.ni.com/SystemDesigner/SystemModel" xmlns:p9="http://www.ni.com/SystemDesigner/MetaDiagram" xmlns:p8="http://www.ni.com/Core/Proxy" />
+						</Instance>
+						<Instance Id="1562" Source="{http://www.ni.com/SystemDesigner/Vi}Process.Vi">
+							<Symbols p8:Path="[{http://www.ni.com/SystemDesigner/Vi}Process.Vi]Process.Vi" p9:ShowInDiagram="False" p10:Process.AliasName="Calculate Sample Rate.gvi" p10:Process.AssociatedIdentifier="1434" xmlns:p10="http://www.ni.com/SystemDesigner/SystemModel" xmlns:p9="http://www.ni.com/SystemDesigner/MetaDiagram" xmlns:p8="http://www.ni.com/Core/Proxy" />
+						</Instance>
+						<Instance Id="1566" Source="{http://www.ni.com/SystemDesigner/Vi}Process.Vi">
+							<Symbols p8:Path="[{http://www.ni.com/SystemDesigner/Vi}Process.Vi]Process.Vi" p9:ShowInDiagram="False" p10:Process.AliasName="Check Stream Status.gvi" p10:Process.AssociatedIdentifier="1436" xmlns:p10="http://www.ni.com/SystemDesigner/SystemModel" xmlns:p9="http://www.ni.com/SystemDesigner/MetaDiagram" xmlns:p8="http://www.ni.com/Core/Proxy" />
+						</Instance>
+						<Instance Id="1570" Source="{http://www.ni.com/SystemDesigner/Vi}Process.Vi">
+							<Symbols p8:Path="[{http://www.ni.com/SystemDesigner/Vi}Process.Vi]Process.Vi" p9:ShowInDiagram="False" p10:Process.AliasName="Close Device.gvi" p10:Process.AssociatedIdentifier="1438" xmlns:p10="http://www.ni.com/SystemDesigner/SystemModel" xmlns:p9="http://www.ni.com/SystemDesigner/MetaDiagram" xmlns:p8="http://www.ni.com/Core/Proxy" />
+						</Instance>
+						<Instance Id="1854" Source="{http://www.ni.com/SystemDesigner/Vi}Process.Vi">
+							<Symbols p8:Path="[{http://www.ni.com/SystemDesigner/Vi}Process.Vi]Process.Vi" p9:ShowInDiagram="False" p10:Process.AliasName="Xcvr Mod.gvi" p10:Process.AssociatedIdentifier="1852" xmlns:p10="http://www.ni.com/SystemDesigner/SystemModel" xmlns:p9="http://www.ni.com/SystemDesigner/MetaDiagram" xmlns:p8="http://www.ni.com/Core/Proxy" />
+						</Instance>
+						<Instance Id="1860" Source="{http://www.ni.com/SystemDesigner/Vi}Process.Vi">
+							<Symbols p8:Path="[{http://www.ni.com/SystemDesigner/Vi}Process.Vi]Process.Vi" p9:ShowInDiagram="False" p10:Process.AliasName="Upsample_Mod.gvi" p10:Process.AssociatedIdentifier="1858" xmlns:p10="http://www.ni.com/SystemDesigner/SystemModel" xmlns:p9="http://www.ni.com/SystemDesigner/MetaDiagram" xmlns:p8="http://www.ni.com/Core/Proxy" />
+						</Instance>
+						<Instance Id="1866" Source="{http://www.ni.com/SystemDesigner/Vi}Process.Vi">
+							<Symbols p8:Path="[{http://www.ni.com/SystemDesigner/Vi}Process.Vi]Process.Vi" p9:ShowInDiagram="False" p10:Process.AliasName="Extract Frame.gvi" p10:Process.AssociatedIdentifier="1864" xmlns:p10="http://www.ni.com/SystemDesigner/SystemModel" xmlns:p9="http://www.ni.com/SystemDesigner/MetaDiagram" xmlns:p8="http://www.ni.com/Core/Proxy" />
+						</Instance>
+						<Instance Id="1906" Source="{http://www.ni.com/SystemDesigner/Vi}Process.Vi">
+							<Symbols p8:Path="[{http://www.ni.com/SystemDesigner/Vi}Process.Vi]Process.Vi" p9:ShowInDiagram="False" p10:Process.AliasName="Frame Sync Mod.gvi" p10:Process.AssociatedIdentifier="1904" xmlns:p10="http://www.ni.com/SystemDesigner/SystemModel" xmlns:p9="http://www.ni.com/SystemDesigner/MetaDiagram" xmlns:p8="http://www.ni.com/Core/Proxy" />
+						</Instance>
+						<Instance Id="1912" Source="{http://www.ni.com/SystemDesigner/Vi}Process.Vi">
+							<Symbols p8:Path="[{http://www.ni.com/SystemDesigner/Vi}Process.Vi]Process.Vi" p9:ShowInDiagram="False" p10:Process.AliasName="Modulation (OOK).gvi" p10:Process.AssociatedIdentifier="1910" xmlns:p10="http://www.ni.com/SystemDesigner/SystemModel" xmlns:p9="http://www.ni.com/SystemDesigner/MetaDiagram" xmlns:p8="http://www.ni.com/Core/Proxy" />
+						</Instance>
+						<Instance Id="1991" Source="{http://www.ni.com/SystemDesigner/Vi}Process.Vi">
+							<Symbols p8:Path="[{http://www.ni.com/SystemDesigner/Vi}Process.Vi]Process.Vi" p9:ShowInDiagram="False" p10:Process.AliasName="USRP Xcvr.gvi" p10:Process.AssociatedIdentifier="1989" xmlns:p10="http://www.ni.com/SystemDesigner/SystemModel" xmlns:p9="http://www.ni.com/SystemDesigner/MetaDiagram" xmlns:p8="http://www.ni.com/Core/Proxy" />
+						</Instance>
+						<Instance Id="2698" Source="{http://www.ni.com/SystemDesigner/Vi}Process.Vi">
+							<Symbols p8:Path="[{http://www.ni.com/SystemDesigner/Vi}Process.Vi]Process.Vi" p9:ShowInDiagram="False" p10:Process.AliasName="Manchester Coding.gvi" p10:Process.AssociatedIdentifier="2696" xmlns:p10="http://www.ni.com/SystemDesigner/SystemModel" xmlns:p9="http://www.ni.com/SystemDesigner/MetaDiagram" xmlns:p8="http://www.ni.com/Core/Proxy" />
+						</Instance>
+						<Instance Id="2881" Source="{http://www.ni.com/SystemDesigner/Vi}Process.Vi">
+							<Symbols p8:Path="[{http://www.ni.com/SystemDesigner/Vi}Process.Vi]Process.Vi" p9:ShowInDiagram="False" p10:Process.AliasName="DC Removal.gvi" p10:Process.AssociatedIdentifier="2879" xmlns:p10="http://www.ni.com/SystemDesigner/SystemModel" xmlns:p9="http://www.ni.com/SystemDesigner/MetaDiagram" xmlns:p8="http://www.ni.com/Core/Proxy" />
+						</Instance>
+						<Instance Id="2889" Source="{http://www.ni.com/SystemDesigner/Vi}Process.Vi">
+							<Symbols p8:Path="[{http://www.ni.com/SystemDesigner/Vi}Process.Vi]Process.Vi" p9:ShowInDiagram="False" p10:Process.AliasName="Thresholding.gvi" p10:Process.AssociatedIdentifier="2887" xmlns:p10="http://www.ni.com/SystemDesigner/SystemModel" xmlns:p9="http://www.ni.com/SystemDesigner/MetaDiagram" xmlns:p8="http://www.ni.com/Core/Proxy" />
+						</Instance>
+						<Instance Id="2895" Source="{http://www.ni.com/SystemDesigner/Vi}Process.Vi">
+							<Symbols p8:Path="[{http://www.ni.com/SystemDesigner/Vi}Process.Vi]Process.Vi" p9:ShowInDiagram="False" p10:Process.AliasName="Frame Markers.gvi" p10:Process.AssociatedIdentifier="2893" xmlns:p10="http://www.ni.com/SystemDesigner/SystemModel" xmlns:p9="http://www.ni.com/SystemDesigner/MetaDiagram" xmlns:p8="http://www.ni.com/Core/Proxy" />
+						</Instance>
+						<Instance Id="2913" Source="{http://www.ni.com/SystemDesigner/Vi}Process.Vi">
+							<Symbols p8:Path="[{http://www.ni.com/SystemDesigner/Vi}Process.Vi]Process.Vi" p9:ShowInDiagram="False" p10:Process.AliasName="Manchester Decoding.gvi" p10:Process.AssociatedIdentifier="2911" xmlns:p10="http://www.ni.com/SystemDesigner/SystemModel" xmlns:p9="http://www.ni.com/SystemDesigner/MetaDiagram" xmlns:p8="http://www.ni.com/Core/Proxy" />
+						</Instance>
+						<Instance Id="3508" Source="{http://www.ni.com/SystemDesigner/Vi}Process.Vi">
+							<Symbols p8:Path="[{http://www.ni.com/SystemDesigner/Vi}Process.Vi]Process.Vi" p9:ShowInDiagram="False" p10:Process.AliasName="USRP Xcvr_2.gvi" p10:Process.AssociatedIdentifier="3506" xmlns:p10="http://www.ni.com/SystemDesigner/SystemModel" xmlns:p9="http://www.ni.com/SystemDesigner/MetaDiagram" xmlns:p8="http://www.ni.com/Core/Proxy" />
+						</Instance>
+						<Instance Id="3520" Source="{http://www.ni.com/SystemDesigner/Vi}Process.Vi">
+							<Symbols p8:Path="[{http://www.ni.com/SystemDesigner/Vi}Process.Vi]Process.Vi" p9:ShowInDiagram="False" p10:Process.AliasName="Function.gvi" p10:Process.AssociatedIdentifier="3518" xmlns:p10="http://www.ni.com/SystemDesigner/SystemModel" xmlns:p9="http://www.ni.com/SystemDesigner/MetaDiagram" xmlns:p8="http://www.ni.com/Core/Proxy" />
+						</Instance>
+						<Instance Id="3812" Source="{http://www.ni.com/SystemDesigner/Vi}Process.Vi">
+							<Symbols p8:Path="[{http://www.ni.com/SystemDesigner/Vi}Process.Vi]Process.Vi" p9:ShowInDiagram="False" p10:Process.AliasName="Function_2.gvi" p10:Process.AssociatedIdentifier="3810" xmlns:p10="http://www.ni.com/SystemDesigner/SystemModel" xmlns:p9="http://www.ni.com/SystemDesigner/MetaDiagram" xmlns:p8="http://www.ni.com/Core/Proxy" />
+						</Instance>
+						<Instance Id="4153" Source="{http://www.ni.com/SystemDesigner/Vi}Process.Vi">
+							<Symbols p8:Path="[{http://www.ni.com/SystemDesigner/Vi}Process.Vi]Process.Vi" p9:ShowInDiagram="False" p10:Process.AliasName="Function_3.gvi" p10:Process.AssociatedIdentifier="4151" xmlns:p10="http://www.ni.com/SystemDesigner/SystemModel" xmlns:p9="http://www.ni.com/SystemDesigner/MetaDiagram" xmlns:p8="http://www.ni.com/Core/Proxy" />
+						</Instance>
+						<Instance Id="4507" Source="{http://www.ni.com/SystemDesigner/Vi}Process.Vi">
+							<Symbols p8:Path="[{http://www.ni.com/SystemDesigner/Vi}Process.Vi]Process.Vi" p9:ShowInDiagram="False" p10:Process.AliasName="Function_4.gvi" p10:Process.AssociatedIdentifier="4505" xmlns:p10="http://www.ni.com/SystemDesigner/SystemModel" xmlns:p9="http://www.ni.com/SystemDesigner/MetaDiagram" xmlns:p8="http://www.ni.com/Core/Proxy" />
+						</Instance>
+						<Instance Id="4529" Source="{http://www.ni.com/SystemDesigner/Vi}Process.Vi">
+							<Symbols p8:Path="[{http://www.ni.com/SystemDesigner/Vi}Process.Vi]Process.Vi" p9:ShowInDiagram="False" p10:Process.AliasName="Function_5.gvi" p10:Process.AssociatedIdentifier="4527" xmlns:p10="http://www.ni.com/SystemDesigner/SystemModel" xmlns:p9="http://www.ni.com/SystemDesigner/MetaDiagram" xmlns:p8="http://www.ni.com/Core/Proxy" />
+						</Instance>
+						<Instance Id="4830" Source="{http://www.ni.com/SystemDesigner/Vi}Process.Vi">
+							<Symbols p8:Path="[{http://www.ni.com/SystemDesigner/Vi}Process.Vi]Process.Vi" p9:ShowInDiagram="False" p10:Process.AliasName="Tuning Check.gvi" p10:Process.AssociatedIdentifier="4828" xmlns:p10="http://www.ni.com/SystemDesigner/SystemModel" xmlns:p9="http://www.ni.com/SystemDesigner/MetaDiagram" xmlns:p8="http://www.ni.com/Core/Proxy" />
+						</Instance>
+						<Superimposition Id="7" Name="Root Superimposition">
+							<Superimpose Source="4838">
+								<Superimpose Parent="{:/4838}[{http://www.ni.com/SystemDesigner/Desktop/SystemModel}DevSystem]DevSystem" Source="1394" />
+								<Superimpose Parent="{:/4838}[{http://www.ni.com/SystemDesigner/Desktop/SystemModel}DevSystem]DevSystem" Source="1406" />
+								<Superimpose Parent="{:/4838}[{http://www.ni.com/SystemDesigner/Desktop/SystemModel}DevSystem]DevSystem" Source="1410" />
+								<Superimpose Parent="{:/4838}[{http://www.ni.com/SystemDesigner/Desktop/SystemModel}DevSystem]DevSystem" Source="1414" />
+								<Superimpose Parent="{:/4838}[{http://www.ni.com/SystemDesigner/Desktop/SystemModel}DevSystem]DevSystem" Source="1418" />
+								<Superimpose Parent="{:/4838}[{http://www.ni.com/SystemDesigner/Desktop/SystemModel}DevSystem]DevSystem" Source="1574" />
+								<Superimpose Parent="{:/4838}[{http://www.ni.com/SystemDesigner/Desktop/SystemModel}DevSystem]DevSystem" Source="1578" />
+								<Superimpose Parent="{:/4838}[{http://www.ni.com/SystemDesigner/Desktop/SystemModel}DevSystem]DevSystem" Source="1582" />
+								<Superimpose Parent="{:/4838}[{http://www.ni.com/SystemDesigner/Desktop/SystemModel}DevSystem]DevSystem" Source="1586" />
+								<Superimpose Parent="{:/4838}[{http://www.ni.com/SystemDesigner/Desktop/SystemModel}DevSystem]DevSystem" Source="1590" />
+								<Superimpose Parent="{:/4838}[{http://www.ni.com/SystemDesigner/Desktop/SystemModel}DevSystem]DevSystem" Source="1594" />
+								<Superimpose Parent="{:/4838}[{http://www.ni.com/SystemDesigner/Desktop/SystemModel}DevSystem]DevSystem" Source="1598" />
+								<Superimpose Parent="{:/4838}[{http://www.ni.com/SystemDesigner/Desktop/SystemModel}DevSystem]DevSystem" Source="1602" />
+								<Superimpose Parent="{:/4838}[{http://www.ni.com/SystemDesigner/Desktop/SystemModel}DevSystem]DevSystem" Source="1606" />
+								<Superimpose Parent="{:/4838}[{http://www.ni.com/SystemDesigner/Desktop/SystemModel}DevSystem]DevSystem" Source="1610" />
+								<Superimpose Parent="{:/4838}[{http://www.ni.com/SystemDesigner/Desktop/SystemModel}DevSystem]DevSystem" Source="1614" />
+								<Superimpose Parent="{:/4838}[{http://www.ni.com/SystemDesigner/Desktop/SystemModel}DevSystem]DevSystem" Source="1618" />
+								<Superimpose Parent="{:/4838}[{http://www.ni.com/SystemDesigner/Desktop/SystemModel}DevSystem]DevSystem" Source="1622" />
+								<Superimpose Parent="{:/4838}[{http://www.ni.com/SystemDesigner/Desktop/SystemModel}DevSystem]DevSystem" Source="1626" />
+								<Superimpose Parent="{:/4838}[{http://www.ni.com/SystemDesigner/Desktop/SystemModel}DevSystem]DevSystem" Source="1630" />
+								<Superimpose Parent="{:/4838}[{http://www.ni.com/SystemDesigner/Desktop/SystemModel}DevSystem]DevSystem" Source="1634" />
+								<Superimpose Parent="{:/4838}[{http://www.ni.com/SystemDesigner/Desktop/SystemModel}DevSystem]DevSystem" Source="1638" />
+								<Superimpose Parent="{:/4838}[{http://www.ni.com/SystemDesigner/Desktop/SystemModel}DevSystem]DevSystem" Source="1642" />
+								<Superimpose Parent="{:/4838}[{http://www.ni.com/SystemDesigner/Desktop/SystemModel}DevSystem]DevSystem" Source="1646" />
+								<Superimpose Parent="{:/4838}[{http://www.ni.com/SystemDesigner/Desktop/SystemModel}DevSystem]DevSystem" Source="1650" />
+								<Superimpose Parent="{:/4838}[{http://www.ni.com/SystemDesigner/Desktop/SystemModel}DevSystem]DevSystem" Source="1654" />
+								<Superimpose Parent="{:/4838}[{http://www.ni.com/SystemDesigner/Desktop/SystemModel}DevSystem]DevSystem" Source="1658" />
+								<Superimpose Parent="{:/4838}[{http://www.ni.com/SystemDesigner/Desktop/SystemModel}DevSystem]DevSystem" Source="1662" />
+								<Superimpose Parent="{:/4838}[{http://www.ni.com/SystemDesigner/Desktop/SystemModel}DevSystem]DevSystem" Source="1666" />
+								<Superimpose Parent="{:/4838}[{http://www.ni.com/SystemDesigner/Desktop/SystemModel}DevSystem]DevSystem" Source="1670" />
+								<Superimpose Parent="{:/4838}[{http://www.ni.com/SystemDesigner/Desktop/SystemModel}DevSystem]DevSystem" Source="1674" />
+								<Superimpose Parent="{:/4838}[{http://www.ni.com/SystemDesigner/Desktop/SystemModel}DevSystem]DevSystem" Source="1678" />
+								<Superimpose Parent="{:/4838}[{http://www.ni.com/SystemDesigner/Desktop/SystemModel}DevSystem]DevSystem" Source="1682" />
+								<Superimpose Parent="{:/4838}[{http://www.ni.com/SystemDesigner/Desktop/SystemModel}DevSystem]DevSystem" Source="1686" />
+								<Superimpose Parent="{:/4838}[{http://www.ni.com/SystemDesigner/Desktop/SystemModel}DevSystem]DevSystem" Source="1690" />
+								<Superimpose Parent="{:/4838}[{http://www.ni.com/SystemDesigner/Desktop/SystemModel}DevSystem]DevSystem" Source="1694" />
+								<Superimpose Parent="{:/4838}[{http://www.ni.com/SystemDesigner/Desktop/SystemModel}DevSystem]DevSystem" Source="1698" />
+								<Superimpose Parent="{:/4838}[{http://www.ni.com/SystemDesigner/Desktop/SystemModel}DevSystem]DevSystem" Source="1702" />
+								<Superimpose Parent="{:/4838}[{http://www.ni.com/SystemDesigner/Desktop/SystemModel}DevSystem]DevSystem" Source="1706" />
+								<Superimpose Parent="{:/4838}[{http://www.ni.com/SystemDesigner/Desktop/SystemModel}DevSystem]DevSystem" Source="1710" />
+								<Superimpose Parent="{:/4838}[{http://www.ni.com/SystemDesigner/Desktop/SystemModel}DevSystem]DevSystem" Source="1714" />
+								<Superimpose Parent="{:/4838}[{http://www.ni.com/SystemDesigner/Desktop/SystemModel}DevSystem]DevSystem" Source="1718" />
+								<Superimpose Parent="{:/4838}[{http://www.ni.com/SystemDesigner/Desktop/SystemModel}DevSystem]DevSystem" Source="1722" />
+								<Superimpose Parent="{:/4838}[{http://www.ni.com/SystemDesigner/Desktop/SystemModel}DevSystem]DevSystem" Source="1726" />
+								<Superimpose Parent="{:/4838}[{http://www.ni.com/SystemDesigner/Desktop/SystemModel}DevSystem]DevSystem" Source="1730" />
+								<Superimpose Parent="{:/4838}[{http://www.ni.com/SystemDesigner/Desktop/SystemModel}DevSystem]DevSystem" Source="1734" />
+								<Superimpose Parent="{:/4838}[{http://www.ni.com/SystemDesigner/Desktop/SystemModel}DevSystem]DevSystem" Source="1738" />
+								<Superimpose Parent="{:/4838}[{http://www.ni.com/SystemDesigner/Desktop/SystemModel}DevSystem]DevSystem" Source="1742" />
+								<Superimpose Parent="{:/4838}[{http://www.ni.com/SystemDesigner/Desktop/SystemModel}DevSystem]DevSystem" Source="1746" />
+								<Superimpose Parent="{:/4838}[{http://www.ni.com/SystemDesigner/Desktop/SystemModel}DevSystem]DevSystem" Source="1750" />
+								<Superimpose Parent="{:/4838}[{http://www.ni.com/SystemDesigner/Desktop/SystemModel}DevSystem]DevSystem" Source="1754" />
+								<Superimpose Parent="{:/4838}[{http://www.ni.com/SystemDesigner/Desktop/SystemModel}DevSystem]DevSystem" Source="1758" />
+								<Superimpose Parent="{:/4838}[{http://www.ni.com/SystemDesigner/Desktop/SystemModel}DevSystem]DevSystem" Source="1764" />
+								<Superimpose Parent="{:/4838}[{http://www.ni.com/SystemDesigner/Desktop/SystemModel}DevSystem]DevSystem" Source="1780" />
+								<Superimpose Parent="{:/4838}[{http://www.ni.com/SystemDesigner/Desktop/SystemModel}DevSystem]DevSystem" Source="1784" />
+								<Superimpose Parent="{:/4838}[{http://www.ni.com/SystemDesigner/Desktop/SystemModel}DevSystem]DevSystem" Source="1788" />
+								<Superimpose Parent="{:/4838}[{http://www.ni.com/SystemDesigner/Desktop/SystemModel}DevSystem]DevSystem" Source="1792" />
+								<Superimpose Parent="{:/4838}[{http://www.ni.com/SystemDesigner/Desktop/SystemModel}DevSystem]DevSystem" Source="1796" />
+								<Superimpose Parent="{:/4838}[{http://www.ni.com/SystemDesigner/Desktop/SystemModel}DevSystem]DevSystem" Source="1800" />
+								<Superimpose Parent="{:/4838}[{http://www.ni.com/SystemDesigner/Desktop/SystemModel}DevSystem]DevSystem" Source="1820" />
+								<Superimpose Parent="{:/4838}[{http://www.ni.com/SystemDesigner/Desktop/SystemModel}DevSystem]DevSystem" Source="1824" />
+								<Superimpose Parent="{:/4838}[{http://www.ni.com/SystemDesigner/Desktop/SystemModel}DevSystem]DevSystem" Source="1828" />
+								<Superimpose Parent="{:/4838}[{http://www.ni.com/SystemDesigner/Desktop/SystemModel}DevSystem]DevSystem" Source="1832" />
+								<Superimpose Parent="{:/4838}[{http://www.ni.com/SystemDesigner/Desktop/SystemModel}DevSystem]DevSystem" Source="1836" />
+								<Superimpose Parent="{:/4838}[{http://www.ni.com/SystemDesigner/Desktop/SystemModel}DevSystem]DevSystem" Source="1840" />
+								<Superimpose Parent="{:/4838}[{http://www.ni.com/SystemDesigner/Desktop/SystemModel}DevSystem]DevSystem" Source="1844" />
+								<Superimpose Parent="{:/4838}[{http://www.ni.com/SystemDesigner/Desktop/SystemModel}DevSystem]DevSystem" Source="1848" />
+								<Superimpose Parent="{:/4838}[{http://www.ni.com/SystemDesigner/Desktop/SystemModel}DevSystem]DevSystem" Source="1542" />
+								<Superimpose Parent="{:/4838}[{http://www.ni.com/SystemDesigner/Desktop/SystemModel}DevSystem]DevSystem" Source="1546" />
+								<Superimpose Parent="{:/4838}[{http://www.ni.com/SystemDesigner/Desktop/SystemModel}DevSystem]DevSystem" Source="1550" />
+								<Superimpose Parent="{:/4838}[{http://www.ni.com/SystemDesigner/Desktop/SystemModel}DevSystem]DevSystem" Source="1554" />
+								<Superimpose Parent="{:/4838}[{http://www.ni.com/SystemDesigner/Desktop/SystemModel}DevSystem]DevSystem" Source="1558" />
+								<Superimpose Parent="{:/4838}[{http://www.ni.com/SystemDesigner/Desktop/SystemModel}DevSystem]DevSystem" Source="1562" />
+								<Superimpose Parent="{:/4838}[{http://www.ni.com/SystemDesigner/Desktop/SystemModel}DevSystem]DevSystem" Source="1566" />
+								<Superimpose Parent="{:/4838}[{http://www.ni.com/SystemDesigner/Desktop/SystemModel}DevSystem]DevSystem" Source="1570" />
+								<Superimpose Parent="{:/4838}[{http://www.ni.com/SystemDesigner/Desktop/SystemModel}DevSystem]DevSystem" Source="1854" />
+								<Superimpose Parent="{:/4838}[{http://www.ni.com/SystemDesigner/Desktop/SystemModel}DevSystem]DevSystem" Source="1860" />
+								<Superimpose Parent="{:/4838}[{http://www.ni.com/SystemDesigner/Desktop/SystemModel}DevSystem]DevSystem" Source="1866" />
+								<Superimpose Parent="{:/4838}[{http://www.ni.com/SystemDesigner/Desktop/SystemModel}DevSystem]DevSystem" Source="1906" />
+								<Superimpose Parent="{:/4838}[{http://www.ni.com/SystemDesigner/Desktop/SystemModel}DevSystem]DevSystem" Source="1912" />
+								<Superimpose Parent="{:/4838}[{http://www.ni.com/SystemDesigner/Desktop/SystemModel}DevSystem]DevSystem" Source="1991" />
+								<Superimpose Parent="{:/4838}[{http://www.ni.com/SystemDesigner/Desktop/SystemModel}DevSystem]DevSystem" Source="2698" />
+								<Superimpose Parent="{:/4838}[{http://www.ni.com/SystemDesigner/Desktop/SystemModel}DevSystem]DevSystem" Source="2881" />
+								<Superimpose Parent="{:/4838}[{http://www.ni.com/SystemDesigner/Desktop/SystemModel}DevSystem]DevSystem" Source="2889" />
+								<Superimpose Parent="{:/4838}[{http://www.ni.com/SystemDesigner/Desktop/SystemModel}DevSystem]DevSystem" Source="2895" />
+								<Superimpose Parent="{:/4838}[{http://www.ni.com/SystemDesigner/Desktop/SystemModel}DevSystem]DevSystem" Source="2913" />
+								<Superimpose Parent="{:/4838}[{http://www.ni.com/SystemDesigner/Desktop/SystemModel}DevSystem]DevSystem" Source="3508" />
+								<Superimpose Parent="{:/4838}[{http://www.ni.com/SystemDesigner/Desktop/SystemModel}DevSystem]DevSystem" Source="3520" />
+								<Superimpose Parent="{:/4838}[{http://www.ni.com/SystemDesigner/Desktop/SystemModel}DevSystem]DevSystem" Source="3812" />
+								<Superimpose Parent="{:/4838}[{http://www.ni.com/SystemDesigner/Desktop/SystemModel}DevSystem]DevSystem" Source="4153" />
+								<Superimpose Parent="{:/4838}[{http://www.ni.com/SystemDesigner/Desktop/SystemModel}DevSystem]DevSystem" Source="4507" />
+								<Superimpose Parent="{:/4838}[{http://www.ni.com/SystemDesigner/Desktop/SystemModel}DevSystem]DevSystem" Source="4529" />
+								<Superimpose Parent="{:/4838}[{http://www.ni.com/SystemDesigner/Desktop/SystemModel}DevSystem]DevSystem" Source="4830" />
+							</Superimpose>
+						</Superimposition>
+					</MappingManager>
+				</EnvoySuperimpositionContainer>
+				<SystemDiagramRootDiagram Id="9" />
+			</SystemDiagram>
+			<NameScopingEnvoy Bindings="InProcessNativeDesktopTarget,AnyTarget,NativeTarget,ContentKind_{http://www.ni.com/SystemDesigner/Desktop/SystemModel}Process.DevSystem,{http://www.ni.com/SystemDesigner/EnvoyManagement}ProcessBackedEnvoyServiceMetaFactory" Id="4839" ModelDefinitionType="{http://www.ni.com/SystemDesigner/Desktop/SystemModel}DevSystem" Name="DevSystem">
+				<DevSystem xmlns="http://www.ni.com/SystemDesigner/Desktop/SystemModel" />
+				<NameScopingEnvoy Id="36" ModelDefinitionType="BuildSpecification" Name="Interactive">
+					<BuildSpecificationDefinition Id="37" TopLevelComponentRefId="47" xmlns="http://www.ni.com/GComponent.xsd">
+						<CompilerSymbolTable Id="38" xmlns="http://www.ni.com/PlatformFramework" />
+						<ComponentConfigurationReference AssociatedEnvoyId="44" ConfigName="Default" Id="47" />
+						<WeakDefaultComponentConfigurationReference Id="5233" PackageName="ni-analysis-basic-src-1.0.7.1.niaddon" Target="AAL_Conditioning_Base\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="5234" PackageName="ni-analysis-basic-src-1.0.7.1.niaddon" Target="AAL_Filtering_Base\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="5235" PackageName="ni-analysis-basic-src-1.0.7.1.niaddon" Target="AAL_Fitting_Base\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="5236" PackageName="ni-analysis-basic-src-1.0.7.1.niaddon" Target="AAL_Generation_Base\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="5237" PackageName="ni-analysis-basic-src-1.0.7.1.niaddon" Target="AAL_Interpolation_Base\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="5238" PackageName="ni-analysis-basic-src-1.0.7.1.niaddon" Target="AAL_Linear_Algebra_Base\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="5239" PackageName="ni-analysis-basic-src-1.0.7.1.niaddon" Target="AAL_Measurement_Base\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="5240" PackageName="ni-analysis-basic-src-1.0.7.1.niaddon" Target="AAL_Operations_Base\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="5241" PackageName="ni-analysis-basic-src-1.0.7.1.niaddon" Target="AAL_Resampling_Base\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="5242" PackageName="ni-analysis-basic-src-1.0.7.1.niaddon" Target="AAL_Statistics_Base\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="5243" PackageName="ni-analysis-basic-src-1.0.7.1.niaddon" Target="AAL_Support_Base\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="5244" PackageName="ni-analysis-basic-src-1.0.7.1.niaddon" Target="AAL_Transforms_Base\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="5245" PackageName="ni-analysis-basic-src-1.0.7.1.niaddon" Target="AAL_Windows_Base\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="5247" PackageName="ni-flexrio-ni579xv2fpga-src-18.0.0.niaddon" Target="ni579xV2Fpga\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="5249" PackageName="ni-fpga-conversion-src-1.0.0.5.niaddon" Target="NI\.FPGA\.Conversion\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="5251" PackageName="ni-g-http-src-1.0.0.12.niaddon" Target="NI\.HTTP\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="5253" PackageName="ni-fpga-base-src-1.0.0.3.niaddon" Target="NI\.FPGA\.Base\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="5255" PackageName="ni-flexrio-flexrio-src-18.0.0.niaddon" Target="flexrio\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="5257" PackageName="ni-g-stdlib-src-1.0.5.17.niaddon" Target="NI\.G\ Core\.Configuration\ File\ \(INI\)\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="5258" PackageName="ni-g-stdlib-src-1.0.5.17.niaddon" Target="NI\.G\ Core\.Data\ Type\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="5259" PackageName="ni-g-stdlib-src-1.0.5.17.niaddon" Target="NI\.G\ Core\.Error\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="5260" PackageName="ni-g-stdlib-src-1.0.5.17.niaddon" Target="NI\.G\ Core\.File\ IO\ \(General\)\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="5261" PackageName="ni-g-stdlib-src-1.0.5.17.niaddon" Target="NI\.G\ Core\.Input\ Devices\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="5262" PackageName="ni-g-stdlib-src-1.0.5.17.niaddon" Target="NI\.G\ Core\.Libraries\ and\ Executables\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="5263" PackageName="ni-g-stdlib-src-1.0.5.17.niaddon" Target="NI\.G\ Core\.Numeric\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="5264" PackageName="ni-g-stdlib-src-1.0.5.17.niaddon" Target="NI\.G\ Core\.Operating\ System\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="5265" PackageName="ni-g-stdlib-src-1.0.5.17.niaddon" Target="NI\.G\ Core\.Registry\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="5266" PackageName="ni-g-stdlib-src-1.0.5.17.niaddon" Target="NI\.G\ Core\.Rendezvous\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="5267" PackageName="ni-g-stdlib-src-1.0.5.17.niaddon" Target="NI\.G\ Core\.Semaphore\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="5268" PackageName="ni-g-stdlib-src-1.0.5.17.niaddon" Target="NI\.G\ Core\.SMTP\ Email\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="5269" PackageName="ni-g-stdlib-src-1.0.5.17.niaddon" Target="NI\.G\ Core\.Sound\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="5270" PackageName="ni-g-stdlib-src-1.0.5.17.niaddon" Target="NI\.G\ Core\.Strings\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="5271" PackageName="ni-g-stdlib-src-1.0.5.17.niaddon" Target="NI\.G\ Core\.TCP\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="5272" PackageName="ni-g-stdlib-src-1.0.5.17.niaddon" Target="NI\.G\ Core\.TDMS\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="5273" PackageName="ni-g-stdlib-src-1.0.5.17.niaddon" Target="NI\.G\ Core\.Timed\ Loop\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="5274" PackageName="ni-g-stdlib-src-1.0.5.17.niaddon" Target="NI\.G\ Core\.Timing\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="5275" PackageName="ni-g-stdlib-src-1.0.5.17.niaddon" Target="NI\.G\ Core\.URL\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="5276" PackageName="ni-g-stdlib-src-1.0.5.17.niaddon" Target="NI\.G\ Core\.Waveform\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="5277" PackageName="ni-g-stdlib-src-1.0.5.17.niaddon" Target="NI\.G\ Core\.Zip\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="5278" PackageName="ni-g-stdlib-src-1.0.5.17.niaddon" Target="NI\.G\ Core\.Localization\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="5279" PackageName="ni-g-stdlib-src-1.0.5.17.niaddon" Target="NI\.G\ Core\.User\ Interface\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="5280" PackageName="ni-g-stdlib-src-1.0.5.17.niaddon" Target="NI\.G\ Core\.Data\ Communications\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="5281" PackageName="ni-g-stdlib-src-1.0.5.17.niaddon" Target="NI\.G\ Core\.Color\ Picker\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="5282" PackageName="ni-g-stdlib-src-1.0.5.17.niaddon" Target="NI\.G\ Core\.Execution\ Control\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="5284" PackageName="ni-instrumentdriver-keysight344xx-src-17.5.0.niaddon" Target="Keysight344XX\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="5286" PackageName="ni-idl-basicelementsv1fpga-src-1.0.0.niaddon" Target="BasicElementsV1FPGA\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="5288" PackageName="ni-g-reporting-src-1.0.0.3.niaddon" Target="NI\.Reporting\.Excel\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="5290" PackageName="ni-analysis-advanced-src-1.0.7.1.niaddon" Target="AAL_Conditioning\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="5291" PackageName="ni-analysis-advanced-src-1.0.7.1.niaddon" Target="AAL_Fitting\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="5292" PackageName="ni-analysis-advanced-src-1.0.7.1.niaddon" Target="AAL_Formula\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="5293" PackageName="ni-analysis-advanced-src-1.0.7.1.niaddon" Target="AAL_Generation\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="5294" PackageName="ni-analysis-advanced-src-1.0.7.1.niaddon" Target="AAL_Geometry\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="5295" PackageName="ni-analysis-advanced-src-1.0.7.1.niaddon" Target="AAL_Integral_Differentiation\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="5296" PackageName="ni-analysis-advanced-src-1.0.7.1.niaddon" Target="AAL_Interpolation\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="5297" PackageName="ni-analysis-advanced-src-1.0.7.1.niaddon" Target="AAL_Linear_Algebra\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="5298" PackageName="ni-analysis-advanced-src-1.0.7.1.niaddon" Target="AAL_Matrix\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="5299" PackageName="ni-analysis-advanced-src-1.0.7.1.niaddon" Target="AAL_Measurement\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="5300" PackageName="ni-analysis-advanced-src-1.0.7.1.niaddon" Target="AAL_Operations\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="5301" PackageName="ni-analysis-advanced-src-1.0.7.1.niaddon" Target="AAL_Polynomial\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="5302" PackageName="ni-analysis-advanced-src-1.0.7.1.niaddon" Target="AAL_Probability\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="5303" PackageName="ni-analysis-advanced-src-1.0.7.1.niaddon" Target="AAL_Resampling\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="5304" PackageName="ni-analysis-advanced-src-1.0.7.1.niaddon" Target="AAL_SML\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="5305" PackageName="ni-analysis-advanced-src-1.0.7.1.niaddon" Target="AAL_Statistics\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="5306" PackageName="ni-analysis-advanced-src-1.0.7.1.niaddon" Target="AAL_Support\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="5307" PackageName="ni-analysis-advanced-src-1.0.7.1.niaddon" Target="AAL_Transforms\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="5308" PackageName="ni-analysis-advanced-src-1.0.7.1.niaddon" Target="AAL_Windows\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="5309" PackageName="ni-analysis-advanced-src-1.0.7.1.niaddon" Target="AAL_Filtering\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="5310" PackageName="ni-analysis-advanced-src-1.0.7.1.niaddon" Target="AAL_BLAS\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="5311" PackageName="ni-analysis-advanced-src-1.0.7.1.niaddon" Target="AAL_Special_Func\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="5312" PackageName="ni-analysis-advanced-src-1.0.7.1.niaddon" Target="AAL_Differential_Equations\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="5313" PackageName="ni-analysis-advanced-src-1.0.7.1.niaddon" Target="AAL_Optimization\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="5314" PackageName="ni-analysis-advanced-src-1.0.7.1.niaddon" Target="AAL_Zeros\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="5316" PackageName="ni-idl-datatriggerv1fpga-src-1.0.0.niaddon" Target="DataTriggerV1FPGA\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="5317" PackageName="ni-idl-datatriggerv1fpga-src-1.0.0.niaddon" Target="DataTriggerV1Shared\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="5320" PackageName="ni-fpga-htmath-src-1.0.0.11.niaddon" Target="NI\.Fpga\.HTMath\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="5322" PackageName="ni-fpga-linearalgebra-src-1.0.0.1.niaddon" Target="NI\.FPGA\.LinearAlgebra\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="5324" PackageName="ni-analysis-controlbasic-src-1.0.7.1.niaddon" Target="Control_Controller\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="5325" PackageName="ni-analysis-controlbasic-src-1.0.7.1.niaddon" Target="Control_Conversion_Base\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="5326" PackageName="ni-analysis-controlbasic-src-1.0.7.1.niaddon" Target="Control_PIDGain_Base\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="5328" PackageName="ni-analysis-control-src-1.0.7.1.niaddon" Target="Control_DesignPID\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="5329" PackageName="ni-analysis-control-src-1.0.7.1.niaddon" Target="Control_Linear\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="5330" PackageName="ni-analysis-control-src-1.0.7.1.niaddon" Target="Control_Nonlinear\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="5331" PackageName="ni-analysis-control-src-1.0.7.1.niaddon" Target="Control_PIDGain\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="5332" PackageName="ni-analysis-control-src-1.0.7.1.niaddon" Target="Control_SignalGeneration\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="5333" PackageName="ni-analysis-control-src-1.0.7.1.niaddon" Target="Control_Conversion\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="5335" PackageName="ni-flexrio-ni579xv2host-src-18.0.0.niaddon" Target="ni579xV2Host\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="5337" PackageName="ni-analysis-standard-src-1.0.7.1.niaddon" Target="AAL_Measurement_Standard\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="5339" PackageName="ni-rt-rtlib-src-1.0.0.21.niaddon" Target="NI\.RT\.Shared\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="5340" PackageName="ni-rt-rtlib-src-1.0.0.21.niaddon" Target="NI\.RT\.SMP\ CPU\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="5341" PackageName="ni-rt-rtlib-src-1.0.0.21.niaddon" Target="NI\.RT\.Trace\ Tool\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="5342" PackageName="ni-rt-rtlib-src-1.0.0.21.niaddon" Target="NI\.RT\.Utility\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="5343" PackageName="ni-rt-rtlib-src-1.0.0.21.niaddon" Target="NI\.RT\.Watchdog\ Timer\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="5345" PackageName="ni-nisync-base-src-17.5.0.niaddon" Target="niSync\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="5347" PackageName="ni-p2p-base-src-17.5.0.niaddon" Target="P2PComponent\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="5349" PackageName="ni-modulation-modulation-src-18.0.0.niaddon" Target="Modulation\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="5351" PackageName="ni-idl-streamingv1fpga-src-1.0.0.niaddon" Target="StreamingV1FPGA\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="5352" PackageName="ni-idl-streamingv1fpga-src-1.0.0.niaddon" Target="StreamingV1Common\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="5354" PackageName="ni-sdr-lmk04816v1fpga-src-18.1.0.niaddon" Target="LMK04816V1FPGA\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="5356" PackageName="ni-idl-streamingv1host-src-1.0.0.niaddon" Target="StreamingV1Host\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="5358" PackageName="ni-sdr-dspv1fpga-src-18.1.0.niaddon" Target="DSPV1FPGA\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="5360" PackageName="ni-sdr-tdcv1fpga-src-18.1.0.niaddon" Target="TDCV1FPGA\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="5362" PackageName="ni-sdr-dspv1shared-src-18.1.0.niaddon" Target="DSPv1Shared\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="5364" PackageName="ni-sdr-basicelementsv1fpga-src-18.1.0.niaddon" Target="BasicElementsV1FPGA\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="5366" PackageName="ni-sdr-registerbusv0host-src-18.1.0.niaddon" Target="RegisterBusV0Host\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="5368" PackageName="ni-sdr-registerbusv1fpga-src-18.1.0.niaddon" Target="RegisterBusV1FPGA\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="5370" PackageName="ni-sdr-lmk04816v1shared-src-18.1.0.niaddon" Target="LMK04816V1Shared\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="5372" PackageName="ni-sdr-lmk04816v1host-src-18.1.0.niaddon" Target="LMK04816V1Host\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="5374" PackageName="ni-usrprio-configv1fpga-src-18.1.0.niaddon" Target="ConfigV1FPGA\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="5376" PackageName="ni-usrprio-configv1host-src-18.1.0.niaddon" Target="ConfigV1Host\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="5378" PackageName="ni-usrprio-syncv1host-src-18.1.0.niaddon" Target="SyncV1Host\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="5380" PackageName="ni-usrprio-primitives-src-18.1.0.niaddon" Target="Primitives\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="5382" PackageName="ni-usrprio-syncv1fpga-src-18.1.0.niaddon" Target="SyncV1FPGA\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="5384" PackageName="ni-usrprio-gpsv1fpga-src-18.1.0.niaddon" Target="GPSV1FPGA\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="5386" PackageName="ni-usrprio-gpsv1host-src-18.1.0.niaddon" Target="GPSV1Host\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="5388" PackageName="ni-usrp-usrp-src-18.1.0.niaddon" Target="USRP\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="5390" PackageName="ni-usrprio-configv1shared-src-18.1.0.niaddon" Target="ConfigV1Shared\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="5392" PackageName="ni-usrprio-gpsv1shared-src-18.1.0.niaddon" Target="GPSV1Shared\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="5394" PackageName="ni-usrprio-syncv1shared-src-18.1.0.niaddon" Target="SyncV1Shared\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="5396" PackageName="ni-usrprio-timev1shared-src-18.1.0.niaddon" Target="TimeV1Shared\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="5398" PackageName="ni-usrprio-timev1fpga-src-18.1.0.niaddon" Target="TimeV1FPGA\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="5400" PackageName="ni-usrprio-tools-src-18.1.0.niaddon" Target="Tools\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="5402" PackageName="ni-usrprio-timev1host-src-18.1.0.niaddon" Target="TimeV1Host\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="5404" PackageName="ni-visa-base-src-17.5.0.niaddon" Target="VISA\.gcomp" />
+					</BuildSpecificationDefinition>
+					<EmbeddedDefinitionReference Bindings="ComponentMoC" Id="44" ModelDefinitionType="SparseEnvoyManager" Name="Default\ Component" Reparentable="False">
+						<SparseEnvoyManager Id="45">
+							<SparseEnvoyManagerDependencySource Id="46" Target=":NullTarget:Default\ Component" />
+						</SparseEnvoyManager>
+						<SourceFileReference Bindings="ContentKind_{http://www.ni.com/SystemDesigner/Vi}Process.Vi,{http://www.ni.com/SystemDesigner/EnvoyManagement}ProcessBackedEnvoyServiceMetaFactory" Id="1392" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Pack\.gvi" StoragePath="Host Components\Pack.gvi" />
+						<SourceFileReference Bindings="ContentKind_{http://www.ni.com/SystemDesigner/Vi}Process.Vi,{http://www.ni.com/SystemDesigner/EnvoyManagement}ProcessBackedEnvoyServiceMetaFactory" Id="1398" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Packet\ Tx\ and\ Rx\.gvi" StoragePath="Host Components\Packet Tx and Rx.gvi" />
+						<SourceFileReference Bindings="ContentKind_{http://www.ni.com/SystemDesigner/Vi}Process.Vi,{http://www.ni.com/SystemDesigner/EnvoyManagement}ProcessBackedEnvoyServiceMetaFactory" Id="1400" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Rx\ Streaming\ \(Host\)\.gvi" StoragePath="Host Components\Rx Streaming (Host).gvi" />
+						<SourceFileReference Bindings="ContentKind_{http://www.ni.com/SystemDesigner/Vi}Process.Vi,{http://www.ni.com/SystemDesigner/EnvoyManagement}ProcessBackedEnvoyServiceMetaFactory" Id="1402" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Tx\ Streaming\ \(Host\)\.gvi" StoragePath="Host Components\Tx Streaming (Host).gvi" />
+						<SourceFileReference Bindings="ContentKind_{http://www.ni.com/SystemDesigner/Vi}Process.Vi,{http://www.ni.com/SystemDesigner/EnvoyManagement}ProcessBackedEnvoyServiceMetaFactory" Id="1404" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Tx\ and\ Rx\ Streaming\ \(Host\)\.gvi" StoragePath="Host Components\Tx and Rx Streaming (Host).gvi" />
+						<SourceFileReference Bindings="EnvoyManager" Id="1422" ModelDefinitionType="NationalInstruments.MocCommon.Modeling.TypeDefinition" Name="Modulation\ and\ Filter\ Parameters\.gtype" StoragePath="Host Components\Controls - Packet Tx and Rx\Modulation and Filter Parameters.gtype\Modulation and Filter Parameters.gtype" />
+						<SourceFileReference Bindings="ContentKind_{http://www.ni.com/SystemDesigner/Vi}Process.Vi,{http://www.ni.com/SystemDesigner/EnvoyManagement}ProcessBackedEnvoyServiceMetaFactory" Id="1424" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Abort\ Stream\.gvi" StoragePath="Host Components\Host SubVIs\Abort Stream.gvi" />
+						<SourceFileReference Bindings="ContentKind_{http://www.ni.com/SystemDesigner/Vi}Process.Vi,{http://www.ni.com/SystemDesigner/EnvoyManagement}ProcessBackedEnvoyServiceMetaFactory" Id="1426" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Backup\ and\ Self\ Correct\ Rx\ Offset\.gvi" StoragePath="Host Components\Host SubVIs\Backup and Self Correct Rx Offset.gvi" />
+						<SourceFileReference Bindings="ContentKind_{http://www.ni.com/SystemDesigner/Vi}Process.Vi,{http://www.ni.com/SystemDesigner/EnvoyManagement}ProcessBackedEnvoyServiceMetaFactory" Id="1428" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Calculate\ IQ\ Power\ Level\.gvi" StoragePath="Host Components\Host SubVIs\Calculate IQ Power Level.gvi" />
+						<SourceFileReference Bindings="ContentKind_{http://www.ni.com/SystemDesigner/Vi}Process.Vi,{http://www.ni.com/SystemDesigner/EnvoyManagement}ProcessBackedEnvoyServiceMetaFactory" Id="1430" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Calculate\ Power\ Spectrum\.gvi" StoragePath="Host Components\Host SubVIs\Calculate Power Spectrum.gvi" />
+						<SourceFileReference Bindings="ContentKind_{http://www.ni.com/SystemDesigner/Vi}Process.Vi,{http://www.ni.com/SystemDesigner/EnvoyManagement}ProcessBackedEnvoyServiceMetaFactory" Id="1432" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Calculate\ Power\.gvi" StoragePath="Host Components\Host SubVIs\Calculate Power.gvi" />
+						<SourceFileReference Bindings="ContentKind_{http://www.ni.com/SystemDesigner/Vi}Process.Vi,{http://www.ni.com/SystemDesigner/EnvoyManagement}ProcessBackedEnvoyServiceMetaFactory" Id="1434" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Calculate\ Sample\ Rate\.gvi" StoragePath="Host Components\Host SubVIs\Calculate Sample Rate.gvi" />
+						<SourceFileReference Bindings="ContentKind_{http://www.ni.com/SystemDesigner/Vi}Process.Vi,{http://www.ni.com/SystemDesigner/EnvoyManagement}ProcessBackedEnvoyServiceMetaFactory" Id="1436" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Check\ Stream\ Status\.gvi" StoragePath="Host Components\Host SubVIs\Check Stream Status.gvi" />
+						<SourceFileReference Bindings="ContentKind_{http://www.ni.com/SystemDesigner/Vi}Process.Vi,{http://www.ni.com/SystemDesigner/EnvoyManagement}ProcessBackedEnvoyServiceMetaFactory" Id="1438" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Close\ Device\.gvi" StoragePath="Host Components\Host SubVIs\Close Device.gvi" />
+						<SourceFileReference Bindings="ContentKind_{http://www.ni.com/SystemDesigner/Vi}Process.Vi,{http://www.ni.com/SystemDesigner/EnvoyManagement}ProcessBackedEnvoyServiceMetaFactory" Id="1440" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Configure\ Bitfile\.gvi" StoragePath="Host Components\Host SubVIs\Configure Bitfile.gvi" />
+						<SourceFileReference Bindings="ContentKind_{http://www.ni.com/SystemDesigner/Vi}Process.Vi,{http://www.ni.com/SystemDesigner/EnvoyManagement}ProcessBackedEnvoyServiceMetaFactory" Id="1442" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Configure\ Clocks\.gvi" StoragePath="Host Components\Host SubVIs\Configure Clocks.gvi" />
+						<SourceFileReference Bindings="ContentKind_{http://www.ni.com/SystemDesigner/Vi}Process.Vi,{http://www.ni.com/SystemDesigner/EnvoyManagement}ProcessBackedEnvoyServiceMetaFactory" Id="1444" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Configure\ Frequency\ Shift\.gvi" StoragePath="Host Components\Host SubVIs\Configure Frequency Shift.gvi" />
+						<SourceFileReference Bindings="ContentKind_{http://www.ni.com/SystemDesigner/Vi}Process.Vi,{http://www.ni.com/SystemDesigner/EnvoyManagement}ProcessBackedEnvoyServiceMetaFactory" Id="1446" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Configure\ Frequency\.gvi" StoragePath="Host Components\Host SubVIs\Configure Frequency.gvi" />
+						<SourceFileReference Bindings="ContentKind_{http://www.ni.com/SystemDesigner/Vi}Process.Vi,{http://www.ni.com/SystemDesigner/EnvoyManagement}ProcessBackedEnvoyServiceMetaFactory" Id="1448" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Configure\ Rx\.gvi" StoragePath="Host Components\Host SubVIs\Configure Rx.gvi" />
+						<SourceFileReference Bindings="ContentKind_{http://www.ni.com/SystemDesigner/Vi}Process.Vi,{http://www.ni.com/SystemDesigner/EnvoyManagement}ProcessBackedEnvoyServiceMetaFactory" Id="1450" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Configure\ Signal\ \(Common\)\.gvi" StoragePath="Host Components\Host SubVIs\Configure Signal (Common).gvi" />
+						<SourceFileReference Bindings="ContentKind_{http://www.ni.com/SystemDesigner/Vi}Process.Vi,{http://www.ni.com/SystemDesigner/EnvoyManagement}ProcessBackedEnvoyServiceMetaFactory" Id="1452" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Configure\ Signal\ \(Gain\)\.gvi" StoragePath="Host Components\Host SubVIs\Configure Signal (Gain).gvi" />
+						<SourceFileReference Bindings="ContentKind_{http://www.ni.com/SystemDesigner/Vi}Process.Vi,{http://www.ni.com/SystemDesigner/EnvoyManagement}ProcessBackedEnvoyServiceMetaFactory" Id="1454" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Configure\ Signal\ \(Level\)\.gvi" StoragePath="Host Components\Host SubVIs\Configure Signal (Level).gvi" />
+						<SourceFileReference Bindings="EnvoyManager" Id="1456" ModelDefinitionType="NationalInstruments.MocCommon.Modeling.TypeDefinition" Name="Configure\ Signal\ Mode\.gtype" StoragePath="Host Components\Host SubVIs\Configure Signal Mode.gtype\Configure Signal Mode.gtype" />
+						<SourceFileReference Bindings="EnvoyManager" Id="1458" ModelDefinitionType="NationalInstruments.MocCommon.Modeling.TypeDefinition" Name="Configure\ Signal\ Parameters\.gtype" StoragePath="Host Components\Host SubVIs\Configure Signal Parameters.gtype\Configure Signal Parameters.gtype" />
+						<SourceFileReference Bindings="ContentKind_{http://www.ni.com/SystemDesigner/Vi}Process.Vi,{http://www.ni.com/SystemDesigner/EnvoyManagement}ProcessBackedEnvoyServiceMetaFactory" Id="1460" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Configure\ Start\ Trigger\.gvi" StoragePath="Host Components\Host SubVIs\Configure Start Trigger.gvi" />
+						<SourceFileReference Bindings="ContentKind_{http://www.ni.com/SystemDesigner/Vi}Process.Vi,{http://www.ni.com/SystemDesigner/EnvoyManagement}ProcessBackedEnvoyServiceMetaFactory" Id="1462" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Configure\ Stream\.gvi" StoragePath="Host Components\Host SubVIs\Configure Stream.gvi" />
+						<SourceFileReference Bindings="ContentKind_{http://www.ni.com/SystemDesigner/Vi}Process.Vi,{http://www.ni.com/SystemDesigner/EnvoyManagement}ProcessBackedEnvoyServiceMetaFactory" Id="1464" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Configure\ Synchronization\.gvi" StoragePath="Host Components\Host SubVIs\Configure Synchronization.gvi" />
+						<SourceFileReference Bindings="ContentKind_{http://www.ni.com/SystemDesigner/Vi}Process.Vi,{http://www.ni.com/SystemDesigner/EnvoyManagement}ProcessBackedEnvoyServiceMetaFactory" Id="1466" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Configure\ Time\ \(Multi\)\.gvi" StoragePath="Host Components\Host SubVIs\Configure Time (Multi).gvi" />
+						<SourceFileReference Bindings="ContentKind_{http://www.ni.com/SystemDesigner/Vi}Process.Vi,{http://www.ni.com/SystemDesigner/EnvoyManagement}ProcessBackedEnvoyServiceMetaFactory" Id="1468" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Configure\ Time\ \(Single\)\.gvi" StoragePath="Host Components\Host SubVIs\Configure Time (Single).gvi" />
+						<SourceFileReference Bindings="ContentKind_{http://www.ni.com/SystemDesigner/Vi}Process.Vi,{http://www.ni.com/SystemDesigner/EnvoyManagement}ProcessBackedEnvoyServiceMetaFactory" Id="1470" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Configure\ Trigger\ Synchronization\.gvi" StoragePath="Host Components\Host SubVIs\Configure Trigger Synchronization.gvi" />
+						<SourceFileReference Bindings="ContentKind_{http://www.ni.com/SystemDesigner/Vi}Process.Vi,{http://www.ni.com/SystemDesigner/EnvoyManagement}ProcessBackedEnvoyServiceMetaFactory" Id="1472" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Configure\ Tx\.gvi" StoragePath="Host Components\Host SubVIs\Configure Tx.gvi" />
+						<SourceFileReference Bindings="ContentKind_{http://www.ni.com/SystemDesigner/Vi}Process.Vi,{http://www.ni.com/SystemDesigner/EnvoyManagement}ProcessBackedEnvoyServiceMetaFactory" Id="1474" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Construct\ Channels\.gvi" StoragePath="Host Components\Host SubVIs\Construct Channels.gvi" />
+						<SourceFileReference Bindings="ContentKind_{http://www.ni.com/SystemDesigner/Vi}Process.Vi,{http://www.ni.com/SystemDesigner/EnvoyManagement}ProcessBackedEnvoyServiceMetaFactory" Id="1476" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Fetch\ Rx\ Data\ \(CDB\ WDT\)\.gvi" StoragePath="Host Components\Host SubVIs\Fetch Rx Data (CDB WDT).gvi" />
+						<SourceFileReference Bindings="ContentKind_{http://www.ni.com/SystemDesigner/Vi}Process.Vi,{http://www.ni.com/SystemDesigner/EnvoyManagement}ProcessBackedEnvoyServiceMetaFactory" Id="1478" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Fetch\ Rx\ Data\ \(CDB\)\.gvi" StoragePath="Host Components\Host SubVIs\Fetch Rx Data (CDB).gvi" />
+						<SourceFileReference Bindings="ContentKind_{http://www.ni.com/SystemDesigner/Vi}Process.Vi,{http://www.ni.com/SystemDesigner/EnvoyManagement}ProcessBackedEnvoyServiceMetaFactory" Id="1480" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Fetch\ Rx\ Data\ \(I16\ multi\)\.gvi" StoragePath="Host Components\Host SubVIs\Fetch Rx Data (I16 multi).gvi" />
+						<SourceFileReference Bindings="ContentKind_{http://www.ni.com/SystemDesigner/Vi}Process.Vi,{http://www.ni.com/SystemDesigner/EnvoyManagement}ProcessBackedEnvoyServiceMetaFactory" Id="1482" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Fetch\ Rx\ Data\ \(I16\)\.gvi" StoragePath="Host Components\Host SubVIs\Fetch Rx Data (I16).gvi" />
+						<SourceFileReference Bindings="ContentKind_{http://www.ni.com/SystemDesigner/Vi}Process.Vi,{http://www.ni.com/SystemDesigner/EnvoyManagement}ProcessBackedEnvoyServiceMetaFactory" Id="1484" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Fetch\ Rx\ Data\ \(U32\)\.gvi" StoragePath="Host Components\Host SubVIs\Fetch Rx Data (U32).gvi" />
+						<SourceFileReference Bindings="ContentKind_{http://www.ni.com/SystemDesigner/Vi}Process.Vi,{http://www.ni.com/SystemDesigner/EnvoyManagement}ProcessBackedEnvoyServiceMetaFactory" Id="1486" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Generate\ Waveform\ \(Interleaved\)\.gvi" StoragePath="Host Components\Host SubVIs\Generate Waveform (Interleaved).gvi" />
+						<SourceFileReference Bindings="ContentKind_{http://www.ni.com/SystemDesigner/Vi}Process.Vi,{http://www.ni.com/SystemDesigner/EnvoyManagement}ProcessBackedEnvoyServiceMetaFactory" Id="1488" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Generate\ Waveform\ \(Multi\-Array\)\.gvi" StoragePath="Host Components\Host SubVIs\Generate Waveform (Multi-Array).gvi" />
+						<SourceFileReference Bindings="ContentKind_{http://www.ni.com/SystemDesigner/Vi}Process.Vi,{http://www.ni.com/SystemDesigner/EnvoyManagement}ProcessBackedEnvoyServiceMetaFactory" Id="1490" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Initiate\ Stream\.gvi" StoragePath="Host Components\Host SubVIs\Initiate Stream.gvi" />
+						<SourceFileReference Bindings="ContentKind_{http://www.ni.com/SystemDesigner/Vi}Process.Vi,{http://www.ni.com/SystemDesigner/EnvoyManagement}ProcessBackedEnvoyServiceMetaFactory" Id="1492" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Initiate\ and\ Fetch\ \(Multi\)\.gvi" StoragePath="Host Components\Host SubVIs\Initiate and Fetch (Multi).gvi" />
+						<SourceFileReference Bindings="ContentKind_{http://www.ni.com/SystemDesigner/Vi}Process.Vi,{http://www.ni.com/SystemDesigner/EnvoyManagement}ProcessBackedEnvoyServiceMetaFactory" Id="1494" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Initiate\ and\ Fetch\ \(Single\)\.gvi" StoragePath="Host Components\Host SubVIs\Initiate and Fetch (Single).gvi" />
+						<SourceFileReference Bindings="ContentKind_{http://www.ni.com/SystemDesigner/Vi}Process.Vi,{http://www.ni.com/SystemDesigner/EnvoyManagement}ProcessBackedEnvoyServiceMetaFactory" Id="1496" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Initiate\ and\ Fetch\ Time\ \(Multi\)\.gvi" StoragePath="Host Components\Host SubVIs\Initiate and Fetch Time (Multi).gvi" />
+						<SourceFileReference Bindings="ContentKind_{http://www.ni.com/SystemDesigner/Vi}Process.Vi,{http://www.ni.com/SystemDesigner/EnvoyManagement}ProcessBackedEnvoyServiceMetaFactory" Id="1498" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Initiate\ and\ Fetch\ Time\ \(Single\)\.gvi" StoragePath="Host Components\Host SubVIs\Initiate and Fetch Time (Single).gvi" />
+						<SourceFileReference Bindings="ContentKind_{http://www.ni.com/SystemDesigner/Vi}Process.Vi,{http://www.ni.com/SystemDesigner/EnvoyManagement}ProcessBackedEnvoyServiceMetaFactory" Id="1500" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Initiate\ and\ Generate\ \(Multi\)\.gvi" StoragePath="Host Components\Host SubVIs\Initiate and Generate (Multi).gvi" />
+						<SourceFileReference Bindings="ContentKind_{http://www.ni.com/SystemDesigner/Vi}Process.Vi,{http://www.ni.com/SystemDesigner/EnvoyManagement}ProcessBackedEnvoyServiceMetaFactory" Id="1502" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Initiate\ and\ Generate\ \(Single\)\.gvi" StoragePath="Host Components\Host SubVIs\Initiate and Generate (Single).gvi" />
+						<SourceFileReference Bindings="ContentKind_{http://www.ni.com/SystemDesigner/Vi}Process.Vi,{http://www.ni.com/SystemDesigner/EnvoyManagement}ProcessBackedEnvoyServiceMetaFactory" Id="1504" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Initiate\ and\ Generate\ Time\ \(Multi\)\.gvi" StoragePath="Host Components\Host SubVIs\Initiate and Generate Time (Multi).gvi" />
+						<SourceFileReference Bindings="ContentKind_{http://www.ni.com/SystemDesigner/Vi}Process.Vi,{http://www.ni.com/SystemDesigner/EnvoyManagement}ProcessBackedEnvoyServiceMetaFactory" Id="1506" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Initiate\ and\ Generate\ Time\ \(Single\)\.gvi" StoragePath="Host Components\Host SubVIs\Initiate and Generate Time (Single).gvi" />
+						<SourceFileReference Bindings="ContentKind_{http://www.ni.com/SystemDesigner/Vi}Process.Vi,{http://www.ni.com/SystemDesigner/EnvoyManagement}ProcessBackedEnvoyServiceMetaFactory" Id="1508" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Initiate\ and\ Trigger\.gvi" StoragePath="Host Components\Host SubVIs\Initiate and Trigger.gvi" />
+						<SourceFileReference Bindings="ContentKind_{http://www.ni.com/SystemDesigner/Vi}Process.Vi,{http://www.ni.com/SystemDesigner/EnvoyManagement}ProcessBackedEnvoyServiceMetaFactory" Id="1510" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Lock\ to\ GPS\.gvi" StoragePath="Host Components\Host SubVIs\Lock to GPS.gvi" />
+						<SourceFileReference Bindings="ContentKind_{http://www.ni.com/SystemDesigner/Vi}Process.Vi,{http://www.ni.com/SystemDesigner/EnvoyManagement}ProcessBackedEnvoyServiceMetaFactory" Id="1512" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Open\ Device\.gvi" StoragePath="Host Components\Host SubVIs\Open Device.gvi" />
+						<SourceFileReference Bindings="ContentKind_{http://www.ni.com/SystemDesigner/Vi}Process.Vi,{http://www.ni.com/SystemDesigner/EnvoyManagement}ProcessBackedEnvoyServiceMetaFactory" Id="1514" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Open\ and\ Configure\ Device\.gvi" StoragePath="Host Components\Host SubVIs\Open and Configure Device.gvi" />
+						<SourceFileReference Bindings="ContentKind_{http://www.ni.com/SystemDesigner/Vi}Process.Vi,{http://www.ni.com/SystemDesigner/EnvoyManagement}ProcessBackedEnvoyServiceMetaFactory" Id="1516" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Restore\ Rx\ IQ\ Offset\ Correction\ Data\ from\ File\.gvi" StoragePath="Host Components\Host SubVIs\Restore Rx IQ Offset Correction Data from File.gvi" />
+						<SourceFileReference Bindings="ContentKind_{http://www.ni.com/SystemDesigner/Vi}Process.Vi,{http://www.ni.com/SystemDesigner/EnvoyManagement}ProcessBackedEnvoyServiceMetaFactory" Id="1518" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Scale\ IQ\ Data\.gvi" StoragePath="Host Components\Host SubVIs\Scale IQ Data.gvi" />
+						<SourceFileReference Bindings="ContentKind_{http://www.ni.com/SystemDesigner/Vi}Process.Vi,{http://www.ni.com/SystemDesigner/EnvoyManagement}ProcessBackedEnvoyServiceMetaFactory" Id="1520" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Self\ Correct\ Rx\ IQ\ Offset\.gvi" StoragePath="Host Components\Host SubVIs\Self Correct Rx IQ Offset.gvi" />
+						<SourceFileReference Bindings="ContentKind_{http://www.ni.com/SystemDesigner/Vi}Process.Vi,{http://www.ni.com/SystemDesigner/EnvoyManagement}ProcessBackedEnvoyServiceMetaFactory" Id="1522" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Self\ Measure\ Rx\ IQ\ Offset\.gvi" StoragePath="Host Components\Host SubVIs\Self Measure Rx IQ Offset.gvi" />
+						<SourceFileReference Bindings="ContentKind_{http://www.ni.com/SystemDesigner/Vi}Process.Vi,{http://www.ni.com/SystemDesigner/EnvoyManagement}ProcessBackedEnvoyServiceMetaFactory" Id="1524" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Send\ Software\ Start\ Trigger\.gvi" StoragePath="Host Components\Host SubVIs\Send Software Start Trigger.gvi" />
+						<SourceFileReference Bindings="EnvoyManager" Id="1526" ModelDefinitionType="NationalInstruments.MocCommon.Modeling.TypeDefinition" Name="Start\ Trigger\.gtype" StoragePath="Host Components\Host SubVIs\Start Trigger.gtype\Start Trigger.gtype" />
+						<SourceFileReference Bindings="EnvoyManager" Id="1528" ModelDefinitionType="NationalInstruments.MocCommon.Modeling.TypeDefinition" Name="Streaming\ Xvcr\ FPGA\ Ref\.gtype" StoragePath="Host Components\Host SubVIs\Streaming Xvcr FPGA Ref.gtype\Streaming Xvcr FPGA Ref.gtype" />
+						<SourceFileReference Bindings="ContentKind_{http://www.ni.com/SystemDesigner/Vi}Process.Vi,{http://www.ni.com/SystemDesigner/EnvoyManagement}ProcessBackedEnvoyServiceMetaFactory" Id="1530" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Trigger\ Time\.gvi" StoragePath="Host Components\Host SubVIs\Trigger Time.gvi" />
+						<SourceFileReference Bindings="ContentKind_{http://www.ni.com/SystemDesigner/Vi}Process.Vi,{http://www.ni.com/SystemDesigner/EnvoyManagement}ProcessBackedEnvoyServiceMetaFactory" Id="1532" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Write\ Tx\ Data\ \(CDB\ WDT\)\.gvi" StoragePath="Host Components\Host SubVIs\Write Tx Data (CDB WDT).gvi" />
+						<SourceFileReference Bindings="ContentKind_{http://www.ni.com/SystemDesigner/Vi}Process.Vi,{http://www.ni.com/SystemDesigner/EnvoyManagement}ProcessBackedEnvoyServiceMetaFactory" Id="1534" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Write\ Tx\ Data\ \(CDB\)\.gvi" StoragePath="Host Components\Host SubVIs\Write Tx Data (CDB).gvi" />
+						<SourceFileReference Bindings="ContentKind_{http://www.ni.com/SystemDesigner/Vi}Process.Vi,{http://www.ni.com/SystemDesigner/EnvoyManagement}ProcessBackedEnvoyServiceMetaFactory" Id="1536" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Write\ Tx\ Data\ \(I16\ multi\)\.gvi" StoragePath="Host Components\Host SubVIs\Write Tx Data (I16 multi).gvi" />
+						<SourceFileReference Bindings="ContentKind_{http://www.ni.com/SystemDesigner/Vi}Process.Vi,{http://www.ni.com/SystemDesigner/EnvoyManagement}ProcessBackedEnvoyServiceMetaFactory" Id="1538" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Write\ Tx\ Data\ \(I16\)\.gvi" StoragePath="Host Components\Host SubVIs\Write Tx Data (I16).gvi" />
+						<SourceFileReference Bindings="ContentKind_{http://www.ni.com/SystemDesigner/Vi}Process.Vi,{http://www.ni.com/SystemDesigner/EnvoyManagement}ProcessBackedEnvoyServiceMetaFactory" Id="1540" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Write\ Tx\ Data\ \(U32\)\.gvi" StoragePath="Host Components\Host SubVIs\Write Tx Data (U32).gvi" />
+						<SourceFileReference Bindings="ContentKind_{http://www.ni.com/SystemDesigner/Vi}Process.Vi,{http://www.ni.com/SystemDesigner/EnvoyManagement}ProcessBackedEnvoyServiceMetaFactory" Id="1762" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Xcvr\ Sim\.gvi" StoragePath="Host Components\Practice\Xcvr Sim.gvi" />
+						<SourceFileReference Bindings="ContentKind_{http://www.ni.com/SystemDesigner/Vi}Process.Vi,{http://www.ni.com/SystemDesigner/EnvoyManagement}ProcessBackedEnvoyServiceMetaFactory" Id="1768" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Bits\ To\ Packets\.gvi" StoragePath="Host Components\SubVIs for Packet Tx and Rx\Bits To Packets.gvi" />
+						<SourceFileReference Bindings="ContentKind_{http://www.ni.com/SystemDesigner/Vi}Process.Vi,{http://www.ni.com/SystemDesigner/EnvoyManagement}ProcessBackedEnvoyServiceMetaFactory" Id="1770" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Frame\ Sync\.gvi" StoragePath="Host Components\SubVIs for Packet Tx and Rx\Frame Sync.gvi" />
+						<SourceFileReference Bindings="ContentKind_{http://www.ni.com/SystemDesigner/Vi}Process.Vi,{http://www.ni.com/SystemDesigner/EnvoyManagement}ProcessBackedEnvoyServiceMetaFactory" Id="1772" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Pulse\ Shaping\.gvi" StoragePath="Host Components\SubVIs for Packet Tx and Rx\Pulse Shaping.gvi" />
+						<SourceFileReference Bindings="ContentKind_{http://www.ni.com/SystemDesigner/Vi}Process.Vi,{http://www.ni.com/SystemDesigner/EnvoyManagement}ProcessBackedEnvoyServiceMetaFactory" Id="1774" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="String\ to\ bits\.gvi" StoragePath="Host Components\SubVIs for Packet Tx and Rx\String to bits.gvi" />
+						<SourceFileReference Bindings="ContentKind_{http://www.ni.com/SystemDesigner/Vi}Process.Vi,{http://www.ni.com/SystemDesigner/EnvoyManagement}ProcessBackedEnvoyServiceMetaFactory" Id="1776" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Symbol\ Mapping\.gvi" StoragePath="Host Components\SubVIs for Packet Tx and Rx\Symbol Mapping.gvi" />
+						<SourceFileReference Bindings="ContentKind_{http://www.ni.com/SystemDesigner/Vi}Process.Vi,{http://www.ni.com/SystemDesigner/EnvoyManagement}ProcessBackedEnvoyServiceMetaFactory" Id="1778" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Symbol\ Offset\.gvi" StoragePath="Host Components\SubVIs for Packet Tx and Rx\Symbol Offset.gvi" />
+						<SourceFileReference Bindings="ContentKind_{http://www.ni.com/SystemDesigner/Vi}Process.Vi,{http://www.ni.com/SystemDesigner/EnvoyManagement}ProcessBackedEnvoyServiceMetaFactory" Id="1804" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Bits\ to\ String\.gvi" StoragePath="SubVIs to be used\Bits to String.gvi" />
+						<SourceFileReference Bindings="ContentKind_{http://www.ni.com/SystemDesigner/Vi}Process.Vi,{http://www.ni.com/SystemDesigner/EnvoyManagement}ProcessBackedEnvoyServiceMetaFactory" Id="1806" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Equalizer\.gvi" StoragePath="SubVIs to be used\Equalizer.gvi" />
+						<SourceFileReference Bindings="ContentKind_{http://www.ni.com/SystemDesigner/Vi}Process.Vi,{http://www.ni.com/SystemDesigner/EnvoyManagement}ProcessBackedEnvoyServiceMetaFactory" Id="1808" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Extract\ First\ Frame\ Indices\.gvi" StoragePath="SubVIs to be used\Extract First Frame Indices.gvi" />
+						<SourceFileReference Bindings="ContentKind_{http://www.ni.com/SystemDesigner/Vi}Process.Vi,{http://www.ni.com/SystemDesigner/EnvoyManagement}ProcessBackedEnvoyServiceMetaFactory" Id="1810" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Generate\ Scaled\ IQ\ Data\.gvi" StoragePath="SubVIs to be used\Generate Scaled IQ Data.gvi" />
+						<SourceFileReference Bindings="ContentKind_{http://www.ni.com/SystemDesigner/Vi}Process.Vi,{http://www.ni.com/SystemDesigner/EnvoyManagement}ProcessBackedEnvoyServiceMetaFactory" Id="1812" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Generate\ Sync\ Bits\.gvi" StoragePath="SubVIs to be used\Generate Sync Bits.gvi" />
+						<SourceFileReference Bindings="ContentKind_{http://www.ni.com/SystemDesigner/Vi}Process.Vi,{http://www.ni.com/SystemDesigner/EnvoyManagement}ProcessBackedEnvoyServiceMetaFactory" Id="1814" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="IQ\ Extract\ Frame\.gvi" StoragePath="SubVIs to be used\IQ Extract Frame.gvi" />
+						<SourceFileReference Bindings="ContentKind_{http://www.ni.com/SystemDesigner/Vi}Process.Vi,{http://www.ni.com/SystemDesigner/EnvoyManagement}ProcessBackedEnvoyServiceMetaFactory" Id="1816" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Inter\ Packet\ Gap\.gvi" StoragePath="SubVIs to be used\Inter Packet Gap.gvi" />
+						<SourceFileReference Bindings="ContentKind_{http://www.ni.com/SystemDesigner/Vi}Process.Vi,{http://www.ni.com/SystemDesigner/EnvoyManagement}ProcessBackedEnvoyServiceMetaFactory" Id="1818" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Matched\ Filter\.gvi" StoragePath="SubVIs to be used\Matched Filter.gvi" />
+						<SourceFileReference Bindings="ContentKind_{http://www.ni.com/SystemDesigner/Vi}Process.Vi,{http://www.ni.com/SystemDesigner/EnvoyManagement}ProcessBackedEnvoyServiceMetaFactory" Id="1852" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Xcvr\ Mod\.gvi" StoragePath="Host Components\Practice\Xcvr Mod.gvi" />
+						<SourceFileReference Bindings="ContentKind_{http://www.ni.com/SystemDesigner/Vi}Process.Vi,{http://www.ni.com/SystemDesigner/EnvoyManagement}ProcessBackedEnvoyServiceMetaFactory" Id="1858" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Upsample_Mod\.gvi" StoragePath="Upsample_Mod.gvi" />
+						<SourceFileReference Bindings="ContentKind_{http://www.ni.com/SystemDesigner/Vi}Process.Vi,{http://www.ni.com/SystemDesigner/EnvoyManagement}ProcessBackedEnvoyServiceMetaFactory" Id="1864" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Extract\ Frame\.gvi" StoragePath="Extract Frame.gvi" />
+						<SourceFileReference Bindings="ContentKind_{http://www.ni.com/SystemDesigner/Vi}Process.Vi,{http://www.ni.com/SystemDesigner/EnvoyManagement}ProcessBackedEnvoyServiceMetaFactory" Id="1904" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Frame\ Sync\ Mod\.gvi" StoragePath="Frame Sync Mod.gvi" />
+						<SourceFileReference Bindings="ContentKind_{http://www.ni.com/SystemDesigner/Vi}Process.Vi,{http://www.ni.com/SystemDesigner/EnvoyManagement}ProcessBackedEnvoyServiceMetaFactory" Id="1910" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Modulation\ \(OOK\)\.gvi" StoragePath="Modulation (OOK).gvi" />
+						<SourceFileReference Bindings="ContentKind_{http://www.ni.com/SystemDesigner/Vi}Process.Vi,{http://www.ni.com/SystemDesigner/EnvoyManagement}ProcessBackedEnvoyServiceMetaFactory" Id="1989" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="USRP\ Xcvr\.gvi" StoragePath="Host Components\Practice\USRP Xcvr.gvi" />
+						<SourceFileReference Bindings="ContentKind_{http://www.ni.com/SystemDesigner/Vi}Process.Vi,{http://www.ni.com/SystemDesigner/EnvoyManagement}ProcessBackedEnvoyServiceMetaFactory" Id="2696" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Manchester\ Coding\.gvi" StoragePath="Manchester Coding.gvi" />
+						<SourceFileReference Bindings="ContentKind_{http://www.ni.com/SystemDesigner/Vi}Process.Vi,{http://www.ni.com/SystemDesigner/EnvoyManagement}ProcessBackedEnvoyServiceMetaFactory" Id="2879" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="DC\ Removal\.gvi" StoragePath="DC Removal.gvi" />
+						<SourceFileReference Bindings="ContentKind_{http://www.ni.com/SystemDesigner/Vi}Process.Vi,{http://www.ni.com/SystemDesigner/EnvoyManagement}ProcessBackedEnvoyServiceMetaFactory" Id="2887" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Thresholding\.gvi" StoragePath="Thresholding.gvi" />
+						<SourceFileReference Bindings="ContentKind_{http://www.ni.com/SystemDesigner/Vi}Process.Vi,{http://www.ni.com/SystemDesigner/EnvoyManagement}ProcessBackedEnvoyServiceMetaFactory" Id="2893" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Frame\ Markers\.gvi" StoragePath="Frame Markers.gvi" />
+						<SourceFileReference Bindings="ContentKind_{http://www.ni.com/SystemDesigner/Vi}Process.Vi,{http://www.ni.com/SystemDesigner/EnvoyManagement}ProcessBackedEnvoyServiceMetaFactory" Id="2911" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Manchester\ Decoding\.gvi" StoragePath="Manchester Decoding.gvi" />
+						<SourceFileReference Bindings="ContentKind_{http://www.ni.com/SystemDesigner/Vi}Process.Vi,{http://www.ni.com/SystemDesigner/EnvoyManagement}ProcessBackedEnvoyServiceMetaFactory" Id="3506" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="USRP\ Xcvr_2\.gvi" StoragePath="Host Components\Practice\USRP Xcvr_2.gvi" />
+						<SourceFileReference Bindings="ContentKind_{http://www.ni.com/SystemDesigner/Vi}Process.Vi,{http://www.ni.com/SystemDesigner/EnvoyManagement}ProcessBackedEnvoyServiceMetaFactory" Id="3518" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Function\.gvi" StoragePath="Function.gvi" />
+						<SourceFileReference Bindings="ContentKind_{http://www.ni.com/SystemDesigner/Vi}Process.Vi,{http://www.ni.com/SystemDesigner/EnvoyManagement}ProcessBackedEnvoyServiceMetaFactory" Id="3810" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Function_2\.gvi" StoragePath="Function_2.gvi" />
+						<SourceFileReference Bindings="ContentKind_{http://www.ni.com/SystemDesigner/Vi}Process.Vi,{http://www.ni.com/SystemDesigner/EnvoyManagement}ProcessBackedEnvoyServiceMetaFactory" Id="4151" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Function_3\.gvi" StoragePath="Function_3.gvi" />
+						<SourceFileReference Bindings="ContentKind_{http://www.ni.com/SystemDesigner/Vi}Process.Vi,{http://www.ni.com/SystemDesigner/EnvoyManagement}ProcessBackedEnvoyServiceMetaFactory" Id="4505" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Function_4\.gvi" StoragePath="Function_4.gvi" />
+						<SourceFileReference Bindings="ContentKind_{http://www.ni.com/SystemDesigner/Vi}Process.Vi,{http://www.ni.com/SystemDesigner/EnvoyManagement}ProcessBackedEnvoyServiceMetaFactory" Id="4527" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Function_5\.gvi" StoragePath="Function_5.gvi" />
+						<SourceFileReference Bindings="ContentKind_{http://www.ni.com/SystemDesigner/Vi}Process.Vi,{http://www.ni.com/SystemDesigner/EnvoyManagement}ProcessBackedEnvoyServiceMetaFactory" Id="4828" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Tuning\ Check\.gvi" StoragePath="Tuning Check.gvi" />
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Id="62" ModelDefinitionType="RepositoryManagerDefinition" Name="instr\.lib" Reparentable="False">
+						<RepositoryManagerDefinition Location="&quot;&lt;AppDir&gt;\\Resources\\instr.lib&quot;" />
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Bindings="RcxRepositoryManagerDefinition" Id="5127" ModelDefinitionType="RepositoryManagerDefinition" Name="rcx\.lib" Reparentable="False">
+						<RepositoryManagerDefinition />
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Id="5128" ModelDefinitionType="RepositoryManagerDefinition" Name="vi\.lib\.Fpga" Reparentable="False">
+						<RepositoryManagerDefinition Location="&quot;&lt;AppDir&gt;\\Resources\\vi.lib\\Fpga&quot;" />
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Id="5129" ModelDefinitionType="RepositoryManagerDefinition" Name="vi\.lib\.Common" Reparentable="False">
+						<RepositoryManagerDefinition Location="&quot;&lt;AppDir&gt;\\Resources\\vi.lib\\Common&quot;" />
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Id="5130" ModelDefinitionType="RepositoryManagerDefinition" Name="vi\.lib\.Native" Reparentable="False">
+						<RepositoryManagerDefinition Location="&quot;&lt;AppDir&gt;\\Resources\\vi.lib\\Native&quot;" />
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Id="5132" ModelDefinitionType="PackageReferencesDefinition" Name="ProjectReferences">
+						<PackageReferencesDefinition />
+						<SourceFileReference Bindings="EnvoyManager" Id="5133" ModelDefinitionType="PackageInterfaceDefinition" Name="ni\-analysis\-advanced\-src\-1\.0\.7\.1\.niaddon" StoragePath="ref://NI/analysis/advanced-src/1.0.7.1" />
+						<SourceFileReference Bindings="EnvoyManager" Id="5135" ModelDefinitionType="PackageInterfaceDefinition" Name="ni\-analysis\-basic\-src\-1\.0\.7\.1\.niaddon" StoragePath="ref://NI/analysis/basic-src/1.0.7.1" />
+						<SourceFileReference Bindings="EnvoyManager" Id="5137" ModelDefinitionType="PackageInterfaceDefinition" Name="ni\-analysis\-control\-src\-1\.0\.7\.1\.niaddon" StoragePath="ref://NI/analysis/control-src/1.0.7.1" />
+						<SourceFileReference Bindings="EnvoyManager" Id="5139" ModelDefinitionType="PackageInterfaceDefinition" Name="ni\-analysis\-controlbasic\-src\-1\.0\.7\.1\.niaddon" StoragePath="ref://NI/analysis/controlbasic-src/1.0.7.1" />
+						<SourceFileReference Bindings="EnvoyManager" Id="5141" ModelDefinitionType="PackageInterfaceDefinition" Name="ni\-analysis\-standard\-src\-1\.0\.7\.1\.niaddon" StoragePath="ref://NI/analysis/standard-src/1.0.7.1" />
+						<SourceFileReference Bindings="EnvoyManager" Id="5143" ModelDefinitionType="PackageInterfaceDefinition" Name="ni\-flexrio\-flexrio\-src\-18\.0\.0\.niaddon" StoragePath="ref://NI/FlexRIO/FlexRIO-src/18.0.0" />
+						<SourceFileReference Bindings="EnvoyManager" Id="5145" ModelDefinitionType="PackageInterfaceDefinition" Name="ni\-flexrio\-ni579xv2fpga\-src\-18\.0\.0\.niaddon" StoragePath="ref://NI/FlexRIO/ni579xV2Fpga-src/18.0.0" />
+						<SourceFileReference Bindings="EnvoyManager" Id="5147" ModelDefinitionType="PackageInterfaceDefinition" Name="ni\-flexrio\-ni579xv2host\-src\-18\.0\.0\.niaddon" StoragePath="ref://NI/FlexRIO/ni579xV2Host-src/18.0.0" />
+						<SourceFileReference Bindings="EnvoyManager" Id="5149" ModelDefinitionType="PackageInterfaceDefinition" Name="ni\-fpga\-base\-src\-1\.0\.0\.3\.niaddon" StoragePath="ref://NI/fpga/base-src/1.0.0.3" />
+						<SourceFileReference Bindings="EnvoyManager" Id="5151" ModelDefinitionType="PackageInterfaceDefinition" Name="ni\-fpga\-conversion\-src\-1\.0\.0\.5\.niaddon" StoragePath="ref://NI/fpga/conversion-src/1.0.0.5" />
+						<SourceFileReference Bindings="EnvoyManager" Id="5153" ModelDefinitionType="PackageInterfaceDefinition" Name="ni\-fpga\-htmath\-src\-1\.0\.0\.11\.niaddon" StoragePath="ref://NI/fpga/htmath-src/1.0.0.11" />
+						<SourceFileReference Bindings="EnvoyManager" Id="5155" ModelDefinitionType="PackageInterfaceDefinition" Name="ni\-fpga\-linearalgebra\-src\-1\.0\.0\.1\.niaddon" StoragePath="ref://NI/fpga/linearalgebra-src/1.0.0.1" />
+						<SourceFileReference Bindings="EnvoyManager" Id="5157" ModelDefinitionType="PackageInterfaceDefinition" Name="ni\-g\-http\-src\-1\.0\.0\.12\.niaddon" StoragePath="ref://NI/G/http-src/1.0.0.12" />
+						<SourceFileReference Bindings="EnvoyManager" Id="5159" ModelDefinitionType="PackageInterfaceDefinition" Name="ni\-g\-reporting\-src\-1\.0\.0\.3\.niaddon" StoragePath="ref://NI/G/reporting-src/1.0.0.3" />
+						<SourceFileReference Bindings="EnvoyManager" Id="5161" ModelDefinitionType="PackageInterfaceDefinition" Name="ni\-g\-stdlib\-src\-1\.0\.5\.17\.niaddon" StoragePath="ref://NI/G/stdlib-src/1.0.5.17" />
+						<SourceFileReference Bindings="EnvoyManager" Id="5163" ModelDefinitionType="PackageInterfaceDefinition" Name="ni\-idl\-basicelementsv1fpga\-src\-1\.0\.0\.niaddon" StoragePath="ref://NI/idl/BasicElementsV1FPGA-src/1.0.0" />
+						<SourceFileReference Bindings="EnvoyManager" Id="5165" ModelDefinitionType="PackageInterfaceDefinition" Name="ni\-idl\-datatriggerv1fpga\-src\-1\.0\.0\.niaddon" StoragePath="ref://NI/idl/DataTriggerV1FPGA-src/1.0.0" />
+						<SourceFileReference Bindings="EnvoyManager" Id="5167" ModelDefinitionType="PackageInterfaceDefinition" Name="ni\-idl\-streamingv1fpga\-src\-1\.0\.0\.niaddon" StoragePath="ref://NI/idl/StreamingV1FPGA-src/1.0.0" />
+						<SourceFileReference Bindings="EnvoyManager" Id="5169" ModelDefinitionType="PackageInterfaceDefinition" Name="ni\-idl\-streamingv1host\-src\-1\.0\.0\.niaddon" StoragePath="ref://NI/idl/StreamingV1Host-src/1.0.0" />
+						<SourceFileReference Bindings="EnvoyManager" Id="5171" ModelDefinitionType="PackageInterfaceDefinition" Name="ni\-instrumentdriver\-keysight344xx\-src\-17\.5\.0\.niaddon" StoragePath="ref://NI/InstrumentDriver/Keysight344XX-src/17.5.0" />
+						<SourceFileReference Bindings="EnvoyManager" Id="5173" ModelDefinitionType="PackageInterfaceDefinition" Name="ni\-modulation\-modulation\-src\-18\.0\.0\.niaddon" StoragePath="ref://NI/Modulation/Modulation-src/18.0.0" />
+						<SourceFileReference Bindings="EnvoyManager" Id="5175" ModelDefinitionType="PackageInterfaceDefinition" Name="ni\-mxlc\-base\-src\-17\.5\.0\.niaddon" StoragePath="ref://NI/MXLC/Base-src/17.5.0" />
+						<SourceFileReference Bindings="EnvoyManager" Id="5177" ModelDefinitionType="PackageInterfaceDefinition" Name="ni\-nisync\-base\-src\-17\.5\.0\.niaddon" StoragePath="ref://NI/niSync/Base-src/17.5.0" />
+						<SourceFileReference Bindings="EnvoyManager" Id="5179" ModelDefinitionType="PackageInterfaceDefinition" Name="ni\-p2p\-base\-src\-17\.5\.0\.niaddon" StoragePath="ref://NI/P2P/Base-src/17.5.0" />
+						<SourceFileReference Bindings="EnvoyManager" Id="5181" ModelDefinitionType="PackageInterfaceDefinition" Name="ni\-rt\-rtlib\-src\-1\.0\.0\.21\.niaddon" StoragePath="ref://NI/RT/rtlib-src/1.0.0.21" />
+						<SourceFileReference Bindings="EnvoyManager" Id="5183" ModelDefinitionType="PackageInterfaceDefinition" Name="ni\-sdr\-basicelementsv1fpga\-src\-18\.1\.0\.niaddon" StoragePath="ref://NI/SDR/BasicElementsV1FPGA-src/18.1.0" />
+						<SourceFileReference Bindings="EnvoyManager" Id="5185" ModelDefinitionType="PackageInterfaceDefinition" Name="ni\-sdr\-dspv1fpga\-src\-18\.1\.0\.niaddon" StoragePath="ref://NI/SDR/DSPV1FPGA-src/18.1.0" />
+						<SourceFileReference Bindings="EnvoyManager" Id="5187" ModelDefinitionType="PackageInterfaceDefinition" Name="ni\-sdr\-dspv1shared\-src\-18\.1\.0\.niaddon" StoragePath="ref://NI/SDR/DSPv1Shared-src/18.1.0" />
+						<SourceFileReference Bindings="EnvoyManager" Id="5189" ModelDefinitionType="PackageInterfaceDefinition" Name="ni\-sdr\-lmk04816v1fpga\-src\-18\.1\.0\.niaddon" StoragePath="ref://NI/SDR/LMK04816V1FPGA-src/18.1.0" />
+						<SourceFileReference Bindings="EnvoyManager" Id="5191" ModelDefinitionType="PackageInterfaceDefinition" Name="ni\-sdr\-lmk04816v1host\-src\-18\.1\.0\.niaddon" StoragePath="ref://NI/SDR/LMK04816V1Host-src/18.1.0" />
+						<SourceFileReference Bindings="EnvoyManager" Id="5193" ModelDefinitionType="PackageInterfaceDefinition" Name="ni\-sdr\-lmk04816v1shared\-src\-18\.1\.0\.niaddon" StoragePath="ref://NI/SDR/LMK04816V1Shared-src/18.1.0" />
+						<SourceFileReference Bindings="EnvoyManager" Id="5195" ModelDefinitionType="PackageInterfaceDefinition" Name="ni\-sdr\-registerbusv0host\-src\-18\.1\.0\.niaddon" StoragePath="ref://NI/SDR/RegisterBusV0Host-src/18.1.0" />
+						<SourceFileReference Bindings="EnvoyManager" Id="5197" ModelDefinitionType="PackageInterfaceDefinition" Name="ni\-sdr\-registerbusv1fpga\-src\-18\.1\.0\.niaddon" StoragePath="ref://NI/SDR/RegisterBusV1FPGA-src/18.1.0" />
+						<SourceFileReference Bindings="EnvoyManager" Id="5199" ModelDefinitionType="PackageInterfaceDefinition" Name="ni\-sdr\-tdcv1fpga\-src\-18\.1\.0\.niaddon" StoragePath="ref://NI/SDR/TDCV1FPGA-src/18.1.0" />
+						<SourceFileReference Bindings="EnvoyManager" Id="5201" ModelDefinitionType="PackageInterfaceDefinition" Name="ni\-usrp\-usrp\-src\-18\.1\.0\.niaddon" StoragePath="ref://NI/USRP/USRP-src/18.1.0" />
+						<SourceFileReference Bindings="EnvoyManager" Id="5203" ModelDefinitionType="PackageInterfaceDefinition" Name="ni\-usrprio\-configv1fpga\-src\-18\.1\.0\.niaddon" StoragePath="ref://NI/USRPRIO/ConfigV1FPGA-src/18.1.0" />
+						<SourceFileReference Bindings="EnvoyManager" Id="5205" ModelDefinitionType="PackageInterfaceDefinition" Name="ni\-usrprio\-configv1host\-src\-18\.1\.0\.niaddon" StoragePath="ref://NI/USRPRIO/ConfigV1Host-src/18.1.0" />
+						<SourceFileReference Bindings="EnvoyManager" Id="5207" ModelDefinitionType="PackageInterfaceDefinition" Name="ni\-usrprio\-configv1shared\-src\-18\.1\.0\.niaddon" StoragePath="ref://NI/USRPRIO/ConfigV1Shared-src/18.1.0" />
+						<SourceFileReference Bindings="EnvoyManager" Id="5209" ModelDefinitionType="PackageInterfaceDefinition" Name="ni\-usrprio\-gpsv1fpga\-src\-18\.1\.0\.niaddon" StoragePath="ref://NI/USRPRIO/GPSV1FPGA-src/18.1.0" />
+						<SourceFileReference Bindings="EnvoyManager" Id="5211" ModelDefinitionType="PackageInterfaceDefinition" Name="ni\-usrprio\-gpsv1host\-src\-18\.1\.0\.niaddon" StoragePath="ref://NI/USRPRIO/GPSV1Host-src/18.1.0" />
+						<SourceFileReference Bindings="EnvoyManager" Id="5213" ModelDefinitionType="PackageInterfaceDefinition" Name="ni\-usrprio\-gpsv1shared\-src\-18\.1\.0\.niaddon" StoragePath="ref://NI/USRPRIO/GPSV1Shared-src/18.1.0" />
+						<SourceFileReference Bindings="EnvoyManager" Id="5215" ModelDefinitionType="PackageInterfaceDefinition" Name="ni\-usrprio\-primitives\-src\-18\.1\.0\.niaddon" StoragePath="ref://NI/USRPRIO/Primitives-src/18.1.0" />
+						<SourceFileReference Bindings="EnvoyManager" Id="5217" ModelDefinitionType="PackageInterfaceDefinition" Name="ni\-usrprio\-syncv1fpga\-src\-18\.1\.0\.niaddon" StoragePath="ref://NI/USRPRIO/SyncV1FPGA-src/18.1.0" />
+						<SourceFileReference Bindings="EnvoyManager" Id="5219" ModelDefinitionType="PackageInterfaceDefinition" Name="ni\-usrprio\-syncv1host\-src\-18\.1\.0\.niaddon" StoragePath="ref://NI/USRPRIO/SyncV1Host-src/18.1.0" />
+						<SourceFileReference Bindings="EnvoyManager" Id="5221" ModelDefinitionType="PackageInterfaceDefinition" Name="ni\-usrprio\-syncv1shared\-src\-18\.1\.0\.niaddon" StoragePath="ref://NI/USRPRIO/SyncV1Shared-src/18.1.0" />
+						<SourceFileReference Bindings="EnvoyManager" Id="5223" ModelDefinitionType="PackageInterfaceDefinition" Name="ni\-usrprio\-timev1fpga\-src\-18\.1\.0\.niaddon" StoragePath="ref://NI/USRPRIO/TimeV1FPGA-src/18.1.0" />
+						<SourceFileReference Bindings="EnvoyManager" Id="5225" ModelDefinitionType="PackageInterfaceDefinition" Name="ni\-usrprio\-timev1host\-src\-18\.1\.0\.niaddon" StoragePath="ref://NI/USRPRIO/TimeV1Host-src/18.1.0" />
+						<SourceFileReference Bindings="EnvoyManager" Id="5227" ModelDefinitionType="PackageInterfaceDefinition" Name="ni\-usrprio\-timev1shared\-src\-18\.1\.0\.niaddon" StoragePath="ref://NI/USRPRIO/TimeV1Shared-src/18.1.0" />
+						<SourceFileReference Bindings="EnvoyManager" Id="5229" ModelDefinitionType="PackageInterfaceDefinition" Name="ni\-usrprio\-tools\-src\-18\.1\.0\.niaddon" StoragePath="ref://NI/USRPRIO/Tools-src/18.1.0" />
+						<SourceFileReference Bindings="EnvoyManager" Id="5231" ModelDefinitionType="PackageInterfaceDefinition" Name="ni\-visa\-base\-src\-17\.5\.0\.niaddon" StoragePath="ref://NI/VISA/Base-src/17.5.0" />
+					</EmbeddedDefinitionReference>
+				</NameScopingEnvoy>
+				<EmbeddedDefinitionReference Id="5123" ModelDefinitionType="RepositoryManagerDefinition" Name="vi\.lib\.Fpga" Reparentable="False">
+					<RepositoryManagerDefinition Location="&quot;&lt;AppDir&gt;\\Resources\\vi.lib\\Fpga&quot;" />
+				</EmbeddedDefinitionReference>
+				<EmbeddedDefinitionReference Id="5124" ModelDefinitionType="RepositoryManagerDefinition" Name="vi\.lib\.Common" Reparentable="False">
+					<RepositoryManagerDefinition Location="&quot;&lt;AppDir&gt;\\Resources\\vi.lib\\Common&quot;" />
+				</EmbeddedDefinitionReference>
+				<EmbeddedDefinitionReference Id="5125" ModelDefinitionType="RepositoryManagerDefinition" Name="instr\.lib" Reparentable="False">
+					<RepositoryManagerDefinition Location="&quot;&lt;AppDir&gt;\\Resources\\instr.lib&quot;" />
+				</EmbeddedDefinitionReference>
+				<EmbeddedDefinitionReference Id="5126" ModelDefinitionType="RepositoryManagerDefinition" Name="vi\.lib\.Native" Reparentable="False">
+					<RepositoryManagerDefinition Location="&quot;&lt;AppDir&gt;\\Resources\\vi.lib\\Native&quot;" />
+				</EmbeddedDefinitionReference>
+			</NameScopingEnvoy>
+		</EmbeddedDefinitionReference>
+		<NameScopingEnvoy Id="10" ModelDefinitionType="NullTarget" Name="NullTarget">
+			<NullTarget />
+			<EmbeddedDefinitionReference Bindings="{http://www.ni.com/GComponent.xsd}ComponentBaseType_Library" Id="39" ModelDefinitionType="ComponentDefinition" Name="Default\ Component">
+				<ComponentDefinition DefaultConfigurationName="Default" Id="40" RootNamespaceId="39" xmlns="http://www.ni.com/GComponent.xsd">
+					<Icon Id="4835" ListViewIconCrop="0 0 40 40" xmlns="http://www.ni.com/PlatformFramework">
+						<IconPanel Height="[float]40" Id="4836" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
+							<IconTemplate Height="[float]40" HorizontalAlignment="[HorizontalAlignment]Center" Id="4837" Left="[float]0" TemplateName="[string]Blank" Top="[float]0" VerticalAlignment="[VerticalAlignment]Center" Width="[float]40" />
+						</IconPanel>
+					</Icon>
+					<CompilerSymbolTable Id="41" xmlns="http://www.ni.com/PlatformFramework" />
+					<ComponentConfiguration Id="42" Name="Default">
+						<CompilerSymbolTable Id="43" xmlns="http://www.ni.com/PlatformFramework" />
+					</ComponentConfiguration>
+				</ComponentDefinition>
+				<SourceFileReference Id="1393" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Pack\.gvi" StoragePath="Host Components\Pack.gvi" />
+				<SourceFileReference Id="1399" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Packet\ Tx\ and\ Rx\.gvi" StoragePath="Host Components\Packet Tx and Rx.gvi" />
+				<SourceFileReference Id="1401" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Rx\ Streaming\ \(Host\)\.gvi" StoragePath="Host Components\Rx Streaming (Host).gvi" />
+				<SourceFileReference Id="1403" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Tx\ Streaming\ \(Host\)\.gvi" StoragePath="Host Components\Tx Streaming (Host).gvi" />
+				<SourceFileReference Id="1405" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Tx\ and\ Rx\ Streaming\ \(Host\)\.gvi" StoragePath="Host Components\Tx and Rx Streaming (Host).gvi" />
+				<SourceFileReference Bindings="EnvoyManager" Id="1423" ModelDefinitionType="NationalInstruments.MocCommon.Modeling.TypeDefinition" Name="Modulation\ and\ Filter\ Parameters\.gtype" StoragePath="Host Components\Controls - Packet Tx and Rx\Modulation and Filter Parameters.gtype\Modulation and Filter Parameters.gtype" />
+				<SourceFileReference Id="1425" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Abort\ Stream\.gvi" StoragePath="Host Components\Host SubVIs\Abort Stream.gvi" />
+				<SourceFileReference Id="1427" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Backup\ and\ Self\ Correct\ Rx\ Offset\.gvi" StoragePath="Host Components\Host SubVIs\Backup and Self Correct Rx Offset.gvi" />
+				<SourceFileReference Id="1429" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Calculate\ IQ\ Power\ Level\.gvi" StoragePath="Host Components\Host SubVIs\Calculate IQ Power Level.gvi" />
+				<SourceFileReference Id="1431" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Calculate\ Power\ Spectrum\.gvi" StoragePath="Host Components\Host SubVIs\Calculate Power Spectrum.gvi" />
+				<SourceFileReference Id="1433" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Calculate\ Power\.gvi" StoragePath="Host Components\Host SubVIs\Calculate Power.gvi" />
+				<SourceFileReference Id="1435" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Calculate\ Sample\ Rate\.gvi" StoragePath="Host Components\Host SubVIs\Calculate Sample Rate.gvi" />
+				<SourceFileReference Id="1437" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Check\ Stream\ Status\.gvi" StoragePath="Host Components\Host SubVIs\Check Stream Status.gvi" />
+				<SourceFileReference Id="1439" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Close\ Device\.gvi" StoragePath="Host Components\Host SubVIs\Close Device.gvi" />
+				<SourceFileReference Id="1441" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Configure\ Bitfile\.gvi" StoragePath="Host Components\Host SubVIs\Configure Bitfile.gvi" />
+				<SourceFileReference Id="1443" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Configure\ Clocks\.gvi" StoragePath="Host Components\Host SubVIs\Configure Clocks.gvi" />
+				<SourceFileReference Id="1445" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Configure\ Frequency\ Shift\.gvi" StoragePath="Host Components\Host SubVIs\Configure Frequency Shift.gvi" />
+				<SourceFileReference Id="1447" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Configure\ Frequency\.gvi" StoragePath="Host Components\Host SubVIs\Configure Frequency.gvi" />
+				<SourceFileReference Id="1449" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Configure\ Rx\.gvi" StoragePath="Host Components\Host SubVIs\Configure Rx.gvi" />
+				<SourceFileReference Id="1451" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Configure\ Signal\ \(Common\)\.gvi" StoragePath="Host Components\Host SubVIs\Configure Signal (Common).gvi" />
+				<SourceFileReference Id="1453" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Configure\ Signal\ \(Gain\)\.gvi" StoragePath="Host Components\Host SubVIs\Configure Signal (Gain).gvi" />
+				<SourceFileReference Id="1455" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Configure\ Signal\ \(Level\)\.gvi" StoragePath="Host Components\Host SubVIs\Configure Signal (Level).gvi" />
+				<SourceFileReference Bindings="EnvoyManager" Id="1457" ModelDefinitionType="NationalInstruments.MocCommon.Modeling.TypeDefinition" Name="Configure\ Signal\ Mode\.gtype" StoragePath="Host Components\Host SubVIs\Configure Signal Mode.gtype\Configure Signal Mode.gtype" />
+				<SourceFileReference Bindings="EnvoyManager" Id="1459" ModelDefinitionType="NationalInstruments.MocCommon.Modeling.TypeDefinition" Name="Configure\ Signal\ Parameters\.gtype" StoragePath="Host Components\Host SubVIs\Configure Signal Parameters.gtype\Configure Signal Parameters.gtype" />
+				<SourceFileReference Id="1461" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Configure\ Start\ Trigger\.gvi" StoragePath="Host Components\Host SubVIs\Configure Start Trigger.gvi" />
+				<SourceFileReference Id="1463" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Configure\ Stream\.gvi" StoragePath="Host Components\Host SubVIs\Configure Stream.gvi" />
+				<SourceFileReference Id="1465" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Configure\ Synchronization\.gvi" StoragePath="Host Components\Host SubVIs\Configure Synchronization.gvi" />
+				<SourceFileReference Id="1467" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Configure\ Time\ \(Multi\)\.gvi" StoragePath="Host Components\Host SubVIs\Configure Time (Multi).gvi" />
+				<SourceFileReference Id="1469" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Configure\ Time\ \(Single\)\.gvi" StoragePath="Host Components\Host SubVIs\Configure Time (Single).gvi" />
+				<SourceFileReference Id="1471" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Configure\ Trigger\ Synchronization\.gvi" StoragePath="Host Components\Host SubVIs\Configure Trigger Synchronization.gvi" />
+				<SourceFileReference Id="1473" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Configure\ Tx\.gvi" StoragePath="Host Components\Host SubVIs\Configure Tx.gvi" />
+				<SourceFileReference Id="1475" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Construct\ Channels\.gvi" StoragePath="Host Components\Host SubVIs\Construct Channels.gvi" />
+				<SourceFileReference Id="1477" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Fetch\ Rx\ Data\ \(CDB\ WDT\)\.gvi" StoragePath="Host Components\Host SubVIs\Fetch Rx Data (CDB WDT).gvi" />
+				<SourceFileReference Id="1479" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Fetch\ Rx\ Data\ \(CDB\)\.gvi" StoragePath="Host Components\Host SubVIs\Fetch Rx Data (CDB).gvi" />
+				<SourceFileReference Id="1481" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Fetch\ Rx\ Data\ \(I16\ multi\)\.gvi" StoragePath="Host Components\Host SubVIs\Fetch Rx Data (I16 multi).gvi" />
+				<SourceFileReference Id="1483" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Fetch\ Rx\ Data\ \(I16\)\.gvi" StoragePath="Host Components\Host SubVIs\Fetch Rx Data (I16).gvi" />
+				<SourceFileReference Id="1485" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Fetch\ Rx\ Data\ \(U32\)\.gvi" StoragePath="Host Components\Host SubVIs\Fetch Rx Data (U32).gvi" />
+				<SourceFileReference Id="1487" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Generate\ Waveform\ \(Interleaved\)\.gvi" StoragePath="Host Components\Host SubVIs\Generate Waveform (Interleaved).gvi" />
+				<SourceFileReference Id="1489" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Generate\ Waveform\ \(Multi\-Array\)\.gvi" StoragePath="Host Components\Host SubVIs\Generate Waveform (Multi-Array).gvi" />
+				<SourceFileReference Id="1491" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Initiate\ Stream\.gvi" StoragePath="Host Components\Host SubVIs\Initiate Stream.gvi" />
+				<SourceFileReference Id="1493" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Initiate\ and\ Fetch\ \(Multi\)\.gvi" StoragePath="Host Components\Host SubVIs\Initiate and Fetch (Multi).gvi" />
+				<SourceFileReference Id="1495" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Initiate\ and\ Fetch\ \(Single\)\.gvi" StoragePath="Host Components\Host SubVIs\Initiate and Fetch (Single).gvi" />
+				<SourceFileReference Id="1497" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Initiate\ and\ Fetch\ Time\ \(Multi\)\.gvi" StoragePath="Host Components\Host SubVIs\Initiate and Fetch Time (Multi).gvi" />
+				<SourceFileReference Id="1499" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Initiate\ and\ Fetch\ Time\ \(Single\)\.gvi" StoragePath="Host Components\Host SubVIs\Initiate and Fetch Time (Single).gvi" />
+				<SourceFileReference Id="1501" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Initiate\ and\ Generate\ \(Multi\)\.gvi" StoragePath="Host Components\Host SubVIs\Initiate and Generate (Multi).gvi" />
+				<SourceFileReference Id="1503" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Initiate\ and\ Generate\ \(Single\)\.gvi" StoragePath="Host Components\Host SubVIs\Initiate and Generate (Single).gvi" />
+				<SourceFileReference Id="1505" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Initiate\ and\ Generate\ Time\ \(Multi\)\.gvi" StoragePath="Host Components\Host SubVIs\Initiate and Generate Time (Multi).gvi" />
+				<SourceFileReference Id="1507" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Initiate\ and\ Generate\ Time\ \(Single\)\.gvi" StoragePath="Host Components\Host SubVIs\Initiate and Generate Time (Single).gvi" />
+				<SourceFileReference Id="1509" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Initiate\ and\ Trigger\.gvi" StoragePath="Host Components\Host SubVIs\Initiate and Trigger.gvi" />
+				<SourceFileReference Id="1511" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Lock\ to\ GPS\.gvi" StoragePath="Host Components\Host SubVIs\Lock to GPS.gvi" />
+				<SourceFileReference Id="1513" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Open\ Device\.gvi" StoragePath="Host Components\Host SubVIs\Open Device.gvi" />
+				<SourceFileReference Id="1515" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Open\ and\ Configure\ Device\.gvi" StoragePath="Host Components\Host SubVIs\Open and Configure Device.gvi" />
+				<SourceFileReference Id="1517" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Restore\ Rx\ IQ\ Offset\ Correction\ Data\ from\ File\.gvi" StoragePath="Host Components\Host SubVIs\Restore Rx IQ Offset Correction Data from File.gvi" />
+				<SourceFileReference Id="1519" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Scale\ IQ\ Data\.gvi" StoragePath="Host Components\Host SubVIs\Scale IQ Data.gvi" />
+				<SourceFileReference Id="1521" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Self\ Correct\ Rx\ IQ\ Offset\.gvi" StoragePath="Host Components\Host SubVIs\Self Correct Rx IQ Offset.gvi" />
+				<SourceFileReference Id="1523" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Self\ Measure\ Rx\ IQ\ Offset\.gvi" StoragePath="Host Components\Host SubVIs\Self Measure Rx IQ Offset.gvi" />
+				<SourceFileReference Id="1525" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Send\ Software\ Start\ Trigger\.gvi" StoragePath="Host Components\Host SubVIs\Send Software Start Trigger.gvi" />
+				<SourceFileReference Bindings="EnvoyManager" Id="1527" ModelDefinitionType="NationalInstruments.MocCommon.Modeling.TypeDefinition" Name="Start\ Trigger\.gtype" StoragePath="Host Components\Host SubVIs\Start Trigger.gtype\Start Trigger.gtype" />
+				<SourceFileReference Bindings="EnvoyManager" Id="1529" ModelDefinitionType="NationalInstruments.MocCommon.Modeling.TypeDefinition" Name="Streaming\ Xvcr\ FPGA\ Ref\.gtype" StoragePath="Host Components\Host SubVIs\Streaming Xvcr FPGA Ref.gtype\Streaming Xvcr FPGA Ref.gtype" />
+				<SourceFileReference Id="1531" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Trigger\ Time\.gvi" StoragePath="Host Components\Host SubVIs\Trigger Time.gvi" />
+				<SourceFileReference Id="1533" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Write\ Tx\ Data\ \(CDB\ WDT\)\.gvi" StoragePath="Host Components\Host SubVIs\Write Tx Data (CDB WDT).gvi" />
+				<SourceFileReference Id="1535" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Write\ Tx\ Data\ \(CDB\)\.gvi" StoragePath="Host Components\Host SubVIs\Write Tx Data (CDB).gvi" />
+				<SourceFileReference Id="1537" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Write\ Tx\ Data\ \(I16\ multi\)\.gvi" StoragePath="Host Components\Host SubVIs\Write Tx Data (I16 multi).gvi" />
+				<SourceFileReference Id="1539" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Write\ Tx\ Data\ \(I16\)\.gvi" StoragePath="Host Components\Host SubVIs\Write Tx Data (I16).gvi" />
+				<SourceFileReference Id="1541" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Write\ Tx\ Data\ \(U32\)\.gvi" StoragePath="Host Components\Host SubVIs\Write Tx Data (U32).gvi" />
+				<SourceFileReference Id="1763" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Xcvr\ Sim\.gvi" StoragePath="Host Components\Practice\Xcvr Sim.gvi" />
+				<SourceFileReference Id="1769" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Bits\ To\ Packets\.gvi" StoragePath="Host Components\SubVIs for Packet Tx and Rx\Bits To Packets.gvi" />
+				<SourceFileReference Id="1771" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Frame\ Sync\.gvi" StoragePath="Host Components\SubVIs for Packet Tx and Rx\Frame Sync.gvi" />
+				<SourceFileReference Id="1773" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Pulse\ Shaping\.gvi" StoragePath="Host Components\SubVIs for Packet Tx and Rx\Pulse Shaping.gvi" />
+				<SourceFileReference Id="1775" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="String\ to\ bits\.gvi" StoragePath="Host Components\SubVIs for Packet Tx and Rx\String to bits.gvi" />
+				<SourceFileReference Id="1777" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Symbol\ Mapping\.gvi" StoragePath="Host Components\SubVIs for Packet Tx and Rx\Symbol Mapping.gvi" />
+				<SourceFileReference Id="1779" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Symbol\ Offset\.gvi" StoragePath="Host Components\SubVIs for Packet Tx and Rx\Symbol Offset.gvi" />
+				<SourceFileReference Id="1805" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Bits\ to\ String\.gvi" StoragePath="SubVIs to be used\Bits to String.gvi" />
+				<SourceFileReference Id="1807" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Equalizer\.gvi" StoragePath="SubVIs to be used\Equalizer.gvi" />
+				<SourceFileReference Id="1809" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Extract\ First\ Frame\ Indices\.gvi" StoragePath="SubVIs to be used\Extract First Frame Indices.gvi" />
+				<SourceFileReference Id="1811" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Generate\ Scaled\ IQ\ Data\.gvi" StoragePath="SubVIs to be used\Generate Scaled IQ Data.gvi" />
+				<SourceFileReference Id="1813" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Generate\ Sync\ Bits\.gvi" StoragePath="SubVIs to be used\Generate Sync Bits.gvi" />
+				<SourceFileReference Id="1815" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="IQ\ Extract\ Frame\.gvi" StoragePath="SubVIs to be used\IQ Extract Frame.gvi" />
+				<SourceFileReference Id="1817" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Inter\ Packet\ Gap\.gvi" StoragePath="SubVIs to be used\Inter Packet Gap.gvi" />
+				<SourceFileReference Id="1819" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Matched\ Filter\.gvi" StoragePath="SubVIs to be used\Matched Filter.gvi" />
+				<SourceFileReference Id="1853" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Xcvr\ Mod\.gvi" StoragePath="Host Components\Practice\Xcvr Mod.gvi" />
+				<SourceFileReference Id="1859" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Upsample_Mod\.gvi" StoragePath="Upsample_Mod.gvi" />
+				<SourceFileReference Id="1865" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Extract\ Frame\.gvi" StoragePath="Extract Frame.gvi" />
+				<SourceFileReference Id="1905" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Frame\ Sync\ Mod\.gvi" StoragePath="Frame Sync Mod.gvi" />
+				<SourceFileReference Id="1911" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Modulation\ \(OOK\)\.gvi" StoragePath="Modulation (OOK).gvi" />
+				<SourceFileReference Id="1990" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="USRP\ Xcvr\.gvi" StoragePath="Host Components\Practice\USRP Xcvr.gvi" />
+				<SourceFileReference Id="2697" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Manchester\ Coding\.gvi" StoragePath="Manchester Coding.gvi" />
+				<SourceFileReference Id="2880" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="DC\ Removal\.gvi" StoragePath="DC Removal.gvi" />
+				<SourceFileReference Id="2888" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Thresholding\.gvi" StoragePath="Thresholding.gvi" />
+				<SourceFileReference Id="2894" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Frame\ Markers\.gvi" StoragePath="Frame Markers.gvi" />
+				<SourceFileReference Id="2912" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Manchester\ Decoding\.gvi" StoragePath="Manchester Decoding.gvi" />
+				<SourceFileReference Id="3507" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="USRP\ Xcvr_2\.gvi" StoragePath="Host Components\Practice\USRP Xcvr_2.gvi" />
+				<SourceFileReference Id="3519" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Function\.gvi" StoragePath="Function.gvi" />
+				<SourceFileReference Id="3811" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Function_2\.gvi" StoragePath="Function_2.gvi" />
+				<SourceFileReference Id="4152" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Function_3\.gvi" StoragePath="Function_3.gvi" />
+				<SourceFileReference Id="4506" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Function_4\.gvi" StoragePath="Function_4.gvi" />
+				<SourceFileReference Id="4528" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Function_5\.gvi" StoragePath="Function_5.gvi" />
+				<SourceFileReference Id="4829" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Tuning\ Check\.gvi" StoragePath="Tuning Check.gvi" />
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="5131" ModelDefinitionType="PackageReferencesDefinition" Name="ProjectReferences">
+				<PackageReferencesDefinition>
+					<PackageInterfaceDefinitionContents Contents="AAL_Conditioning_Base.gcomp,AAL_Filtering_Base.gcomp,AAL_Fitting_Base.gcomp,AAL_Generation_Base.gcomp,AAL_Interpolation_Base.gcomp,AAL_Linear_Algebra_Base.gcomp,AAL_Measurement_Base.gcomp,AAL_Operations_Base.gcomp,AAL_Resampling_Base.gcomp,AAL_Statistics_Base.gcomp,AAL_Support_Base.gcomp,AAL_Transforms_Base.gcomp,AAL_Windows_Base.gcomp" Id="5246" PackageInterfaceDefinitionEnvoyId="5136" />
+					<PackageInterfaceDefinitionContents Contents="ni579xV2Fpga.gcomp" Id="5248" PackageInterfaceDefinitionEnvoyId="5146" />
+					<PackageInterfaceDefinitionContents Contents="NI.FPGA.Conversion.gcomp" Id="5250" PackageInterfaceDefinitionEnvoyId="5152" />
+					<PackageInterfaceDefinitionContents Contents="NI.HTTP.gcomp" Id="5252" PackageInterfaceDefinitionEnvoyId="5158" />
+					<PackageInterfaceDefinitionContents Contents="NI.FPGA.Base.gcomp" Id="5254" PackageInterfaceDefinitionEnvoyId="5150" />
+					<PackageInterfaceDefinitionContents Contents="flexrio.gcomp" Id="5256" PackageInterfaceDefinitionEnvoyId="5144" />
+					<PackageInterfaceDefinitionContents Contents="NI.G Core.Configuration File (INI).gcomp,NI.G Core.Data Type.gcomp,NI.G Core.Error.gcomp,NI.G Core.File IO (General).gcomp,NI.G Core.Input Devices.gcomp,NI.G Core.Libraries and Executables.gcomp,NI.G Core.Numeric.gcomp,NI.G Core.Operating System.gcomp,NI.G Core.Registry.gcomp,NI.G Core.Rendezvous.gcomp,NI.G Core.Semaphore.gcomp,NI.G Core.SMTP Email.gcomp,NI.G Core.Sound.gcomp,NI.G Core.Strings.gcomp,NI.G Core.TCP.gcomp,NI.G Core.TDMS.gcomp,NI.G Core.Timed Loop.gcomp,NI.G Core.Timing.gcomp,NI.G Core.URL.gcomp,NI.G Core.Waveform.gcomp,NI.G Core.Zip.gcomp,NI.G Core.Localization.gcomp,NI.G Core.User Interface.gcomp,NI.G Core.Data Communications.gcomp,NI.G Core.Color Picker.gcomp,NI.G Core.Execution Control.gcomp" Id="5283" PackageInterfaceDefinitionEnvoyId="5162" />
+					<PackageInterfaceDefinitionContents Contents="Keysight344XX.gcomp" Id="5285" PackageInterfaceDefinitionEnvoyId="5172" />
+					<PackageInterfaceDefinitionContents Contents="BasicElementsV1FPGA.gcomp" Id="5287" PackageInterfaceDefinitionEnvoyId="5164" />
+					<PackageInterfaceDefinitionContents Contents="NI.Reporting.Excel.gcomp" Id="5289" PackageInterfaceDefinitionEnvoyId="5160" />
+					<PackageInterfaceDefinitionContents Contents="AAL_Conditioning.gcomp,AAL_Fitting.gcomp,AAL_Formula.gcomp,AAL_Generation.gcomp,AAL_Geometry.gcomp,AAL_Integral_Differentiation.gcomp,AAL_Interpolation.gcomp,AAL_Linear_Algebra.gcomp,AAL_Matrix.gcomp,AAL_Measurement.gcomp,AAL_Operations.gcomp,AAL_Polynomial.gcomp,AAL_Probability.gcomp,AAL_Resampling.gcomp,AAL_SML.gcomp,AAL_Statistics.gcomp,AAL_Support.gcomp,AAL_Transforms.gcomp,AAL_Windows.gcomp,AAL_Filtering.gcomp,AAL_BLAS.gcomp,AAL_Special_Func.gcomp,AAL_Differential_Equations.gcomp,AAL_Optimization.gcomp,AAL_Zeros.gcomp" Id="5315" PackageInterfaceDefinitionEnvoyId="5134" />
+					<PackageInterfaceDefinitionContents Contents="DataTriggerV1FPGA.gcomp,DataTriggerV1Shared.gcomp" Id="5318" PackageInterfaceDefinitionEnvoyId="5166" />
+					<PackageInterfaceDefinitionContents Contents="" Id="5319" PackageInterfaceDefinitionEnvoyId="5176" />
+					<PackageInterfaceDefinitionContents Contents="NI.Fpga.HTMath.gcomp" Id="5321" PackageInterfaceDefinitionEnvoyId="5154" />
+					<PackageInterfaceDefinitionContents Contents="NI.FPGA.LinearAlgebra.gcomp" Id="5323" PackageInterfaceDefinitionEnvoyId="5156" />
+					<PackageInterfaceDefinitionContents Contents="Control_Controller.gcomp,Control_Conversion_Base.gcomp,Control_PIDGain_Base.gcomp" Id="5327" PackageInterfaceDefinitionEnvoyId="5140" />
+					<PackageInterfaceDefinitionContents Contents="Control_DesignPID.gcomp,Control_Linear.gcomp,Control_Nonlinear.gcomp,Control_PIDGain.gcomp,Control_SignalGeneration.gcomp,Control_Conversion.gcomp" Id="5334" PackageInterfaceDefinitionEnvoyId="5138" />
+					<PackageInterfaceDefinitionContents Contents="ni579xV2Host.gcomp" Id="5336" PackageInterfaceDefinitionEnvoyId="5148" />
+					<PackageInterfaceDefinitionContents Contents="AAL_Measurement_Standard.gcomp" Id="5338" PackageInterfaceDefinitionEnvoyId="5142" />
+					<PackageInterfaceDefinitionContents Contents="NI.RT.Shared.gcomp,NI.RT.SMP CPU.gcomp,NI.RT.Trace Tool.gcomp,NI.RT.Utility.gcomp,NI.RT.Watchdog Timer.gcomp" Id="5344" PackageInterfaceDefinitionEnvoyId="5182" />
+					<PackageInterfaceDefinitionContents Contents="niSync.gcomp" Id="5346" PackageInterfaceDefinitionEnvoyId="5178" />
+					<PackageInterfaceDefinitionContents Contents="P2PComponent.gcomp" Id="5348" PackageInterfaceDefinitionEnvoyId="5180" />
+					<PackageInterfaceDefinitionContents Contents="Modulation.gcomp" Id="5350" PackageInterfaceDefinitionEnvoyId="5174" />
+					<PackageInterfaceDefinitionContents Contents="StreamingV1FPGA.gcomp,StreamingV1Common.gcomp" Id="5353" PackageInterfaceDefinitionEnvoyId="5168" />
+					<PackageInterfaceDefinitionContents Contents="LMK04816V1FPGA.gcomp" Id="5355" PackageInterfaceDefinitionEnvoyId="5190" />
+					<PackageInterfaceDefinitionContents Contents="StreamingV1Host.gcomp" Id="5357" PackageInterfaceDefinitionEnvoyId="5170" />
+					<PackageInterfaceDefinitionContents Contents="DSPV1FPGA.gcomp" Id="5359" PackageInterfaceDefinitionEnvoyId="5186" />
+					<PackageInterfaceDefinitionContents Contents="TDCV1FPGA.gcomp" Id="5361" PackageInterfaceDefinitionEnvoyId="5200" />
+					<PackageInterfaceDefinitionContents Contents="DSPv1Shared.gcomp" Id="5363" PackageInterfaceDefinitionEnvoyId="5188" />
+					<PackageInterfaceDefinitionContents Contents="BasicElementsV1FPGA.gcomp" Id="5365" PackageInterfaceDefinitionEnvoyId="5184" />
+					<PackageInterfaceDefinitionContents Contents="RegisterBusV0Host.gcomp" Id="5367" PackageInterfaceDefinitionEnvoyId="5196" />
+					<PackageInterfaceDefinitionContents Contents="RegisterBusV1FPGA.gcomp" Id="5369" PackageInterfaceDefinitionEnvoyId="5198" />
+					<PackageInterfaceDefinitionContents Contents="LMK04816V1Shared.gcomp" Id="5371" PackageInterfaceDefinitionEnvoyId="5194" />
+					<PackageInterfaceDefinitionContents Contents="LMK04816V1Host.gcomp" Id="5373" PackageInterfaceDefinitionEnvoyId="5192" />
+					<PackageInterfaceDefinitionContents Contents="ConfigV1FPGA.gcomp" Id="5375" PackageInterfaceDefinitionEnvoyId="5204" />
+					<PackageInterfaceDefinitionContents Contents="ConfigV1Host.gcomp" Id="5377" PackageInterfaceDefinitionEnvoyId="5206" />
+					<PackageInterfaceDefinitionContents Contents="SyncV1Host.gcomp" Id="5379" PackageInterfaceDefinitionEnvoyId="5220" />
+					<PackageInterfaceDefinitionContents Contents="Primitives.gcomp" Id="5381" PackageInterfaceDefinitionEnvoyId="5216" />
+					<PackageInterfaceDefinitionContents Contents="SyncV1FPGA.gcomp" Id="5383" PackageInterfaceDefinitionEnvoyId="5218" />
+					<PackageInterfaceDefinitionContents Contents="GPSV1FPGA.gcomp" Id="5385" PackageInterfaceDefinitionEnvoyId="5210" />
+					<PackageInterfaceDefinitionContents Contents="GPSV1Host.gcomp" Id="5387" PackageInterfaceDefinitionEnvoyId="5212" />
+					<PackageInterfaceDefinitionContents Contents="USRP.gcomp" Id="5389" PackageInterfaceDefinitionEnvoyId="5202" />
+					<PackageInterfaceDefinitionContents Contents="ConfigV1Shared.gcomp" Id="5391" PackageInterfaceDefinitionEnvoyId="5208" />
+					<PackageInterfaceDefinitionContents Contents="GPSV1Shared.gcomp" Id="5393" PackageInterfaceDefinitionEnvoyId="5214" />
+					<PackageInterfaceDefinitionContents Contents="SyncV1Shared.gcomp" Id="5395" PackageInterfaceDefinitionEnvoyId="5222" />
+					<PackageInterfaceDefinitionContents Contents="TimeV1Shared.gcomp" Id="5397" PackageInterfaceDefinitionEnvoyId="5228" />
+					<PackageInterfaceDefinitionContents Contents="TimeV1FPGA.gcomp" Id="5399" PackageInterfaceDefinitionEnvoyId="5224" />
+					<PackageInterfaceDefinitionContents Contents="Tools.gcomp" Id="5401" PackageInterfaceDefinitionEnvoyId="5230" />
+					<PackageInterfaceDefinitionContents Contents="TimeV1Host.gcomp" Id="5403" PackageInterfaceDefinitionEnvoyId="5226" />
+					<PackageInterfaceDefinitionContents Contents="VISA.gcomp" Id="5405" PackageInterfaceDefinitionEnvoyId="5232" />
+				</PackageReferencesDefinition>
+				<SourceFileReference Bindings="EnvoyManager" Id="5134" ModelDefinitionType="PackageInterfaceDefinition" Name="ni\-analysis\-advanced\-src\-1\.0\.7\.1\.niaddon" StoragePath="ref://NI/analysis/advanced-src/1.0.7.1" />
+				<SourceFileReference Bindings="EnvoyManager" Id="5136" ModelDefinitionType="PackageInterfaceDefinition" Name="ni\-analysis\-basic\-src\-1\.0\.7\.1\.niaddon" StoragePath="ref://NI/analysis/basic-src/1.0.7.1" />
+				<SourceFileReference Bindings="EnvoyManager" Id="5138" ModelDefinitionType="PackageInterfaceDefinition" Name="ni\-analysis\-control\-src\-1\.0\.7\.1\.niaddon" StoragePath="ref://NI/analysis/control-src/1.0.7.1" />
+				<SourceFileReference Bindings="EnvoyManager" Id="5140" ModelDefinitionType="PackageInterfaceDefinition" Name="ni\-analysis\-controlbasic\-src\-1\.0\.7\.1\.niaddon" StoragePath="ref://NI/analysis/controlbasic-src/1.0.7.1" />
+				<SourceFileReference Bindings="EnvoyManager" Id="5142" ModelDefinitionType="PackageInterfaceDefinition" Name="ni\-analysis\-standard\-src\-1\.0\.7\.1\.niaddon" StoragePath="ref://NI/analysis/standard-src/1.0.7.1" />
+				<SourceFileReference Bindings="EnvoyManager" Id="5144" ModelDefinitionType="PackageInterfaceDefinition" Name="ni\-flexrio\-flexrio\-src\-18\.0\.0\.niaddon" StoragePath="ref://NI/FlexRIO/FlexRIO-src/18.0.0" />
+				<SourceFileReference Bindings="EnvoyManager" Id="5146" ModelDefinitionType="PackageInterfaceDefinition" Name="ni\-flexrio\-ni579xv2fpga\-src\-18\.0\.0\.niaddon" StoragePath="ref://NI/FlexRIO/ni579xV2Fpga-src/18.0.0" />
+				<SourceFileReference Bindings="EnvoyManager" Id="5148" ModelDefinitionType="PackageInterfaceDefinition" Name="ni\-flexrio\-ni579xv2host\-src\-18\.0\.0\.niaddon" StoragePath="ref://NI/FlexRIO/ni579xV2Host-src/18.0.0" />
+				<SourceFileReference Bindings="EnvoyManager" Id="5150" ModelDefinitionType="PackageInterfaceDefinition" Name="ni\-fpga\-base\-src\-1\.0\.0\.3\.niaddon" StoragePath="ref://NI/fpga/base-src/1.0.0.3" />
+				<SourceFileReference Bindings="EnvoyManager" Id="5152" ModelDefinitionType="PackageInterfaceDefinition" Name="ni\-fpga\-conversion\-src\-1\.0\.0\.5\.niaddon" StoragePath="ref://NI/fpga/conversion-src/1.0.0.5" />
+				<SourceFileReference Bindings="EnvoyManager" Id="5154" ModelDefinitionType="PackageInterfaceDefinition" Name="ni\-fpga\-htmath\-src\-1\.0\.0\.11\.niaddon" StoragePath="ref://NI/fpga/htmath-src/1.0.0.11" />
+				<SourceFileReference Bindings="EnvoyManager" Id="5156" ModelDefinitionType="PackageInterfaceDefinition" Name="ni\-fpga\-linearalgebra\-src\-1\.0\.0\.1\.niaddon" StoragePath="ref://NI/fpga/linearalgebra-src/1.0.0.1" />
+				<SourceFileReference Bindings="EnvoyManager" Id="5158" ModelDefinitionType="PackageInterfaceDefinition" Name="ni\-g\-http\-src\-1\.0\.0\.12\.niaddon" StoragePath="ref://NI/G/http-src/1.0.0.12" />
+				<SourceFileReference Bindings="EnvoyManager" Id="5160" ModelDefinitionType="PackageInterfaceDefinition" Name="ni\-g\-reporting\-src\-1\.0\.0\.3\.niaddon" StoragePath="ref://NI/G/reporting-src/1.0.0.3" />
+				<SourceFileReference Bindings="EnvoyManager" Id="5162" ModelDefinitionType="PackageInterfaceDefinition" Name="ni\-g\-stdlib\-src\-1\.0\.5\.17\.niaddon" StoragePath="ref://NI/G/stdlib-src/1.0.5.17" />
+				<SourceFileReference Bindings="EnvoyManager" Id="5164" ModelDefinitionType="PackageInterfaceDefinition" Name="ni\-idl\-basicelementsv1fpga\-src\-1\.0\.0\.niaddon" StoragePath="ref://NI/idl/BasicElementsV1FPGA-src/1.0.0" />
+				<SourceFileReference Bindings="EnvoyManager" Id="5166" ModelDefinitionType="PackageInterfaceDefinition" Name="ni\-idl\-datatriggerv1fpga\-src\-1\.0\.0\.niaddon" StoragePath="ref://NI/idl/DataTriggerV1FPGA-src/1.0.0" />
+				<SourceFileReference Bindings="EnvoyManager" Id="5168" ModelDefinitionType="PackageInterfaceDefinition" Name="ni\-idl\-streamingv1fpga\-src\-1\.0\.0\.niaddon" StoragePath="ref://NI/idl/StreamingV1FPGA-src/1.0.0" />
+				<SourceFileReference Bindings="EnvoyManager" Id="5170" ModelDefinitionType="PackageInterfaceDefinition" Name="ni\-idl\-streamingv1host\-src\-1\.0\.0\.niaddon" StoragePath="ref://NI/idl/StreamingV1Host-src/1.0.0" />
+				<SourceFileReference Bindings="EnvoyManager" Id="5172" ModelDefinitionType="PackageInterfaceDefinition" Name="ni\-instrumentdriver\-keysight344xx\-src\-17\.5\.0\.niaddon" StoragePath="ref://NI/InstrumentDriver/Keysight344XX-src/17.5.0" />
+				<SourceFileReference Bindings="EnvoyManager" Id="5174" ModelDefinitionType="PackageInterfaceDefinition" Name="ni\-modulation\-modulation\-src\-18\.0\.0\.niaddon" StoragePath="ref://NI/Modulation/Modulation-src/18.0.0" />
+				<SourceFileReference Bindings="EnvoyManager" Id="5176" ModelDefinitionType="PackageInterfaceDefinition" Name="ni\-mxlc\-base\-src\-17\.5\.0\.niaddon" StoragePath="ref://NI/MXLC/Base-src/17.5.0" />
+				<SourceFileReference Bindings="EnvoyManager" Id="5178" ModelDefinitionType="PackageInterfaceDefinition" Name="ni\-nisync\-base\-src\-17\.5\.0\.niaddon" StoragePath="ref://NI/niSync/Base-src/17.5.0" />
+				<SourceFileReference Bindings="EnvoyManager" Id="5180" ModelDefinitionType="PackageInterfaceDefinition" Name="ni\-p2p\-base\-src\-17\.5\.0\.niaddon" StoragePath="ref://NI/P2P/Base-src/17.5.0" />
+				<SourceFileReference Bindings="EnvoyManager" Id="5182" ModelDefinitionType="PackageInterfaceDefinition" Name="ni\-rt\-rtlib\-src\-1\.0\.0\.21\.niaddon" StoragePath="ref://NI/RT/rtlib-src/1.0.0.21" />
+				<SourceFileReference Bindings="EnvoyManager" Id="5184" ModelDefinitionType="PackageInterfaceDefinition" Name="ni\-sdr\-basicelementsv1fpga\-src\-18\.1\.0\.niaddon" StoragePath="ref://NI/SDR/BasicElementsV1FPGA-src/18.1.0" />
+				<SourceFileReference Bindings="EnvoyManager" Id="5186" ModelDefinitionType="PackageInterfaceDefinition" Name="ni\-sdr\-dspv1fpga\-src\-18\.1\.0\.niaddon" StoragePath="ref://NI/SDR/DSPV1FPGA-src/18.1.0" />
+				<SourceFileReference Bindings="EnvoyManager" Id="5188" ModelDefinitionType="PackageInterfaceDefinition" Name="ni\-sdr\-dspv1shared\-src\-18\.1\.0\.niaddon" StoragePath="ref://NI/SDR/DSPv1Shared-src/18.1.0" />
+				<SourceFileReference Bindings="EnvoyManager" Id="5190" ModelDefinitionType="PackageInterfaceDefinition" Name="ni\-sdr\-lmk04816v1fpga\-src\-18\.1\.0\.niaddon" StoragePath="ref://NI/SDR/LMK04816V1FPGA-src/18.1.0" />
+				<SourceFileReference Bindings="EnvoyManager" Id="5192" ModelDefinitionType="PackageInterfaceDefinition" Name="ni\-sdr\-lmk04816v1host\-src\-18\.1\.0\.niaddon" StoragePath="ref://NI/SDR/LMK04816V1Host-src/18.1.0" />
+				<SourceFileReference Bindings="EnvoyManager" Id="5194" ModelDefinitionType="PackageInterfaceDefinition" Name="ni\-sdr\-lmk04816v1shared\-src\-18\.1\.0\.niaddon" StoragePath="ref://NI/SDR/LMK04816V1Shared-src/18.1.0" />
+				<SourceFileReference Bindings="EnvoyManager" Id="5196" ModelDefinitionType="PackageInterfaceDefinition" Name="ni\-sdr\-registerbusv0host\-src\-18\.1\.0\.niaddon" StoragePath="ref://NI/SDR/RegisterBusV0Host-src/18.1.0" />
+				<SourceFileReference Bindings="EnvoyManager" Id="5198" ModelDefinitionType="PackageInterfaceDefinition" Name="ni\-sdr\-registerbusv1fpga\-src\-18\.1\.0\.niaddon" StoragePath="ref://NI/SDR/RegisterBusV1FPGA-src/18.1.0" />
+				<SourceFileReference Bindings="EnvoyManager" Id="5200" ModelDefinitionType="PackageInterfaceDefinition" Name="ni\-sdr\-tdcv1fpga\-src\-18\.1\.0\.niaddon" StoragePath="ref://NI/SDR/TDCV1FPGA-src/18.1.0" />
+				<SourceFileReference Bindings="EnvoyManager" Id="5202" ModelDefinitionType="PackageInterfaceDefinition" Name="ni\-usrp\-usrp\-src\-18\.1\.0\.niaddon" StoragePath="ref://NI/USRP/USRP-src/18.1.0" />
+				<SourceFileReference Bindings="EnvoyManager" Id="5204" ModelDefinitionType="PackageInterfaceDefinition" Name="ni\-usrprio\-configv1fpga\-src\-18\.1\.0\.niaddon" StoragePath="ref://NI/USRPRIO/ConfigV1FPGA-src/18.1.0" />
+				<SourceFileReference Bindings="EnvoyManager" Id="5206" ModelDefinitionType="PackageInterfaceDefinition" Name="ni\-usrprio\-configv1host\-src\-18\.1\.0\.niaddon" StoragePath="ref://NI/USRPRIO/ConfigV1Host-src/18.1.0" />
+				<SourceFileReference Bindings="EnvoyManager" Id="5208" ModelDefinitionType="PackageInterfaceDefinition" Name="ni\-usrprio\-configv1shared\-src\-18\.1\.0\.niaddon" StoragePath="ref://NI/USRPRIO/ConfigV1Shared-src/18.1.0" />
+				<SourceFileReference Bindings="EnvoyManager" Id="5210" ModelDefinitionType="PackageInterfaceDefinition" Name="ni\-usrprio\-gpsv1fpga\-src\-18\.1\.0\.niaddon" StoragePath="ref://NI/USRPRIO/GPSV1FPGA-src/18.1.0" />
+				<SourceFileReference Bindings="EnvoyManager" Id="5212" ModelDefinitionType="PackageInterfaceDefinition" Name="ni\-usrprio\-gpsv1host\-src\-18\.1\.0\.niaddon" StoragePath="ref://NI/USRPRIO/GPSV1Host-src/18.1.0" />
+				<SourceFileReference Bindings="EnvoyManager" Id="5214" ModelDefinitionType="PackageInterfaceDefinition" Name="ni\-usrprio\-gpsv1shared\-src\-18\.1\.0\.niaddon" StoragePath="ref://NI/USRPRIO/GPSV1Shared-src/18.1.0" />
+				<SourceFileReference Bindings="EnvoyManager" Id="5216" ModelDefinitionType="PackageInterfaceDefinition" Name="ni\-usrprio\-primitives\-src\-18\.1\.0\.niaddon" StoragePath="ref://NI/USRPRIO/Primitives-src/18.1.0" />
+				<SourceFileReference Bindings="EnvoyManager" Id="5218" ModelDefinitionType="PackageInterfaceDefinition" Name="ni\-usrprio\-syncv1fpga\-src\-18\.1\.0\.niaddon" StoragePath="ref://NI/USRPRIO/SyncV1FPGA-src/18.1.0" />
+				<SourceFileReference Bindings="EnvoyManager" Id="5220" ModelDefinitionType="PackageInterfaceDefinition" Name="ni\-usrprio\-syncv1host\-src\-18\.1\.0\.niaddon" StoragePath="ref://NI/USRPRIO/SyncV1Host-src/18.1.0" />
+				<SourceFileReference Bindings="EnvoyManager" Id="5222" ModelDefinitionType="PackageInterfaceDefinition" Name="ni\-usrprio\-syncv1shared\-src\-18\.1\.0\.niaddon" StoragePath="ref://NI/USRPRIO/SyncV1Shared-src/18.1.0" />
+				<SourceFileReference Bindings="EnvoyManager" Id="5224" ModelDefinitionType="PackageInterfaceDefinition" Name="ni\-usrprio\-timev1fpga\-src\-18\.1\.0\.niaddon" StoragePath="ref://NI/USRPRIO/TimeV1FPGA-src/18.1.0" />
+				<SourceFileReference Bindings="EnvoyManager" Id="5226" ModelDefinitionType="PackageInterfaceDefinition" Name="ni\-usrprio\-timev1host\-src\-18\.1\.0\.niaddon" StoragePath="ref://NI/USRPRIO/TimeV1Host-src/18.1.0" />
+				<SourceFileReference Bindings="EnvoyManager" Id="5228" ModelDefinitionType="PackageInterfaceDefinition" Name="ni\-usrprio\-timev1shared\-src\-18\.1\.0\.niaddon" StoragePath="ref://NI/USRPRIO/TimeV1Shared-src/18.1.0" />
+				<SourceFileReference Bindings="EnvoyManager" Id="5230" ModelDefinitionType="PackageInterfaceDefinition" Name="ni\-usrprio\-tools\-src\-18\.1\.0\.niaddon" StoragePath="ref://NI/USRPRIO/Tools-src/18.1.0" />
+				<SourceFileReference Bindings="EnvoyManager" Id="5232" ModelDefinitionType="PackageInterfaceDefinition" Name="ni\-visa\-base\-src\-17\.5\.0\.niaddon" StoragePath="ref://NI/VISA/Base-src/17.5.0" />
+			</EmbeddedDefinitionReference>
+		</NameScopingEnvoy>
+		<NameScopingEnvoy Id="66" ModelDefinitionType="DataDepot" Name="DataDepot">
+			<DataDepot />
+			<EmbeddedDefinitionReference Id="2149" ModelDefinitionType="TDMSRootDefinition" Name="TDMS_Root">
+				<TDMSRootDefinition StoragePath="Data-2018-10-20 185120 293.tdms" xmlns="http://www.ni.com/Data" />
+				<EmbeddedDefinitionReference Id="2150" ModelDefinitionType="TDMSGroupDefinition" Name="TDMS_GROUP">
+					<TDMSGroupDefinition GroupName="Capture 1" Source="USRP Xcvr.gvi" SourceType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Timestamp="10/20/2018 18:51:20" xmlns="http://www.ni.com/Data" />
+					<EmbeddedDefinitionReference Id="2151" ModelDefinitionType="TDMSDataItemDefinition" Name="IQ\ Graph">
+						<TDMSDataItemDefinition DataName="IQ Graph" DataType="Wfm(Double)[]" xmlns="http://www.ni.com/Data" />
+					</EmbeddedDefinitionReference>
+				</EmbeddedDefinitionReference>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="2899" ModelDefinitionType="TDMSRootDefinition" Name="TDMS_Root_2">
+				<TDMSRootDefinition StoragePath="Data-2018-10-21 131212 125.tdms" xmlns="http://www.ni.com/Data" />
+				<EmbeddedDefinitionReference Id="2900" ModelDefinitionType="TDMSGroupDefinition" Name="TDMS_GROUP_2">
+					<TDMSGroupDefinition GroupName="Capture 2" Source="Frame Markers.gvi" SourceType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Timestamp="10/21/2018 13:12:12" xmlns="http://www.ni.com/Data" />
+					<EmbeddedDefinitionReference Id="2901" ModelDefinitionType="TDMSDataItemDefinition" Name="Input\ Symbols">
+						<TDMSDataItemDefinition DataName="Input Symbols" DataType="Int8[]" xmlns="http://www.ni.com/Data" />
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Id="2902" ModelDefinitionType="TDMSDataItemDefinition" Name="Starting\ index">
+						<TDMSDataItemDefinition DataName="Starting index" DataType="Double" xmlns="http://www.ni.com/Data" />
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Id="2903" ModelDefinitionType="TDMSDataItemDefinition" Name="Samples\/Symbol">
+						<TDMSDataItemDefinition DataName="Samples/Symbol" DataType="Double" xmlns="http://www.ni.com/Data" />
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Id="2904" ModelDefinitionType="TDMSDataItemDefinition" Name="Output\ Markers">
+						<TDMSDataItemDefinition DataName="Output Markers" DataType="Double[]" xmlns="http://www.ni.com/Data" />
+					</EmbeddedDefinitionReference>
+				</EmbeddedDefinitionReference>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="3512" ModelDefinitionType="TDMSRootDefinition" Name="TDMS_Root_3">
+				<TDMSRootDefinition StoragePath="Data-2018-10-22 150656 187.tdms" xmlns="http://www.ni.com/Data" />
+				<EmbeddedDefinitionReference Id="3513" ModelDefinitionType="TDMSGroupDefinition" Name="TDMS_GROUP_3">
+					<TDMSGroupDefinition GroupName="Capture 3" Source="USRP Xcvr_2.gvi" SourceType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Timestamp="10/22/2018 15:06:56" xmlns="http://www.ni.com/Data" />
+					<EmbeddedDefinitionReference Id="3514" ModelDefinitionType="TDMSDataItemDefinition" Name="IQ\ Graph_2">
+						<TDMSDataItemDefinition DataName="IQ Graph" DataType="Wfm(Double)[]" xmlns="http://www.ni.com/Data" />
+					</EmbeddedDefinitionReference>
+				</EmbeddedDefinitionReference>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="3515" ModelDefinitionType="TDMSRootDefinition" Name="TDMS_Root_4">
+				<TDMSRootDefinition StoragePath="Data-2018-10-22 152623 327.tdms" xmlns="http://www.ni.com/Data" />
+				<EmbeddedDefinitionReference Id="3516" ModelDefinitionType="TDMSGroupDefinition" Name="TDMS_GROUP_4">
+					<TDMSGroupDefinition GroupName="Capture 4" Source="Xcvr Mod.gvi" SourceType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Timestamp="10/22/2018 15:26:23" xmlns="http://www.ni.com/Data" />
+					<EmbeddedDefinitionReference Id="3517" ModelDefinitionType="TDMSDataItemDefinition" Name="Graph_2">
+						<TDMSDataItemDefinition DataName="Graph_2" DataType="Int16[,]" xmlns="http://www.ni.com/Data" />
+					</EmbeddedDefinitionReference>
+				</EmbeddedDefinitionReference>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="3807" ModelDefinitionType="TDMSRootDefinition" Name="TDMS_Root_5">
+				<TDMSRootDefinition StoragePath="Data-2018-10-22 160342 799.tdms" xmlns="http://www.ni.com/Data" />
+				<EmbeddedDefinitionReference Id="3808" ModelDefinitionType="TDMSGroupDefinition" Name="TDMS_GROUP_5">
+					<TDMSGroupDefinition GroupName="Capture 5" Source="USRP Xcvr_2.gvi" SourceType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Timestamp="10/22/2018 16:03:42" xmlns="http://www.ni.com/Data" />
+					<EmbeddedDefinitionReference Id="3809" ModelDefinitionType="TDMSDataItemDefinition" Name="IQ\ Graph_3">
+						<TDMSDataItemDefinition DataName="IQ Graph" DataType="Wfm(Double)[]" xmlns="http://www.ni.com/Data" />
+					</EmbeddedDefinitionReference>
+				</EmbeddedDefinitionReference>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="4106" ModelDefinitionType="TDMSRootDefinition" Name="TDMS_Root_6">
+				<TDMSRootDefinition StoragePath="Data-2018-10-22 194758 995.tdms" xmlns="http://www.ni.com/Data" />
+				<EmbeddedDefinitionReference Id="4107" ModelDefinitionType="TDMSGroupDefinition" Name="TDMS_GROUP_6">
+					<TDMSGroupDefinition GroupName="Capture 6" Source="Xcvr Mod.gvi" SourceType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Timestamp="10/22/2018 19:47:58" xmlns="http://www.ni.com/Data" />
+					<EmbeddedDefinitionReference Id="4108" ModelDefinitionType="TDMSDataItemDefinition" Name="Graph_3">
+						<TDMSDataItemDefinition DataName="Graph_2" DataType="Double[]" xmlns="http://www.ni.com/Data" />
+					</EmbeddedDefinitionReference>
+				</EmbeddedDefinitionReference>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="4145" ModelDefinitionType="TDMSRootDefinition" Name="TDMS_Root_7">
+				<TDMSRootDefinition StoragePath="Data-2018-10-22 195331 349.tdms" xmlns="http://www.ni.com/Data" />
+				<EmbeddedDefinitionReference Id="4146" ModelDefinitionType="TDMSGroupDefinition" Name="TDMS_GROUP_7">
+					<TDMSGroupDefinition GroupName="Capture 7" Source="Xcvr Mod.gvi" SourceType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Timestamp="10/22/2018 19:53:31" xmlns="http://www.ni.com/Data" />
+					<EmbeddedDefinitionReference Id="4147" ModelDefinitionType="TDMSDataItemDefinition" Name="Graph_4">
+						<TDMSDataItemDefinition DataName="Graph_3" DataType="Double[]" xmlns="http://www.ni.com/Data" />
+					</EmbeddedDefinitionReference>
+				</EmbeddedDefinitionReference>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="4148" ModelDefinitionType="TDMSRootDefinition" Name="TDMS_Root_8">
+				<TDMSRootDefinition StoragePath="Data-2018-10-22 195352 865.tdms" xmlns="http://www.ni.com/Data" />
+				<EmbeddedDefinitionReference Id="4149" ModelDefinitionType="TDMSGroupDefinition" Name="TDMS_GROUP_8">
+					<TDMSGroupDefinition GroupName="Capture 8" Source="Xcvr Mod.gvi" SourceType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Timestamp="10/22/2018 19:53:52" xmlns="http://www.ni.com/Data" />
+					<EmbeddedDefinitionReference Id="4150" ModelDefinitionType="TDMSDataItemDefinition" Name="Graph_5">
+						<TDMSDataItemDefinition DataName="Graph_3" DataType="Double[]" xmlns="http://www.ni.com/Data" />
+					</EmbeddedDefinitionReference>
+				</EmbeddedDefinitionReference>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="4511" ModelDefinitionType="TDMSRootDefinition" Name="TDMS_Root_9">
+				<TDMSRootDefinition StoragePath="Data-2018-10-23 052849 478.tdms" xmlns="http://www.ni.com/Data" />
+				<EmbeddedDefinitionReference Id="4512" ModelDefinitionType="TDMSGroupDefinition" Name="TDMS_GROUP_9">
+					<TDMSGroupDefinition GroupName="Capture 9" Source="USRP Xcvr_2.gvi" SourceType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Timestamp="10/23/2018 05:28:49" xmlns="http://www.ni.com/Data" />
+					<EmbeddedDefinitionReference Id="4513" ModelDefinitionType="TDMSDataItemDefinition" Name="IQ\ Graph_4">
+						<TDMSDataItemDefinition DataName="IQ Graph" DataType="Wfm(Double)[]" xmlns="http://www.ni.com/Data" />
+					</EmbeddedDefinitionReference>
+				</EmbeddedDefinitionReference>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="4514" ModelDefinitionType="TDMSRootDefinition" Name="TDMS_Root_10">
+				<TDMSRootDefinition StoragePath="Data-2018-10-23 053649 542.tdms" xmlns="http://www.ni.com/Data" />
+				<EmbeddedDefinitionReference Id="4515" ModelDefinitionType="TDMSGroupDefinition" Name="TDMS_GROUP_10">
+					<TDMSGroupDefinition GroupName="SMA LB Neg IPG" Source="USRP Xcvr_2.gvi" SourceType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Timestamp="10/23/2018 05:36:49" xmlns="http://www.ni.com/Data" />
+					<EmbeddedDefinitionReference Id="4516" ModelDefinitionType="TDMSDataItemDefinition" Name="IQ\ Graph_5">
+						<TDMSDataItemDefinition DataName="IQ Graph" DataType="Wfm(Double)[]" xmlns="http://www.ni.com/Data" />
+					</EmbeddedDefinitionReference>
+				</EmbeddedDefinitionReference>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="4517" ModelDefinitionType="TDMSRootDefinition" Name="TDMS_Root_11">
+				<TDMSRootDefinition StoragePath="Data-2018-10-23 053739 060.tdms" xmlns="http://www.ni.com/Data" />
+				<EmbeddedDefinitionReference Id="4518" ModelDefinitionType="TDMSGroupDefinition" Name="TDMS_GROUP_11">
+					<TDMSGroupDefinition GroupName="SMA LB Pos IPG" Source="USRP Xcvr_2.gvi" SourceType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Timestamp="10/23/2018 05:37:39" xmlns="http://www.ni.com/Data" />
+					<EmbeddedDefinitionReference Id="4519" ModelDefinitionType="TDMSDataItemDefinition" Name="IQ\ Graph_6">
+						<TDMSDataItemDefinition DataName="IQ Graph" DataType="Wfm(Double)[]" xmlns="http://www.ni.com/Data" />
+					</EmbeddedDefinitionReference>
+				</EmbeddedDefinitionReference>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="4521" ModelDefinitionType="TDMSRootDefinition" Name="TDMS_Root_12">
+				<TDMSRootDefinition StoragePath="Data-2018-10-23 062227 002.tdms" xmlns="http://www.ni.com/Data" />
+				<EmbeddedDefinitionReference Id="4522" ModelDefinitionType="TDMSGroupDefinition" Name="TDMS_GROUP_12">
+					<TDMSGroupDefinition GroupName="Visible 1" Source="USRP Xcvr_2.gvi" SourceType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Timestamp="10/23/2018 06:22:27" xmlns="http://www.ni.com/Data" />
+					<EmbeddedDefinitionReference Id="4523" ModelDefinitionType="TDMSDataItemDefinition" Name="IQ\ Graph_7">
+						<TDMSDataItemDefinition DataName="IQ Graph" DataType="Wfm(Double)[]" xmlns="http://www.ni.com/Data" />
+					</EmbeddedDefinitionReference>
+				</EmbeddedDefinitionReference>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="4524" ModelDefinitionType="TDMSRootDefinition" Name="TDMS_Root_13">
+				<TDMSRootDefinition StoragePath="Data-2018-10-23 062411 577.tdms" xmlns="http://www.ni.com/Data" />
+				<EmbeddedDefinitionReference Id="4525" ModelDefinitionType="TDMSGroupDefinition" Name="TDMS_GROUP_13">
+					<TDMSGroupDefinition GroupName="Visble 2" Source="USRP Xcvr_2.gvi" SourceType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Timestamp="10/23/2018 06:24:11" xmlns="http://www.ni.com/Data" />
+					<EmbeddedDefinitionReference Id="4526" ModelDefinitionType="TDMSDataItemDefinition" Name="IQ\ Graph_8">
+						<TDMSDataItemDefinition DataName="IQ Graph" DataType="Wfm(Double)[]" xmlns="http://www.ni.com/Data" />
+					</EmbeddedDefinitionReference>
+				</EmbeddedDefinitionReference>
+			</EmbeddedDefinitionReference>
+		</NameScopingEnvoy>
+	</Project>
+	<ProjectInformation xmlns="http://www.ni.com/PlatformFramework" />
+</SourceFile>
