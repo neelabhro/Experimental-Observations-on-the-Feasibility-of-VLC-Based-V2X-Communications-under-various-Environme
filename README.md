@@ -18,3 +18,6 @@ Please cite [1] if you choose to use this work. The work can be found at IEEE Xp
 
 ### Reference:
 [1] K. Joshi, N. Roy, G. Singh, V. A. Bohara and A. Srivastava, "Experimental Observations on the Feasibility of VLC-Based V2X Communications under various Environmental Deterrents," 2019 IEEE International Conference on Advanced Networks and Telecommunications Systems (ANTS), GOA, India, 2019, pp. 1-4, doi: 10.1109/ANTS47819.2019.9118001
+
+### Acknowledgement:
+We thank Munish Thakral for the experiments.
